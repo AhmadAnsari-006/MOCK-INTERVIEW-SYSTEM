@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Mock Interview</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>AI Mock Interview System</h1>
+    <form action="/start" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Role:</label>
+        <select name="role">
+            <option value="python">Python Developer</option>
+            <option value="java">Java Developer</option>
+            <option value="ml">Machine Learning</option>
+        </select>
+
+        <label>Field:</label>
+        <select name="field">
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="ml">Machine Learning</option>
+        </select>
+        
+        <label>Difficulty:</label>
+        <select name="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <button type="submit">Start Interview</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

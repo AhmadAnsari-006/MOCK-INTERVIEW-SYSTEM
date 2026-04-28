@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <script defer
+            src="{{ url_for('static', filename='js/script.js') }}">
+    </script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Interview Question</h2>
+
+    <div id="question-box">
+        {{ question }}
+    </div>
+
+    <textarea
+        id="answer"
+        placeholder="Type your answer here">
+    </textarea>
+
+    <button onclick="submitAnswer()">
+        Submit Answer
+    </button>
+
+</div>
+
+</body>
+</html>
