@@ -1,0 +1,50 @@
+{
+  "Software Engineer": {
+    "Python": {
+      "Easy": [
+        {
+          "id": 1,
+          "question": "What is a list in Python?",
+          "keywords": ["collection", "ordered", "mutable"]
+        },
+        {
+          "id": 2,
+          "question": "What is a dictionary in Python?",
+          "keywords": ["collection", "immutable"]
+        },
+        {
+          "id": 3,
+          "question": "What is a numpy in Python?",
+          "keywords": ["library", "data processing"]
+        }
+      ],
+      "Medium": [
+        {
+          "id": 1,
+          "question": "What is a matplotlib in Python?",
+          "keywords": ["library", "data visualization"]
+        },
+        {
+          "id": 2,
+          "question": "What is a dataset in Python?",
+          "keywords": ["raw", "data"]
+        }
+      ],
+      "Hard": [
+        {
+          "id": 1,
+          "question": "What is Python?",
+          "keywords": ["programming language", "interpretur"]
+        },
+        {
+          "id": 2,
+          "question": "Name some libraries.",
+          "keywords": ["Pandas", "Matplotlib","Seaborn"]
+        }
+      ]
+    },
+    "Java": {
+      "Easy": []
+    }
+  }
+}
