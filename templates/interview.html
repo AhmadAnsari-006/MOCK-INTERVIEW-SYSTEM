@@ -1,37 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Interview</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/style.css') }}">
-
-    <script defer
-            src="{{ url_for('static', filename='js/script.js') }}">
+    <script defer src="{{ url_for('static', filename='js/script.js') }}">
     </script>
-
 </head>
 
-<body>
-
-<div class="container">
-
-    <h2>Interview Question</h2>
-
-    <div id="question-box">
-        {{ question }}
-    </div>
-
-    <textarea
-        id="answer"
-        placeholder="Type your answer here">
-    </textarea>
-
-    <button onclick="submitAnswer()">
-        Submit Answer
-    </button>
-
+<body data-theme="dark">
+<div class="bg-orb"></div>
+<div class="bg-orb orb-2"></div>
+<button class="side-button" type="button" aria-label="Open menu" aria-expanded="false" data-drawer-toggle>
+    <div class="burger" aria-hidden="true"><span></span></div>
+</button>
+<div class="corner-theme" role="group" aria-label="Theme">
+    <label class="toggle" aria-label="Toggle light/dark theme">
+        <input id="themeSwitch" type="checkbox">
+        <span class="toggle-track"></span>
+        <span class="toggle-thumb"></span>
+    </label>
+    <span class="toggle-label" data-theme-label>Dark</span>
 </div>
+<div class="drawer-overlay" data-drawer-overlay aria-hidden="true"></div>
 
+<main class="page">
+    <div class="shell">
+        <div class="app-layout">
+            <aside class="behind-nav" data-drawer aria-hidden="true">
+                <div class="nav-top">
+                    <button class="nav-toggle" type="button" aria-label="Close menu" aria-expanded="false" data-drawer-toggle>
+                        <div class="burger" aria-hidden="true"><span></span></div>
+                    </button>
+                    <div class="nav-title">AI Mock Interview</div>
+                </div>
+
+                <nav class="sidebar-nav" aria-label="Navigation">
+                    <a class="amazon-nav-link" href="/">Dashboard</a>
+                    <a class="amazon-nav-link is-active" href="#settings">Settings</a>
+                </nav>
+
+                <details class="nav-panel" open>
+                    <summary class="nav-panel-summary">
+                        <span>Tips &amp; Tricks</span>
+                        <span class="accordion-hint">Expand</span>
+                    </summary>
+                    <div class="nav-panel-body">
+                        <div class="glass-card">
+                            <p class="section-title" style="margin-bottom: 10px;">How to get the best score</p>
+                            <div class="accordion-body stack" style="gap: 10px; margin-top: 0;">
+                                <div class="pill">Structure: Context → Approach → Tradeoffs</div>
+                                <div class="pill">Use examples and edge cases</div>
+                                <div class="pill">Be concise, then expand if asked</div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <details id="settings" class="nav-panel" open>
+                    <summary class="nav-panel-summary">
+                        <span>Settings</span>
+                        <span class="accordion-hint">Expand</span>
+                    </summary>
+                    <div class="nav-panel-body">
+                        <div class="glass-card">
+                            <div class="setting">
+                                <div class="meta">
+                                    <strong>Theme</strong>
+                                    <span>Use the top-right switch</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </aside>
+
+            <div class="screen glass card" data-screen>
+            <section class="stack main-panel">
+                <div class="row">
+                    <span class="pill">Question</span>
+                    <span class="pill">Progress</span>
+                </div>
+
+                <div class="progress-bar" style="--progress: 40%;">
+                    <div class="progress"></div>
+                </div>
+
+                <div id="question-box" class="glass-card">
+                    {{ question }}
+                </div>
+
+                <div class="glass-card">
+                    <label for="answer">Your answer</label>
+                    <textarea id="answer" placeholder="Type your answer here..."></textarea>
+                </div>
+
+                <button class="btn-3d" type="button" data-submit-answer onclick="submitAnswer()">
+                    Submit Answer
+                </button>
+            </section>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 </html>
