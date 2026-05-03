@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Interview Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <script defer
+            src="{{ url_for('static', filename='js/script.js') }}">
+    </script>
+
+</head>
+
+<body data-theme="dark">
+
+<div class="bg-orb"></div>
+<div class="bg-orb orb-2"></div>
+
+<button class="side-button" type="button" data-drawer-toggle>
+    <div class="burger"><span></span></div>
+</button>
+
+<div class="corner-theme">
+    <label class="toggle">
+        <input id="themeSwitch" type="checkbox">
+        <span class="toggle-track"></span>
+        <span class="toggle-thumb"></span>
+    </label>
+    <span data-theme-label>Dark</span>
+</div>
+
+<div class="drawer-overlay" data-drawer-overlay></div>
+
+<main class="page">
+    <div class="shell">
+        <div class="app-layout">
+
+            <!-- Sidebar -->
+            <aside class="behind-nav" data-drawer>
+                <div class="nav-top">
+                    <button class="nav-toggle" data-drawer-toggle>
+                        <div class="burger"><span></span></div>
+                    </button>
+                    <div class="nav-title">AI Mock Interview</div>
+                </div>
+
+                <nav class="sidebar-nav">
+                    <a class="amazon-nav-link" href="/">Dashboard</a>
+                </nav>
+            </aside>
+
+            <!-- MAIN RESULT -->
+            <div class="screen glass card" data-screen>
+            <section class="stack main-panel">
+
+                <!-- USER INFO -->
+                <div class="glass-card result-card">
+                    <h2>👤 {{ name }}</h2>
+                    <p>⏱ Time Taken: {{ time_taken }} seconds</p>
+                    <p>📌 Total Questions: {{ per_question|length }}</p>
+                </div>
+
+                <!-- SCORE -->
+                <div class="glass-card result-card">
+
+                    <h2 style="font-size: 2rem;">
+                        🏆 Score: <span style="font-size: 2.5rem;">{{ score }}</span>/10
+                    </h2>
+
+                    <!-- VISUAL BAR -->
+                    <div class="progress-bar" style="--progress: {{ score * 10 }}%;">
+                        <div class="progress"></div>
+                    </div>
+
+                    <p style="margin-top: 10px;">{{ feedback }}</p>
+
+                </div>
+
+                <!-- PER QUESTION -->
+                <div class="glass-card">
+                    <h3>📊 Question-wise Performance</h3>
+
+                    <ul style="margin-top: 10px; list-style: none; padding: 0;">
+                        {% for s in per_question %}
+
+                        <li style="margin-bottom: 10px;">
+                            <div>
+                                Question {{ loop.index }}
+                                →
+                                <strong>{{ s }}/10</strong>
+                            </div>
+
+                            <div class="progress-bar" style="--progress: {{ s * 10 }}%;">
+                                <div class="progress"></div>
+                            </div>
+                        </li>
+
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <!-- INSIGHTS -->
+                <div class="glass-card">
+                    <h3>📈 Performance Insight</h3>
+
+                    {% if score > 7 %}
+                        <p>Strong conceptual clarity and structured answers.</p>
+                    {% elif score > 4 %}
+                        <p>Good basics, but needs better explanation depth.</p>
+                    {% else %}
+                        <p>Weak understanding. Focus on core fundamentals.</p>
+                    {% endif %}
+                </div>
+
+                <!-- IMPROVEMENT -->
+                <div class="glass-card">
+                    <h3>🛠 Improvement Tips</h3>
+
+                    <ul>
+                        <li>Structure answers: Definition → Example → Use Case</li>
+                        <li>Use relevant technical keywords</li>
+                        <li>Avoid vague/general explanations</li>
+                        <li>Practice real-world problem solving</li>
+                    </ul>
+                </div>
+
+                <!-- RETRY -->
+                <a class="link-reset" href="/">
+                    <button class="btn-3d" type="button">
+                        🔁 Take Interview Again
+                    </button>
+                </a>
+
+            </section>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

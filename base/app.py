@@ -1,44 +1,32 @@
 from flask import Flask, render_template, request, jsonify
-
 # Added support for field and difficulty selection
-
 # Explicitly define template and static folders
 app = Flask(__name__, template_folder="templates", static_folder="static")
-
 # -----------------------------
 # Temporary in-memory storage
 # (Later this will come from JSON)
 # -----------------------------
-
 questions = [
     "What is Object-Oriented Programming?",
     "Explain inheritance.",
     "What is polymorphism?"
 ]
-
 current_question_index = 0
 user_answers = []
-
-
 # -----------------------------
 # Route: Home Page
 # -----------------------------
-
 @app.route("/", methods=["GET"])
 def home():
     return render_template("index.html")
-
-
 # -----------------------------
 # Route: Start Interview
 # -----------------------------
 
 @app.route("/start", methods=["POST"])
 def start_interview():
-
     global current_question_index
     global user_answers
-
     # Reset session data
     current_question_index = 0
     user_answers = []

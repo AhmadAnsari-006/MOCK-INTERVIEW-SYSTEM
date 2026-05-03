@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Mock Interview</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script defer src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+
+<body data-theme="dark">
+
+<div class="bg-orb"></div>
+<div class="bg-orb orb-2"></div>
+
+<button class="side-button" type="button" data-drawer-toggle>
+    <div class="burger"><span></span></div>
+</button>
+
+<div class="corner-theme">
+    <label class="toggle">
+        <input id="themeSwitch" type="checkbox">
+        <span class="toggle-track"></span>
+        <span class="toggle-thumb"></span>
+    </label>
+    <span data-theme-label>Dark</span>
+</div>
+
+<main class="page">
+    <div class="shell">
+        <div class="app-layout">
+
+            <!-- SIDE PANEL -->
+            <aside class="behind-nav" data-drawer>
+                <div class="nav-top">
+                    <button class="nav-toggle" data-drawer-toggle>
+                        <div class="burger"><span></span></div>
+                    </button>
+                    <div class="nav-title">AI Mock Interview</div>
+                </div>
+
+                <nav class="sidebar-nav">
+                    <a class="amazon-nav-link is-active" href="/">Dashboard</a>
+                </nav>
+
+                <details open>
+                    <summary>Tips & Tricks</summary>
+                    <div>
+                        <div class="pill">Structure: Context → Approach → Tradeoffs</div>
+                        <div class="pill">Use examples</div>
+                        <div class="pill">Be concise</div>
+                    </div>
+                </details>
+            </aside>
+
+            <!-- MAIN FORM -->
+            <div class="screen glass card">
+                <section class="stack main-panel">
+                    <div class="glass-card">
+
+                        <form class="form" action="/start" method="POST">
+
+                            <!-- NAME -->
+                            <div class="field">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Your name" required>
+                            </div>
+
+                            <!-- ROLE (TOP LEVEL) -->
+                            <div class="field">
+                                <label>Role</label>
+                                <select id="role" name="role" required>
+                                    <option value="python_developer">Python Developer</option>
+                                    <option value="java_developer">Java Developer</option>
+                                    <option value="machine_learning_developer">Machine Learning</option>
+                                </select>
+                            </div>
+
+                            <!-- FIELD (DYNAMIC BASED ON ROLE) -->
+                            <div class="field">
+                                <label>Field</label>
+                                <select id="field" name="field" required>
+                                    <!-- Filled by JS -->
+                                </select>
+                            </div>
+
+                            <!-- DIFFICULTY -->
+                            <div class="field">
+                                <label>Difficulty</label>
+                                <select name="difficulty" required>
+                                    <option value="easy">Easy</option>
+                                    <option value="medium" selected>Medium</option>
+                                    <option value="hard">Hard</option>
+                                </select>
+                            </div>
+
+                            <!-- NUMBER OF QUESTIONS -->
+                            <div class="field">
+                                <label>Number of Questions</label>
+                                <input type="number" name="num_questions" value="5" min="1" max="20" required>
+                            </div>
+
+                            <button class="btn-3d" type="submit">
+                                Start Interview
+                            </button>
+
+                        </form>
+
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<!-- 🔥 DYNAMIC ROLE → FIELD SCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const roleSelect = document.getElementById("role");
+    const fieldSelect = document.getElementById("field");
+
+    // -----------------------------
+    // LOAD ROLES FROM BACKEND
+    // -----------------------------
+    fetch("/get_roles")
+        .then(res => res.json())
+        .then(data => {
+            roleSelect.innerHTML = '<option value="">Select Role</option>';
+
+            data.roles.forEach(role => {
+                const option = document.createElement("option");
+                option.value = role;   // MUST MATCH JSON
+                option.textContent = role;
+                roleSelect.appendChild(option);
+            });
+        });
+
+    // -----------------------------
+    // LOAD FIELDS BASED ON ROLE
+    // -----------------------------
+    roleSelect.addEventListener("change", () => {
+
+        const selectedRole = roleSelect.value;
+
+        fieldSelect.innerHTML = '<option>Loading...</option>';
+
+        fetch(`/get_fields?role=${encodeURIComponent(selectedRole)}`)
+            .then(res => res.json())
+            .then(data => {
+
+                fieldSelect.innerHTML = "";
+
+                data.fields.forEach(field => {
+                    const option = document.createElement("option");
+                    option.value = field;   // MUST MATCH JSON
+                    option.textContent = field;
+                    fieldSelect.appendChild(option);
+                });
+
+            });
+
+    });
+
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,2088 @@
+{
+  "Python Developer": {
+    "Backend Developer": {
+      "Easy": [
+  {
+    "id": 1,
+    "question": "What is Python and why is it commonly used in backend development?",
+    "keywords": ["easy", "readable", "simple", "fast development", "libraries", "backend"]
+  },
+  {
+    "id": 2,
+    "question": "What is a backend server and what does it do in a web application?",
+    "keywords": ["server", "logic", "data processing", "request", "response", "database"]
+  },
+  {
+    "id": 3,
+    "question": "What is an API in backend development?",
+    "keywords": ["api", "communication", "frontend", "backend", "request", "response"]
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between frontend and backend?",
+    "keywords": ["frontend", "backend", "ui", "logic", "server", "user interaction"]
+  },
+  {
+    "id": 5,
+    "question": "What is Flask and why is it used?",
+    "keywords": ["flask", "framework", "lightweight", "python", "web app", "simple"]
+  },
+  {
+    "id": 6,
+    "question": "What is Django and how is it different from Flask?",
+    "keywords": ["django", "full framework", "built-in", "flask difference", "features", "scalable"]
+  },
+  {
+    "id": 7,
+    "question": "What is a database and why do we need it?",
+    "keywords": ["database", "store data", "retrieve", "user data", "persistent", "storage"]
+  },
+  {
+    "id": 8,
+    "question": "What is MySQL and where is it used?",
+    "keywords": ["mysql", "database", "tables", "queries", "data storage", "backend"]
+  },
+  {
+    "id": 9,
+    "question": "What is a route in a web application?",
+    "keywords": ["route", "url", "endpoint", "request", "mapping", "function"]
+  },
+  {
+    "id": 10,
+    "question": "What is a GET and POST request?",
+    "keywords": ["get", "post", "request type", "send data", "receive data", "http"]
+  },
+  {
+    "id": 11,
+    "question": "What is JSON and why is it used in APIs?",
+    "keywords": ["json", "data format", "key value", "api", "lightweight", "exchange"]
+  },
+  {
+    "id": 12,
+    "question": "What is a function in Python?",
+    "keywords": ["function", "reuse code", "def", "logic", "parameters", "return"]
+  },
+  {
+    "id": 13,
+    "question": "What is a module in Python?",
+    "keywords": ["module", "file", "import", "reuse", "code organization", "library"]
+  },
+  {
+    "id": 14,
+    "question": "What is error handling in Python?",
+    "keywords": ["try", "except", "error", "exception", "handle", "crash"]
+  },
+  {
+    "id": 15,
+    "question": "What is virtual environment in Python and why is it used?",
+    "keywords": ["virtualenv", "environment", "dependencies", "isolation", "project", "packages"]
+  }
+],
+      "Medium": [
+  {
+    "id": 16,
+    "question": "Explain how a client-server architecture works in a web application.",
+    "keywords": ["client", "server", "request", "response", "communication", "browser"]
+  },
+  {
+    "id": 17,
+    "question": "What is REST API and what are its main principles?",
+    "keywords": ["rest", "api", "stateless", "http methods", "resource", "endpoint"]
+  },
+  {
+    "id": 18,
+    "question": "How does routing work in Flask or Django?",
+    "keywords": ["routing", "url", "endpoint", "function", "flask", "django"]
+  },
+  {
+    "id": 19,
+    "question": "What is ORM and why is it used in backend development?",
+    "keywords": ["orm", "database", "model", "sql", "mapping", "query"]
+  },
+  {
+    "id": 20,
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "keywords": ["sql", "nosql", "structured", "unstructured", "tables", "flexible"]
+  },
+  {
+    "id": 21,
+    "question": "How does authentication work in a backend system?",
+    "keywords": ["authentication", "login", "user", "password", "verify", "access"]
+  },
+  {
+    "id": 22,
+    "question": "What is the difference between authentication and authorization?",
+    "keywords": ["authentication", "authorization", "login", "permissions", "access control"]
+  },
+  {
+    "id": 23,
+    "question": "What is middleware in backend frameworks?",
+    "keywords": ["middleware", "request", "response", "processing", "filter", "logic"]
+  },
+  {
+    "id": 24,
+    "question": "How do you connect a Python backend to a MySQL database?",
+    "keywords": ["mysql", "connection", "cursor", "query", "database", "python"]
+  },
+  {
+    "id": 25,
+    "question": "What are HTTP status codes and why are they important?",
+    "keywords": ["http", "status code", "200", "404", "500", "response"]
+  }
+],
+      "Hard": [
+  {
+    "id": 26,
+    "question": "How would you design a scalable backend system for handling thousands of users?",
+    "keywords": ["scalable", "load", "users", "server", "performance", "architecture"]
+  },
+  {
+    "id": 27,
+    "question": "What is caching and how does it improve backend performance?",
+    "keywords": ["cache", "performance", "speed", "reduce load", "memory", "fast"]
+  },
+  {
+    "id": 28,
+    "question": "Explain how session management works in a web application.",
+    "keywords": ["session", "user state", "cookies", "login", "tracking", "server"]
+  },
+  {
+    "id": 29,
+    "question": "What are JWT tokens and how are they used in authentication?",
+    "keywords": ["jwt", "token", "authentication", "secure", "user", "access"]
+  },
+  {
+    "id": 30,
+    "question": "How would you handle file uploads in a Python backend?",
+    "keywords": ["file upload", "server", "storage", "validation", "path", "backend"]
+  },
+  {
+    "id": 31,
+    "question": "What is database indexing and how does it improve query performance?",
+    "keywords": ["index", "database", "query", "fast", "search", "performance"]
+  },
+  {
+    "id": 32,
+    "question": "What are race conditions and how can you prevent them?",
+    "keywords": ["race condition", "concurrency", "threads", "data conflict", "lock", "safe"]
+  },
+  {
+    "id": 33,
+    "question": "How do you secure a backend API from common attacks?",
+    "keywords": ["security", "api", "authentication", "validation", "xss", "sql injection"]
+  },
+  {
+    "id": 34,
+    "question": "What is load balancing and why is it important?",
+    "keywords": ["load balancing", "traffic", "servers", "distribution", "performance", "scaling"]
+  },
+  {
+    "id": 35,
+    "question": "Explain how asynchronous programming works in Python.",
+    "keywords": ["async", "await", "non blocking", "event loop", "fast", "concurrent"]
+  },
+  {
+    "id": 36,
+    "question": "How would you design a REST API for a user login system?",
+    "keywords": ["api design", "login", "endpoint", "post", "authentication", "user"]
+  },
+  {
+    "id": 37,
+    "question": "What is rate limiting and why should it be used?",
+    "keywords": ["rate limit", "requests", "security", "abuse", "limit", "api"]
+  },
+  {
+    "id": 38,
+    "question": "How do you handle errors and logging in a backend system?",
+    "keywords": ["error handling", "logging", "debug", "monitoring", "exceptions", "logs"]
+  },
+  {
+    "id": 39,
+    "question": "What is the difference between monolithic and microservices architecture?",
+    "keywords": ["monolithic", "microservices", "architecture", "services", "scaling", "system"]
+  },
+  {
+    "id": 40,
+    "question": "How would you optimize a slow backend API?",
+    "keywords": ["optimize", "performance", "slow api", "database", "cache", "improve"]
+  }
+]
+    },
+
+    "Automation Engineer": {
+      "Easy": [
+  {
+    "id": 41,
+    "question": "What is automation testing and why is it used?",
+    "keywords": ["automation", "testing", "reduce manual", "fast", "repeat", "efficiency"]
+  },
+  {
+    "id": 42,
+    "question": "What is the difference between manual testing and automation testing?",
+    "keywords": ["manual", "automation", "human", "tool", "speed", "effort"]
+  },
+  {
+    "id": 43,
+    "question": "What are test cases in software testing?",
+    "keywords": ["test case", "steps", "expected result", "input", "output", "testing"]
+  },
+  {
+    "id": 44,
+    "question": "What is Selenium and why is it used?",
+    "keywords": ["selenium", "automation tool", "browser", "testing", "web", "script"]
+  },
+  {
+    "id": 45,
+    "question": "What is a test script in automation testing?",
+    "keywords": ["test script", "code", "automation", "steps", "execute", "testing"]
+  },
+  {
+    "id": 46,
+    "question": "What is a bug or defect in software?",
+    "keywords": ["bug", "defect", "error", "issue", "unexpected", "fix"]
+  },
+  {
+    "id": 47,
+    "question": "What is a test suite?",
+    "keywords": ["test suite", "collection", "test cases", "group", "execution", "testing"]
+  },
+  {
+    "id": 48,
+    "question": "What is the role of an automation engineer in a team?",
+    "keywords": ["automation engineer", "testing", "scripts", "quality", "team", "responsibility"]
+  },
+  {
+    "id": 49,
+    "question": "What is Python used for in automation testing?",
+    "keywords": ["python", "automation", "scripts", "easy", "libraries", "testing"]
+  },
+  {
+    "id": 50,
+    "question": "What is a locator in Selenium?",
+    "keywords": ["locator", "element", "id", "xpath", "css selector", "find"]
+  },
+  {
+    "id": 51,
+    "question": "What is XPath and where is it used?",
+    "keywords": ["xpath", "xml", "html", "element", "path", "selenium"]
+  },
+  {
+    "id": 52,
+    "question": "What is a web element in automation testing?",
+    "keywords": ["web element", "button", "input", "page", "ui", "interaction"]
+  },
+  {
+    "id": 53,
+    "question": "What is assertion in testing?",
+    "keywords": ["assertion", "verify", "expected", "actual", "result", "check"]
+  },
+  {
+    "id": 54,
+    "question": "What is the purpose of test reports?",
+    "keywords": ["test report", "results", "pass", "fail", "summary", "testing"]
+  },
+  {
+    "id": 55,
+    "question": "What is continuous integration in testing?",
+    "keywords": ["ci", "continuous integration", "build", "automation", "test", "pipeline"]
+  }
+],
+      "Medium": [
+  {
+    "id": 56,
+    "question": "How does Selenium WebDriver work internally?",
+    "keywords": ["selenium", "web driver", "browser", "automation", "commands", "interaction"]
+  },
+  {
+    "id": 57,
+    "question": "What is the difference between XPath and CSS selectors?",
+    "keywords": ["xpath", "css selector", "locators", "speed", "syntax", "element"]
+  },
+  {
+    "id": 58,
+    "question": "How do you handle dynamic web elements in automation testing?",
+    "keywords": ["dynamic elements", "wait", "xpath", "timing", "stable locator", "ui changes"]
+  },
+  {
+    "id": 59,
+    "question": "What are implicit wait and explicit wait in Selenium?",
+    "keywords": ["wait", "implicit", "explicit", "timing", "delay", "sync"]
+  },
+  {
+    "id": 60,
+    "question": "What is Page Object Model (POM) in automation testing?",
+    "keywords": ["pomm", "design pattern", "code structure", "reusability", "pages", "maintenance"]
+  },
+  {
+    "id": 61,
+    "question": "How do you handle pop-ups and alerts in Selenium?",
+    "keywords": ["alert", "popup", "switch", "accept", "dismiss", "browser"]
+  },
+  {
+    "id": 62,
+    "question": "What is test automation framework and why do we use it?",
+    "keywords": ["framework", "structure", "reusable", "scalable", "testing", "automation"]
+  },
+  {
+    "id": 63,
+    "question": "What are different types of automation frameworks?",
+    "keywords": ["framework types", "data driven", "keyword driven", "hybrid", "structure", "testing"]
+  },
+  {
+    "id": 64,
+    "question": "How do you manage test data in automation testing?",
+    "keywords": ["test data", "excel", "json", "database", "input", "dynamic"]
+  },
+  {
+    "id": 65,
+    "question": "What is CI/CD and how does it relate to automation testing?",
+    "keywords": ["ci cd", "pipeline", "automation", "deployment", "integration", "testing"]
+  },
+  {
+    "id": 66,
+    "question": "How do you debug a failing automation test?",
+    "keywords": ["debug", "failure", "logs", "screenshot", "error", "analysis"]
+  },
+  {
+    "id": 67,
+    "question": "What is headless browser testing?",
+    "keywords": ["headless", "browser", "no ui", "fast", "automation", "testing"]
+  },
+  {
+    "id": 68,
+    "question": "How do you ensure your automation scripts are maintainable?",
+    "keywords": ["maintainable", "clean code", "structure", "reusability", "pomm", "refactor"]
+  },
+  {
+    "id": 69,
+    "question": "What is cross-browser testing?",
+    "keywords": ["cross browser", "chrome", "firefox", "edge", "compatibility", "testing"]
+  },
+  {
+    "id": 70,
+    "question": "How do you handle synchronization issues in automation scripts?",
+    "keywords": ["sync", "wait", "timing", "flaky tests", "stability", "automation"]
+  }
+],
+      "Hard": [
+  {
+    "id": 71,
+    "question": "How would you design a scalable automation framework for a large enterprise project?",
+    "keywords": ["framework", "scalable", "architecture", "modular", "reusable", "enterprise"]
+  },
+  {
+    "id": 72,
+    "question": "What causes flaky tests and how do you eliminate them?",
+    "keywords": ["flaky tests", "unstable", "timing", "waits", "random failure", "reliability"]
+  },
+  {
+    "id": 73,
+    "question": "How do you integrate automation tests into CI/CD pipelines?",
+    "keywords": ["ci cd", "jenkins", "pipeline", "automation", "build", "deployment"]
+  },
+  {
+    "id": 74,
+    "question": "How do you reduce execution time of a large automation test suite?",
+    "keywords": ["execution time", "parallel", "optimization", "suites", "performance", "fast"]
+  },
+  {
+    "id": 75,
+    "question": "What is parallel testing and how do you implement it?",
+    "keywords": ["parallel", "threads", "execution", "speed", "grid", "selenium grid"]
+  },
+  {
+    "id": 76,
+    "question": "How would you handle browser compatibility issues in automation?",
+    "keywords": ["browser compatibility", "cross browser", "chrome", "firefox", "edge", "issues"]
+  },
+  {
+    "id": 77,
+    "question": "How do you design test reports for stakeholders?",
+    "keywords": ["test report", "dashboard", "summary", "pass fail", "analytics", "stakeholders"]
+  },
+  {
+    "id": 78,
+    "question": "How do you handle exceptions and recover from failures in automation scripts?",
+    "keywords": ["exception", "try catch", "recovery", "failure handling", "robust", "stability"]
+  },
+  {
+    "id": 79,
+    "question": "What is Selenium Grid and how does it work?",
+    "keywords": ["selenium grid", "distributed", "parallel", "nodes", "hub", "execution"]
+  },
+  {
+    "id": 80,
+    "question": "How do you maintain automation scripts in fast-changing UI applications?",
+    "keywords": ["maintenance", "ui changes", "locators", "refactor", "pomm", "stability"]
+  },
+  {
+    "id": 81,
+    "question": "How do you decide what to automate and what not to automate?",
+    "keywords": ["automation strategy", "manual vs automation", "cost", "value", "effort", "selection"]
+  },
+  {
+    "id": 82,
+    "question": "How do you handle test data dependency in automation frameworks?",
+    "keywords": ["test data", "dependency", "isolation", "cleanup", "database", "json"]
+  },
+  {
+    "id": 83,
+    "question": "What are common challenges in API automation testing?",
+    "keywords": ["api testing", "challenges", "response", "authentication", "data validation", "errors"]
+  },
+  {
+    "id": 84,
+    "question": "How do you debug a failing test that passes locally but fails in CI?",
+    "keywords": ["ci failure", "debug", "environment", "logs", "difference", "pipeline"]
+  },
+  {
+    "id": 85,
+    "question": "How would you design an automation strategy for a microservices-based system?",
+    "keywords": ["microservices", "strategy", "api testing", "integration", "services", "architecture"]
+  }
+]
+    },
+
+    "Data Analyst": {
+      "Easy": [
+  {
+    "id": 86,
+    "question": "What is a Data Analyst and what is their main role?",
+    "keywords": ["data analyst", "data", "insights", "analysis", "reports", "decision making"]
+  },
+  {
+    "id": 87,
+    "question": "What is data analysis?",
+    "keywords": ["data analysis", "cleaning", "insights", "patterns", "interpretation", "data"]
+  },
+  {
+    "id": 88,
+    "question": "What is the difference between data and information?",
+    "keywords": ["data", "information", "raw data", "processed", "meaning", "structured"]
+  },
+  {
+    "id": 89,
+    "question": "What is Python used for in data analysis?",
+    "keywords": ["python", "analysis", "pandas", "data", "automation", "visualization"]
+  },
+  {
+    "id": 90,
+    "question": "What is Pandas in Python?",
+    "keywords": ["pandas", "library", "dataframe", "data manipulation", "python", "analysis"]
+  },
+  {
+    "id": 91,
+    "question": "What is a DataFrame?",
+    "keywords": ["dataframe", "rows", "columns", "table", "pandas", "data structure"]
+  },
+  {
+    "id": 92,
+    "question": "What is NumPy used for?",
+    "keywords": ["numpy", "arrays", "mathematics", "calculation", "data", "python"]
+  },
+  {
+    "id": 93,
+    "question": "What is data cleaning?",
+    "keywords": ["cleaning", "missing data", "duplicates", "errors", "preprocessing", "data quality"]
+  },
+  {
+    "id": 94,
+    "question": "What is data visualization?",
+    "keywords": ["visualization", "charts", "graphs", "matplotlib", "insights", "data"]
+  },
+  {
+    "id": 95,
+    "question": "What is the purpose of Excel in data analysis?",
+    "keywords": ["excel", "spreadsheets", "formulas", "analysis", "tables", "data"]
+  },
+  {
+    "id": 96,
+    "question": "What is a dataset?",
+    "keywords": ["dataset", "collection", "data", "rows", "columns", "information"]
+  },
+  {
+    "id": 97,
+    "question": "What are missing values in data?",
+    "keywords": ["missing values", "null", "empty", "data cleaning", "handling", "errors"]
+  },
+  {
+    "id": 98,
+    "question": "What is sorting and filtering in data analysis?",
+    "keywords": ["sorting", "filtering", "arrange", "select", "data", "pandas"]
+  },
+  {
+    "id": 99,
+    "question": "What is the difference between structured and unstructured data?",
+    "keywords": ["structured", "unstructured", "tables", "format", "text", "data types"]
+  },
+  {
+    "id": 100,
+    "question": "Why is data analysis important for businesses?",
+    "keywords": ["business", "decision making", "insights", "growth", "strategy", "data"]
+  }
+],
+      "Medium": [
+  {
+    "id": 101,
+    "question": "What is the difference between INNER JOIN and LEFT JOIN in SQL?",
+    "keywords": ["sql", "join", "inner join", "left join", "tables", "matching"]
+  },
+  {
+    "id": 102,
+    "question": "What is GROUP BY used for in SQL?",
+    "keywords": ["group by", "aggregation", "sum", "count", "sql", "grouping"]
+  },
+  {
+    "id": 103,
+    "question": "What is the difference between COUNT, SUM, and AVG functions?",
+    "keywords": ["count", "sum", "avg", "aggregation", "sql", "statistics"]
+  },
+  {
+    "id": 104,
+    "question": "How do you handle missing data in a dataset?",
+    "keywords": ["missing data", "null", "imputation", "remove", "cleaning", "pandas"]
+  },
+  {
+    "id": 105,
+    "question": "What is filtering data in Pandas?",
+    "keywords": ["filtering", "pandas", "conditions", "rows", "selection", "dataframe"]
+  },
+  {
+    "id": 106,
+    "question": "What is correlation in data analysis?",
+    "keywords": ["correlation", "relationship", "variables", "positive", "negative", "data"]
+  },
+  {
+    "id": 107,
+    "question": "What is the difference between correlation and causation?",
+    "keywords": ["correlation", "causation", "relationship", "cause", "effect", "data"]
+  },
+  {
+    "id": 108,
+    "question": "How do you detect outliers in a dataset?",
+    "keywords": ["outliers", "anomaly", "boxplot", "iqr", "data cleaning", "extreme values"]
+  },
+  {
+    "id": 109,
+    "question": "What is data aggregation?",
+    "keywords": ["aggregation", "grouping", "summary", "data", "sql", "analysis"]
+  },
+  {
+    "id": 110,
+    "question": "What is the use of charts like bar chart and line chart?",
+    "keywords": ["bar chart", "line chart", "visualization", "trend", "comparison", "data"]
+  },
+  {
+    "id": 111,
+    "question": "What is exploratory data analysis (EDA)?",
+    "keywords": ["eda", "exploration", "patterns", "visualization", "summary", "data"]
+  },
+  {
+    "id": 112,
+    "question": "What is data normalization?",
+    "keywords": ["normalization", "scale", "data", "range", "min max", "standardization"]
+  },
+  {
+    "id": 113,
+    "question": "What is a primary key in a database?",
+    "keywords": ["primary key", "unique", "identifier", "database", "row", "sql"]
+  },
+  {
+    "id": 114,
+    "question": "What is data transformation?",
+    "keywords": ["transformation", "cleaning", "format change", "processing", "data", "pandas"]
+  },
+  {
+    "id": 115,
+    "question": "How do you choose the right chart for data visualization?",
+    "keywords": ["chart selection", "bar", "line", "pie", "comparison", "visualization"]
+  }
+],
+      "Hard": [
+  {
+    "id": 116,
+    "question": "How would you design a dashboard for tracking business performance KPIs?",
+    "keywords": ["dashboard", "kpi", "metrics", "business", "visualization", "tracking"]
+  },
+  {
+    "id": 117,
+    "question": "A dataset shows sudden spike in sales. How would you investigate it?",
+    "keywords": ["spike", "sales", "anomaly", "analysis", "trend", "investigation"]
+  },
+  {
+    "id": 118,
+    "question": "How do you decide which business metrics are important to track?",
+    "keywords": ["metrics", "business goals", "kpi", "decision", "performance", "strategy"]
+  },
+  {
+    "id": 119,
+    "question": "How would you explain a complex data insight to a non-technical stakeholder?",
+    "keywords": ["communication", "stakeholder", "simplify", "insight", "business", "report"]
+  },
+  {
+    "id": 120,
+    "question": "What would you do if two data sources show conflicting information?",
+    "keywords": ["data conflict", "validation", "sources", "accuracy", "check", "cleaning"]
+  },
+  {
+    "id": 121,
+    "question": "How do you ensure data quality in a large dataset?",
+    "keywords": ["data quality", "validation", "cleaning", "accuracy", "duplicates", "missing data"]
+  },
+  {
+    "id": 122,
+    "question": "How would you analyze customer churn and identify reasons behind it?",
+    "keywords": ["churn", "customers", "retention", "analysis", "patterns", "reasons"]
+  },
+  {
+    "id": 123,
+    "question": "What is A/B testing and how is it used in data analysis?",
+    "keywords": ["ab testing", "experiment", "control group", "variation", "metrics", "comparison"]
+  },
+  {
+    "id": 124,
+    "question": "How do you handle biased data in analysis?",
+    "keywords": ["bias", "data", "fairness", "sampling", "accuracy", "correction"]
+  },
+  {
+    "id": 125,
+    "question": "How would you determine if a marketing campaign was successful?",
+    "keywords": ["marketing", "campaign", "roi", "conversion", "metrics", "performance"]
+  },
+  {
+    "id": 126,
+    "question": "What steps do you follow when starting a new data analysis project?",
+    "keywords": ["process", "requirements", "data collection", "cleaning", "analysis", "planning"]
+  },
+  {
+    "id": 127,
+    "question": "How do you handle large datasets that cannot fit into memory?",
+    "keywords": ["big data", "memory", "chunking", "optimization", "tools", "performance"]
+  },
+  {
+    "id": 128,
+    "question": "What is the difference between descriptive, predictive, and prescriptive analysis?",
+    "keywords": ["descriptive", "predictive", "prescriptive", "analysis types", "insights", "modeling"]
+  },
+  {
+    "id": 129,
+    "question": "How would you identify key drivers of revenue in a business dataset?",
+    "keywords": ["revenue", "drivers", "factors", "analysis", "correlation", "business"]
+  },
+  {
+    "id": 130,
+    "question": "If your analysis leads to wrong business decisions, how would you debug it?",
+    "keywords": ["debug", "error", "analysis", "validation", "business impact", "review"]
+  }
+]
+    }
+  },
+
+  "Java Developer": {
+    "Backend Developer": {
+      "Easy": [
+  {
+    "id": 131,
+    "question": "What is Java and why is it used in backend development?",
+    "keywords": ["java", "object oriented", "backend", "platform independent", "jvm", "enterprise"]
+  },
+  {
+    "id": 132,
+    "question": "What is JVM and why is it important?",
+    "keywords": ["jvm", "java virtual machine", "run code", "platform independent", "execution", "memory"]
+  },
+  {
+    "id": 133,
+    "question": "What is the difference between JDK, JRE, and JVM?",
+    "keywords": ["jdk", "jre", "jvm", "development", "runtime", "compiler"]
+  },
+  {
+    "id": 134,
+    "question": "What are classes and objects in Java?",
+    "keywords": ["class", "object", "oop", "blueprint", "instance", "method"]
+  },
+  {
+    "id": 135,
+    "question": "What is encapsulation in Java?",
+    "keywords": ["encapsulation", "data hiding", "private", "getter", "setter", "oop"]
+  },
+  {
+    "id": 136,
+    "question": "What is inheritance in Java?",
+    "keywords": ["inheritance", "parent class", "child class", "reuse", "extends", "oop"]
+  },
+  {
+    "id": 137,
+    "question": "What is polymorphism in Java?",
+    "keywords": ["polymorphism", "method overloading", "overriding", "oop", "multiple forms", "java"]
+  },
+  {
+    "id": 138,
+    "question": "What is an interface in Java?",
+    "keywords": ["interface", "abstract", "methods", "implementation", "contract", "oop"]
+  },
+  {
+    "id": 139,
+    "question": "What is a constructor in Java?",
+    "keywords": ["constructor", "object creation", "initialization", "class", "default", "parameters"]
+  },
+  {
+    "id": 140,
+    "question": "What is method overloading?",
+    "keywords": ["overloading", "same method name", "different parameters", "compile time", "polymorphism", "java"]
+  },
+  {
+    "id": 141,
+    "question": "What is method overriding?",
+    "keywords": ["overriding", "runtime", "inheritance", "same method", "child class", "java"]
+  },
+  {
+    "id": 142,
+    "question": "What are access modifiers in Java?",
+    "keywords": ["public", "private", "protected", "default", "access", "control"]
+  },
+  {
+    "id": 143,
+    "question": "What is exception handling in Java?",
+    "keywords": ["try", "catch", "exception", "error handling", "finally", "runtime error"]
+  },
+  {
+    "id": 144,
+    "question": "What is a package in Java?",
+    "keywords": ["package", "organization", "namespace", "import", "structure", "java"]
+  },
+  {
+    "id": 145,
+    "question": "What is the main method in Java?",
+    "keywords": ["main method", "entry point", "execution", "public static void", "program start", "java"]
+  }
+],
+      "Medium": [
+  {
+    "id": 146,
+    "question": "What is Spring Boot and why is it used in backend development?",
+    "keywords": ["spring boot", "framework", "backend", "java", "microservices", "fast development"]
+  },
+  {
+    "id": 147,
+    "question": "What is REST API and how is it implemented in Spring Boot?",
+    "keywords": ["rest api", "spring boot", "controller", "endpoint", "http", "request response"]
+  },
+  {
+    "id": 148,
+    "question": "What is dependency injection in Spring?",
+    "keywords": ["dependency injection", "spring", "ioc", "loose coupling", "beans", "container"]
+  },
+  {
+    "id": 149,
+    "question": "What is the difference between @Component, @Service, and @Repository?",
+    "keywords": ["annotation", "component", "service", "repository", "spring", "layer"]
+  },
+  {
+    "id": 150,
+    "question": "How does Spring Boot connect to a database?",
+    "keywords": ["database", "jdbc", "spring data", "mysql", "connection", "configuration"]
+  },
+  {
+    "id": 151,
+    "question": "What is JPA and how is it used in Java backend?",
+    "keywords": ["jpa", "hibernate", "orm", "database", "entity", "mapping"]
+  },
+  {
+    "id": 152,
+    "question": "What is the difference between GET, POST, PUT, and DELETE?",
+    "keywords": ["http methods", "get", "post", "put", "delete", "crud"]
+  },
+  {
+    "id": 153,
+    "question": "What is exception handling in Spring Boot?",
+    "keywords": ["exception", "spring boot", "global handler", "error", "response", "try catch"]
+  },
+  {
+    "id": 154,
+    "question": "What is a microservice architecture?",
+    "keywords": ["microservices", "architecture", "independent services", "scalable", "distributed", "backend"]
+  },
+  {
+    "id": 155,
+    "question": "What is application.properties used for in Spring Boot?",
+    "keywords": ["properties", "configuration", "spring boot", "settings", "database", "port"]
+  },
+  {
+    "id": 156,
+    "question": "What is logging and why is it important in backend applications?",
+    "keywords": ["logging", "debug", "monitoring", "error tracking", "logs", "backend"]
+  },
+  {
+    "id": 157,
+    "question": "What is the difference between monolithic and microservices architecture?",
+    "keywords": ["monolithic", "microservices", "architecture", "scalability", "services", "system design"]
+  },
+  {
+    "id": 158,
+    "question": "What is serialization and deserialization in Java?",
+    "keywords": ["serialization", "deserialization", "json", "data transfer", "object", "conversion"]
+  },
+  {
+    "id": 159,
+    "question": "What is an API response and how is it structured in Spring Boot?",
+    "keywords": ["api response", "json", "response entity", "status code", "body", "spring"]
+  },
+  {
+    "id": 160,
+    "question": "How do you handle security in a Spring Boot application?",
+    "keywords": ["security", "authentication", "authorization", "spring security", "jwt", "login"]
+  }
+],
+      "Hard": [
+  {
+    "id": 161,
+    "question": "How would you design a scalable backend system using Java and Spring Boot for millions of users?",
+    "keywords": ["scalability", "architecture", "spring boot", "load balancing", "microservices", "performance"]
+  },
+  {
+    "id": 162,
+    "question": "What is concurrency in Java and how do you handle it in backend systems?",
+    "keywords": ["concurrency", "threads", "parallel", "synchronization", "performance", "java"]
+  },
+  {
+    "id": 163,
+    "question": "What is thread safety and how do you achieve it in Java?",
+    "keywords": ["thread safety", "synchronization", "locks", "concurrent", "race condition", "immutable"]
+  },
+  {
+    "id": 164,
+    "question": "How does garbage collection work in Java?",
+    "keywords": ["garbage collection", "memory", "heap", "gc", "jvm", "cleanup"]
+  },
+  {
+    "id": 165,
+    "question": "How would you optimize a slow-performing Spring Boot API?",
+    "keywords": ["optimization", "performance", "caching", "database", "query", "latency"]
+  },
+  {
+    "id": 166,
+    "question": "What is caching and how would you implement it in a Java backend system?",
+    "keywords": ["caching", "redis", "memory", "performance", "data reuse", "speed"]
+  },
+  {
+    "id": 167,
+    "question": "What is load balancing and how does it work in backend systems?",
+    "keywords": ["load balancing", "traffic", "servers", "distribution", "scalability", "performance"]
+  },
+  {
+    "id": 168,
+    "question": "What are deadlocks in Java and how can you prevent them?",
+    "keywords": ["deadlock", "threads", "lock", "concurrency", "resource", "blocking"]
+  },
+  {
+    "id": 169,
+    "question": "How does database indexing improve performance?",
+    "keywords": ["indexing", "database", "query speed", "performance", "search", "optimization"]
+  },
+  {
+    "id": 170,
+    "question": "What is the difference between vertical scaling and horizontal scaling?",
+    "keywords": ["scaling", "vertical", "horizontal", "servers", "architecture", "performance"]
+  },
+  {
+    "id": 171,
+    "question": "How do you design fault-tolerant backend systems?",
+    "keywords": ["fault tolerance", "failover", "reliability", "system design", "resilience", "backend"]
+  },
+  {
+    "id": 172,
+    "question": "What is event-driven architecture in backend systems?",
+    "keywords": ["event driven", "architecture", "message queue", "asynchronous", "decoupling", "system"]
+  },
+  {
+    "id": 173,
+    "question": "How do you handle high traffic spikes in a Java backend system?",
+    "keywords": ["high traffic", "scaling", "load balancing", "cache", "queue", "performance"]
+  },
+  {
+    "id": 174,
+    "question": "What is the role of message queues like Kafka or RabbitMQ in backend systems?",
+    "keywords": ["kafka", "rabbitmq", "message queue", "asynchronous", "decoupling", "event"]
+  },
+  {
+    "id": 175,
+    "question": "How would you design a secure authentication system for a large-scale application?",
+    "keywords": ["authentication", "security", "jwt", "oauth", "authorization", "backend"]
+  }
+]
+    },
+
+    "Android Developer": {
+      "Easy": [
+  {
+    "id": 176,
+    "question": "What is Android and why is it used for mobile app development?",
+    "keywords": ["android", "mobile", "operating system", "apps", "google", "smartphone"]
+  },
+  {
+    "id": 177,
+    "question": "What is an Activity in Android?",
+    "keywords": ["activity", "screen", "ui", "lifecycle", "app", "user interface"]
+  },
+  {
+    "id": 178,
+    "question": "What is the difference between Activity and Fragment?",
+    "keywords": ["activity", "fragment", "ui", "reusable", "screen", "component"]
+  },
+  {
+    "id": 179,
+    "question": "What is Android Studio?",
+    "keywords": ["android studio", "ide", "development", "tools", "emulator", "coding"]
+  },
+  {
+    "id": 180,
+    "question": "What is XML used for in Android development?",
+    "keywords": ["xml", "layout", "ui design", "views", "structure", "android"]
+  },
+  {
+    "id": 181,
+    "question": "What is a View in Android?",
+    "keywords": ["view", "button", "textview", "ui element", "layout", "widget"]
+  },
+  {
+    "id": 182,
+    "question": "What is the Android Manifest file?",
+    "keywords": ["manifest", "permissions", "activities", "configuration", "app", "setup"]
+  },
+  {
+    "id": 183,
+    "question": "What is Intent in Android?",
+    "keywords": ["intent", "navigation", "activity", "communication", "data passing", "screen"]
+  },
+  {
+    "id": 184,
+    "question": "What is the difference between explicit and implicit intent?",
+    "keywords": ["explicit intent", "implicit intent", "navigation", "app components", "action", "android"]
+  },
+  {
+    "id": 185,
+    "question": "What is Toast in Android?",
+    "keywords": ["toast", "message", "popup", "ui feedback", "short message", "android"]
+  },
+  {
+    "id": 186,
+    "question": "What is the lifecycle of an Activity?",
+    "keywords": ["lifecycle", "onCreate", "onStart", "onResume", "onPause", "onDestroy"]
+  },
+  {
+    "id": 187,
+    "question": "What is RecyclerView used for?",
+    "keywords": ["recycler view", "list", "scrolling", "adapter", "performance", "ui"]
+  },
+  {
+    "id": 188,
+    "question": "What is Gradle in Android development?",
+    "keywords": ["gradle", "build system", "dependencies", "project", "automation", "android"]
+  },
+  {
+    "id": 189,
+    "question": "What is the difference between Kotlin and Java in Android?",
+    "keywords": ["kotlin", "java", "android", "modern", "syntax", "performance"]
+  },
+  {
+    "id": 190,
+    "question": "What is a layout in Android?",
+    "keywords": ["layout", "ui structure", "xml", "linear layout", "constraint layout", "design"]
+  }
+],
+      "Medium": [
+  {
+    "id": 191,
+    "question": "What is RecyclerView and how is it different from ListView?",
+    "keywords": ["recycler view", "listview", "adapter", "performance", "view holder", "scrolling"]
+  },
+  {
+    "id": 192,
+    "question": "What is an Adapter in Android?",
+    "keywords": ["adapter", "data binding", "recycler view", "bridge", "ui", "data source"]
+  },
+  {
+    "id": 193,
+    "question": "How do you make a network API call in Android?",
+    "keywords": ["api call", "retrofit", "network", "http", "request", "response"]
+  },
+  {
+    "id": 194,
+    "question": "What is Retrofit and why is it used?",
+    "keywords": ["retrofit", "api", "networking", "http client", "json", "android"]
+  },
+  {
+    "id": 195,
+    "question": "What is JSON parsing in Android?",
+    "keywords": ["json", "parsing", "data", "response", "gson", "retrofit"]
+  },
+  {
+    "id": 196,
+    "question": "What is AsyncTask (or background threading) in Android?",
+    "keywords": ["async", "background", "thread", "ui thread", "processing", "task"]
+  },
+  {
+    "id": 197,
+    "question": "What is ViewModel in Android architecture?",
+    "keywords": ["viewmodel", "lifecycle", "data", "mvvm", "ui", "architecture"]
+  },
+  {
+    "id": 198,
+    "question": "What is LiveData in Android?",
+    "keywords": ["livedata", "observer", "data change", "ui update", "lifecycle", "mvvm"]
+  },
+  {
+    "id": 199,
+    "question": "What is the difference between MVVM and MVC architecture?",
+    "keywords": ["mvvm", "mvc", "architecture", "model", "view", "controller"]
+  },
+  {
+    "id": 200,
+    "question": "How do you handle configuration changes in Android?",
+    "keywords": ["configuration change", "rotation", "viewmodel", "state", "recreate", "lifecycle"]
+  },
+  {
+    "id": 201,
+    "question": "What is SharedPreferences used for?",
+    "keywords": ["sharedpreferences", "storage", "key value", "local data", "settings", "android"]
+  },
+  {
+    "id": 202,
+    "question": "What is Room Database in Android?",
+    "keywords": ["room", "database", "sqlite", "local storage", "dao", "entity"]
+  },
+  {
+    "id": 203,
+    "question": "What is the difference between Room and SQLite?",
+    "keywords": ["room", "sqlite", "abstraction", "database", "ease", "android"]
+  },
+  {
+    "id": 204,
+    "question": "How do you handle permissions in Android?",
+    "keywords": ["permissions", "runtime", "camera", "storage", "security", "user approval"]
+  },
+  {
+    "id": 205,
+    "question": "What is dependency injection and have you used Hilt or Dagger?",
+    "keywords": ["dependency injection", "hilt", "dagger", "clean code", "modules", "android"]
+  }
+],
+      "Hard": [
+  {
+    "id": 206,
+    "question": "How would you design a scalable Android app architecture for a large production app?",
+    "keywords": ["architecture", "mvvm", "clean architecture", "scalable", "modules", "separation"]
+  },
+  {
+    "id": 207,
+    "question": "What are memory leaks in Android and how do you prevent them?",
+    "keywords": ["memory leak", "garbage collection", "context", "activity", "lifecycle", "leak canary"]
+  },
+  {
+    "id": 208,
+    "question": "What is ANR (Application Not Responding) and how do you fix it?",
+    "keywords": ["anr", "main thread", "ui freeze", "performance", "background task", "optimization"]
+  },
+  {
+    "id": 209,
+    "question": "How does Android manage app lifecycle in background and foreground states?",
+    "keywords": ["lifecycle", "foreground", "background", "process", "onPause", "onStop"]
+  },
+  {
+    "id": 210,
+    "question": "What are coroutines in Kotlin and why are they important?",
+    "keywords": ["coroutines", "kotlin", "async", "concurrency", "suspend", "lightweight threads"]
+  },
+  {
+    "id": 211,
+    "question": "How do you handle large data sets efficiently in RecyclerView?",
+    "keywords": ["recycler view", "pagination", "diffutil", "performance", "lazy loading", "optimization"]
+  },
+  {
+    "id": 212,
+    "question": "What is the difference between process death and configuration change?",
+    "keywords": ["process death", "configuration change", "state", "recreation", "lifecycle", "android system"]
+  },
+  {
+    "id": 213,
+    "question": "How would you optimize battery usage in an Android application?",
+    "keywords": ["battery optimization", "background tasks", "wakelock", "efficiency", "network calls", "jobscheduler"]
+  },
+  {
+    "id": 214,
+    "question": "What is ProGuard or R8 and why is it used?",
+    "keywords": ["proguard", "r8", "obfuscation", "minification", "security", "optimization"]
+  },
+  {
+    "id": 215,
+    "question": "How do you handle crashes in production Android apps?",
+    "keywords": ["crash", "firebase crashlytics", "logging", "debugging", "error tracking", "stability"]
+  },
+  {
+    "id": 216,
+    "question": "What is dependency injection architecture and why is it important in large apps?",
+    "keywords": ["dependency injection", "hilt", "dagger", "modular", "testability", "decoupling"]
+  },
+  {
+    "id": 217,
+    "question": "How do you manage offline data synchronization in Android apps?",
+    "keywords": ["offline", "sync", "room database", "cache", "network", "conflict resolution"]
+  },
+  {
+    "id": 218,
+    "question": "What is cold start and warm start in Android apps?",
+    "keywords": ["cold start", "warm start", "app launch", "performance", "startup time", "optimization"]
+  },
+  {
+    "id": 219,
+    "question": "How do you secure sensitive data in an Android application?",
+    "keywords": ["security", "encryption", "keystore", "sharedpreferences", "data protection", "token"]
+  },
+  {
+    "id": 220,
+    "question": "How would you design an Android app that supports millions of users?",
+    "keywords": ["scalability", "architecture", "performance", "backend integration", "optimization", "modular"]
+  }
+]
+    },
+
+    "Software Engineer": {
+      "Easy": [
+  {
+    "id": 221,
+    "question": "What is software engineering?",
+    "keywords": ["software engineering", "development", "design", "testing", "applications", "process"]
+  },
+  {
+    "id": 222,
+    "question": "What is the difference between software and hardware?",
+    "keywords": ["software", "hardware", "programs", "physical", "system", "components"]
+  },
+  {
+    "id": 223,
+    "question": "What is a programming language?",
+    "keywords": ["programming language", "code", "instructions", "computer", "syntax", "logic"]
+  },
+  {
+    "id": 224,
+    "question": "What is an algorithm?",
+    "keywords": ["algorithm", "steps", "problem solving", "logic", "sequence", "solution"]
+  },
+  {
+    "id": 225,
+    "question": "What is a flowchart?",
+    "keywords": ["flowchart", "diagram", "process", "steps", "visualization", "logic"]
+  },
+  {
+    "id": 226,
+    "question": "What is debugging?",
+    "keywords": ["debugging", "errors", "bugs", "fix", "testing", "code"]
+  },
+  {
+    "id": 227,
+    "question": "What is source code?",
+    "keywords": ["source code", "program", "code", "instructions", "developer", "software"]
+  },
+  {
+    "id": 228,
+    "question": "What is a compiler?",
+    "keywords": ["compiler", "code", "machine language", "translation", "errors", "build"]
+  },
+  {
+    "id": 229,
+    "question": "What is an interpreter?",
+    "keywords": ["interpreter", "code", "execution", "line by line", "python", "runtime"]
+  },
+  {
+    "id": 230,
+    "question": "What is a variable in programming?",
+    "keywords": ["variable", "data", "storage", "value", "memory", "programming"]
+  },
+  {
+    "id": 231,
+    "question": "What is a function in programming?",
+    "keywords": ["function", "code block", "reuse", "input", "output", "logic"]
+  },
+  {
+    "id": 232,
+    "question": "What is a loop in programming?",
+    "keywords": ["loop", "iteration", "for", "while", "repetition", "code"]
+  },
+  {
+    "id": 233,
+    "question": "What is conditional statement in programming?",
+    "keywords": ["if", "else", "condition", "decision", "logic", "control flow"]
+  },
+  {
+    "id": 234,
+    "question": "What is an error in programming?",
+    "keywords": ["error", "bug", "exception", "issue", "debugging", "failure"]
+  },
+  {
+    "id": 235,
+    "question": "Why do we use software applications?",
+    "keywords": ["applications", "solve problems", "automation", "efficiency", "users", "tasks"]
+  }
+],
+      "Medium": [
+  {
+    "id": 236,
+    "question": "What is time complexity and why is it important?",
+    "keywords": ["time complexity", "performance", "big o", "efficiency", "algorithm", "speed"]
+  },
+  {
+    "id": 237,
+    "question": "What is space complexity?",
+    "keywords": ["space complexity", "memory", "usage", "optimization", "data structures", "efficiency"]
+  },
+  {
+    "id": 238,
+    "question": "What is the difference between array and linked list?",
+    "keywords": ["array", "linked list", "memory", "index", "node", "data structure"]
+  },
+  {
+    "id": 239,
+    "question": "What is a stack and where is it used?",
+    "keywords": ["stack", "lifo", "push", "pop", "function calls", "data structure"]
+  },
+  {
+    "id": 240,
+    "question": "What is a queue and where is it used?",
+    "keywords": ["queue", "fifo", "enqueue", "dequeue", "processing", "data structure"]
+  },
+  {
+    "id": 241,
+    "question": "What is object-oriented programming (OOP)?",
+    "keywords": ["oop", "class", "object", "inheritance", "polymorphism", "encapsulation"]
+  },
+  {
+    "id": 242,
+    "question": "What are the four pillars of OOP?",
+    "keywords": ["abstraction", "encapsulation", "inheritance", "polymorphism", "oop", "principles"]
+  },
+  {
+    "id": 243,
+    "question": "What is recursion in programming?",
+    "keywords": ["recursion", "function", "self call", "stack", "base case", "logic"]
+  },
+  {
+    "id": 244,
+    "question": "What is a hash table and how does it work?",
+    "keywords": ["hash table", "key value", "hashing", "lookup", "fast access", "data structure"]
+  },
+  {
+    "id": 245,
+    "question": "What is sorting and name some common sorting algorithms?",
+    "keywords": ["sorting", "bubble sort", "merge sort", "quick sort", "order", "algorithm"]
+  },
+  {
+    "id": 246,
+    "question": "What is searching in data structures?",
+    "keywords": ["searching", "linear search", "binary search", "finding", "data structure", "algorithm"]
+  },
+  {
+    "id": 247,
+    "question": "What is the difference between deep copy and shallow copy?",
+    "keywords": ["deep copy", "shallow copy", "memory", "reference", "object", "clone"]
+  },
+  {
+    "id": 248,
+    "question": "What is an API and how does it work in software systems?",
+    "keywords": ["api", "request", "response", "communication", "system", "integration"]
+  },
+  {
+    "id": 249,
+    "question": "What is modular programming?",
+    "keywords": ["modular", "code structure", "reusability", "functions", "components", "design"]
+  },
+  {
+    "id": 250,
+    "question": "Why is code optimization important in software engineering?",
+    "keywords": ["optimization", "performance", "efficiency", "speed", "clean code", "improvement"]
+  }
+],
+      "Hard": [
+  {
+    "id": 251,
+    "question": "How would you design a scalable system like WhatsApp or Instagram?",
+    "keywords": ["system design", "scalability", "architecture", "database", "messaging", "load balancing"]
+  },
+  {
+    "id": 252,
+    "question": "What are the trade-offs between monolithic and microservices architecture?",
+    "keywords": ["monolithic", "microservices", "trade-offs", "scalability", "complexity", "deployment"]
+  },
+  {
+    "id": 253,
+    "question": "How do you handle high traffic in a distributed system?",
+    "keywords": ["high traffic", "load balancing", "caching", "scaling", "distributed", "performance"]
+  },
+  {
+    "id": 254,
+    "question": "What is CAP theorem in distributed systems?",
+    "keywords": ["cap theorem", "consistency", "availability", "partition tolerance", "distributed systems", "trade-offs"]
+  },
+  {
+    "id": 255,
+    "question": "What is database sharding and why is it used?",
+    "keywords": ["sharding", "database", "scalability", "partitioning", "performance", "large data"]
+  },
+  {
+    "id": 256,
+    "question": "What is caching and how does it improve system performance?",
+    "keywords": ["caching", "redis", "performance", "speed", "memory", "optimization"]
+  },
+  {
+    "id": 257,
+    "question": "What is a load balancer and how does it work?",
+    "keywords": ["load balancer", "traffic", "servers", "distribution", "scalability", "availability"]
+  },
+  {
+    "id": 258,
+    "question": "What is eventual consistency in distributed systems?",
+    "keywords": ["eventual consistency", "distributed", "data sync", "replication", "latency", "systems"]
+  },
+  {
+    "id": 259,
+    "question": "How do you design a URL shortening service like Bitly?",
+    "keywords": ["system design", "url shortener", "database", "hashing", "scalability", "redirect"]
+  },
+  {
+    "id": 260,
+    "question": "What is race condition and how do you prevent it?",
+    "keywords": ["race condition", "concurrency", "locks", "thread safety", "synchronization", "bugs"]
+  },
+  {
+    "id": 261,
+    "question": "How would you design a file storage system like Google Drive?",
+    "keywords": ["file storage", "system design", "scalability", "cloud", "database", "upload"]
+  },
+  {
+    "id": 262,
+    "question": "What is message queue and why is it important in backend systems?",
+    "keywords": ["message queue", "kafka", "rabbitmq", "async", "decoupling", "scalability"]
+  },
+  {
+    "id": 263,
+    "question": "What are distributed systems and what challenges do they have?",
+    "keywords": ["distributed systems", "latency", "failure", "network", "consistency", "scalability"]
+  },
+  {
+    "id": 264,
+    "question": "How do you ensure fault tolerance in a large system?",
+    "keywords": ["fault tolerance", "reliability", "redundancy", "failover", "system design", "availability"]
+  },
+  {
+    "id": 265,
+    "question": "How would you optimize performance in a large-scale application?",
+    "keywords": ["optimization", "performance", "caching", "database", "profiling", "scalability"]
+  }
+]
+    }
+  },
+
+  "Machine Learning": {
+    "ML Engineer": {
+      "Easy": [
+  {
+    "id": 266,
+    "question": "What is Machine Learning and how is it different from traditional programming?",
+    "keywords": ["machine learning", "data", "patterns", "training", "algorithm", "prediction"]
+  },
+  {
+    "id": 267,
+    "question": "What are the main types of Machine Learning?",
+    "keywords": ["supervised", "unsupervised", "reinforcement", "learning types", "data", "model"]
+  },
+  {
+    "id": 268,
+    "question": "What is supervised learning?",
+    "keywords": ["supervised", "labeled data", "input output", "training", "prediction", "model"]
+  },
+  {
+    "id": 269,
+    "question": "What is unsupervised learning?",
+    "keywords": ["unsupervised", "unlabeled data", "clustering", "patterns", "structure", "analysis"]
+  },
+  {
+    "id": 270,
+    "question": "What is reinforcement learning?",
+    "keywords": ["reinforcement", "reward", "agent", "environment", "learning", "feedback"]
+  },
+  {
+    "id": 271,
+    "question": "What is a dataset in Machine Learning?",
+    "keywords": ["dataset", "data", "training", "testing", "features", "labels"]
+  },
+  {
+    "id": 272,
+    "question": "What are features and labels?",
+    "keywords": ["features", "labels", "input", "output", "prediction", "data"]
+  },
+  {
+    "id": 273,
+    "question": "What is a machine learning model?",
+    "keywords": ["model", "algorithm", "prediction", "training", "output", "data"]
+  },
+  {
+    "id": 274,
+    "question": "What is training data and test data?",
+    "keywords": ["training data", "test data", "learning", "evaluation", "split", "model"]
+  },
+  {
+    "id": 275,
+    "question": "What is overfitting in machine learning?",
+    "keywords": ["overfitting", "training", "accuracy", "generalization", "noise", "model"]
+  },
+  {
+    "id": 276,
+    "question": "What is underfitting in machine learning?",
+    "keywords": ["underfitting", "low accuracy", "simple model", "training", "performance", "error"]
+  },
+  {
+    "id": 277,
+    "question": "What is accuracy in machine learning?",
+    "keywords": ["accuracy", "correct predictions", "evaluation", "model performance", "metric", "result"]
+  },
+  {
+    "id": 278,
+    "question": "What is classification in machine learning?",
+    "keywords": ["classification", "categories", "labels", "prediction", "data", "model"]
+  },
+  {
+    "id": 279,
+    "question": "What is regression in machine learning?",
+    "keywords": ["regression", "continuous values", "prediction", "numbers", "model", "output"]
+  },
+  {
+    "id": 280,
+    "question": "Why is Python widely used in Machine Learning?",
+    "keywords": ["python", "libraries", "numpy", "pandas", "simplicity", "machine learning"]
+  }
+],
+      "Medium": [
+  {
+    "id": 281,
+    "question": "What is feature engineering and why is it important?",
+    "keywords": ["feature engineering", "features", "data transformation", "model performance", "input", "improvement"]
+  },
+  {
+    "id": 282,
+    "question": "What is normalization and standardization in machine learning?",
+    "keywords": ["normalization", "standardization", "scaling", "data", "range", "preprocessing"]
+  },
+  {
+    "id": 283,
+    "question": "What is the difference between classification and regression models?",
+    "keywords": ["classification", "regression", "output type", "categorical", "continuous", "prediction"]
+  },
+  {
+    "id": 284,
+    "question": "What is a confusion matrix?",
+    "keywords": ["confusion matrix", "tp", "fp", "tn", "fn", "evaluation"]
+  },
+  {
+    "id": 285,
+    "question": "What are precision, recall, and F1 score?",
+    "keywords": ["precision", "recall", "f1 score", "metrics", "classification", "evaluation"]
+  },
+  {
+    "id": 286,
+    "question": "What is a decision tree in machine learning?",
+    "keywords": ["decision tree", "splitting", "nodes", "classification", "regression", "model"]
+  },
+  {
+    "id": 287,
+    "question": "What is random forest and how does it work?",
+    "keywords": ["random forest", "ensemble", "decision trees", "bagging", "accuracy", "model"]
+  },
+  {
+    "id": 288,
+    "question": "What is linear regression?",
+    "keywords": ["linear regression", "line", "prediction", "continuous output", "slope", "model"]
+  },
+  {
+    "id": 289,
+    "question": "What is logistic regression?",
+    "keywords": ["logistic regression", "classification", "probability", "sigmoid", "binary", "model"]
+  },
+  {
+    "id": 290,
+    "question": "What is bias and variance in machine learning?",
+    "keywords": ["bias", "variance", "overfitting", "underfitting", "error", "model"]
+  },
+  {
+    "id": 291,
+    "question": "What is cross-validation?",
+    "keywords": ["cross validation", "k-fold", "model evaluation", "training", "testing", "robust"]
+  },
+  {
+    "id": 292,
+    "question": "What is the purpose of train-test split?",
+    "keywords": ["train test split", "dataset", "evaluation", "model", "training", "testing"]
+  },
+  {
+    "id": 293,
+    "question": "What is gradient descent?",
+    "keywords": ["gradient descent", "optimization", "loss function", "learning", "minimization", "algorithm"]
+  },
+  {
+    "id": 294,
+    "question": "What is a loss function in machine learning?",
+    "keywords": ["loss function", "error", "cost", "optimization", "model", "training"]
+  },
+  {
+    "id": 295,
+    "question": "Why is data preprocessing important in machine learning?",
+    "keywords": ["preprocessing", "cleaning", "missing data", "scaling", "quality", "model performance"]
+  }
+],
+      "Hard": [
+  {
+    "id": 296,
+    "question": "How would you design an end-to-end machine learning pipeline for a production system?",
+    "keywords": ["ml pipeline", "data ingestion", "training", "validation", "deployment", "monitoring"]
+  },
+  {
+    "id": 297,
+    "question": "What are the main challenges when deploying machine learning models in production?",
+    "keywords": ["deployment", "scalability", "latency", "data drift", "monitoring", "performance"]
+  },
+  {
+    "id": 298,
+    "question": "What is data drift and concept drift in machine learning?",
+    "keywords": ["data drift", "concept drift", "distribution change", "model performance", "real world", "monitoring"]
+  },
+  {
+    "id": 299,
+    "question": "How do you handle overfitting in complex machine learning models?",
+    "keywords": ["overfitting", "regularization", "dropout", "cross validation", "complexity", "generalization"]
+  },
+  {
+    "id": 300,
+    "question": "What is regularization and why is it used?",
+    "keywords": ["regularization", "l1", "l2", "overfitting", "penalty", "model complexity"]
+  },
+  {
+    "id": 301,
+    "question": "What is the difference between L1 and L2 regularization?",
+    "keywords": ["l1", "l2", "lasso", "ridge", "sparsity", "penalty"]
+  },
+  {
+    "id": 302,
+    "question": "What is backpropagation in neural networks?",
+    "keywords": ["backpropagation", "gradient", "neural network", "training", "weights", "optimization"]
+  },
+  {
+    "id": 303,
+    "question": "What is a neural network and how does it learn?",
+    "keywords": ["neural network", "layers", "neurons", "weights", "activation", "learning"]
+  },
+  {
+    "id": 304,
+    "question": "What is an activation function and why is it needed?",
+    "keywords": ["activation function", "relu", "sigmoid", "non-linearity", "neural network", "output"]
+  },
+  {
+    "id": 305,
+    "question": "What is vanishing gradient problem?",
+    "keywords": ["vanishing gradient", "deep networks", "training issue", "backpropagation", "relu", "learning"]
+  },
+  {
+    "id": 306,
+    "question": "What is the difference between batch gradient descent and stochastic gradient descent?",
+    "keywords": ["gradient descent", "batch", "stochastic", "optimization", "training speed", "data"]
+  },
+  {
+    "id": 307,
+    "question": "How do you evaluate a machine learning model in real-world systems?",
+    "keywords": ["evaluation", "metrics", "precision", "recall", "production", "performance"]
+  },
+  {
+    "id": 308,
+    "question": "What is transfer learning and why is it useful?",
+    "keywords": ["transfer learning", "pretrained model", "fine tuning", "deep learning", "efficiency", "training"]
+  },
+  {
+    "id": 309,
+    "question": "How do you optimize a machine learning model for speed and accuracy?",
+    "keywords": ["optimization", "speed", "accuracy", "trade-off", "hyperparameters", "efficiency"]
+  },
+  {
+    "id": 310,
+    "question": "How would you handle a machine learning model that performs well in training but poorly in production?",
+    "keywords": ["training vs production", "overfitting", "data drift", "generalization", "monitoring", "debugging"]
+  }
+]
+    },
+
+    "Data Scientist": {
+      "Easy": [
+  {
+    "id": 311,
+    "question": "What is a Data Scientist and how is it different from a Data Analyst?",
+    "keywords": ["data scientist", "data analyst", "machine learning", "modeling", "prediction", "insights"]
+  },
+  {
+    "id": 312,
+    "question": "What is the role of statistics in data science?",
+    "keywords": ["statistics", "probability", "analysis", "data", "patterns", "decision"]
+  },
+  {
+    "id": 313,
+    "question": "What is Python used for in data science?",
+    "keywords": ["python", "pandas", "numpy", "machine learning", "data analysis", "visualization"]
+  },
+  {
+    "id": 314,
+    "question": "What is a dataset in data science?",
+    "keywords": ["dataset", "data", "rows", "columns", "training", "analysis"]
+  },
+  {
+    "id": 315,
+    "question": "What is data cleaning in data science?",
+    "keywords": ["data cleaning", "missing values", "duplicates", "errors", "preprocessing", "quality"]
+  },
+  {
+    "id": 316,
+    "question": "What is data visualization and why is it important?",
+    "keywords": ["visualization", "charts", "graphs", "insights", "patterns", "communication"]
+  },
+  {
+    "id": 317,
+    "question": "What is machine learning in data science?",
+    "keywords": ["machine learning", "prediction", "models", "data", "algorithms", "learning"]
+  },
+  {
+    "id": 318,
+    "question": "What is supervised learning?",
+    "keywords": ["supervised", "labeled data", "input output", "training", "prediction", "model"]
+  },
+  {
+    "id": 319,
+    "question": "What is unsupervised learning?",
+    "keywords": ["unsupervised", "clustering", "patterns", "unlabeled data", "analysis", "structure"]
+  },
+  {
+    "id": 320,
+    "question": "What is the difference between structured and unstructured data?",
+    "keywords": ["structured", "unstructured", "tables", "text", "format", "data types"]
+  },
+  {
+    "id": 321,
+    "question": "What is correlation in statistics?",
+    "keywords": ["correlation", "relationship", "variables", "positive", "negative", "data"]
+  },
+  {
+    "id": 322,
+    "question": "What is probability in data science?",
+    "keywords": ["probability", "chance", "uncertainty", "statistics", "prediction", "likelihood"]
+  },
+  {
+    "id": 323,
+    "question": "What is a hypothesis in data science?",
+    "keywords": ["hypothesis", "assumption", "testing", "analysis", "statistics", "conclusion"]
+  },
+  {
+    "id": 324,
+    "question": "What is the importance of exploratory data analysis (EDA)?",
+    "keywords": ["eda", "exploration", "patterns", "summary", "visualization", "data"]
+  },
+  {
+    "id": 325,
+    "question": "Why is data science important for businesses?",
+    "keywords": ["business", "decision making", "insights", "prediction", "growth", "data"]
+  }
+],
+      "Medium": [
+  {
+    "id": 326,
+    "question": "What is feature engineering and why is it important in data science?",
+    "keywords": ["feature engineering", "features", "data transformation", "model performance", "input", "improvement"]
+  },
+  {
+    "id": 327,
+    "question": "What is the difference between mean, median, and mode?",
+    "keywords": ["mean", "median", "mode", "average", "statistics", "central tendency"]
+  },
+  {
+    "id": 328,
+    "question": "What is standard deviation and what does it tell us?",
+    "keywords": ["standard deviation", "spread", "variation", "data distribution", "statistics", "deviation"]
+  },
+  {
+    "id": 329,
+    "question": "What is a normal distribution?",
+    "keywords": ["normal distribution", "bell curve", "probability", "mean", "statistics", "data"]
+  },
+  {
+    "id": 330,
+    "question": "What is hypothesis testing in data science?",
+    "keywords": ["hypothesis testing", "null hypothesis", "p-value", "statistics", "decision", "analysis"]
+  },
+  {
+    "id": 331,
+    "question": "What is a p-value?",
+    "keywords": ["p-value", "significance", "probability", "hypothesis", "statistics", "result"]
+  },
+  {
+    "id": 332,
+    "question": "What is bias and variance tradeoff?",
+    "keywords": ["bias", "variance", "overfitting", "underfitting", "error", "model"]
+  },
+  {
+    "id": 333,
+    "question": "What is cross-validation and why is it used?",
+    "keywords": ["cross validation", "k-fold", "model evaluation", "robust", "training", "testing"]
+  },
+  {
+    "id": 334,
+    "question": "What is feature scaling and why is it important?",
+    "keywords": ["feature scaling", "normalization", "standardization", "range", "model performance", "data"]
+  },
+  {
+    "id": 335,
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "keywords": ["supervised", "unsupervised", "labeled data", "clustering", "prediction", "data"]
+  },
+  {
+    "id": 336,
+    "question": "What is logistic regression used for?",
+    "keywords": ["logistic regression", "classification", "probability", "binary", "model", "prediction"]
+  },
+  {
+    "id": 337,
+    "question": "What is a decision tree in data science?",
+    "keywords": ["decision tree", "splitting", "nodes", "classification", "regression", "model"]
+  },
+  {
+    "id": 338,
+    "question": "What is clustering in unsupervised learning?",
+    "keywords": ["clustering", "k-means", "groups", "unsupervised", "patterns", "data"]
+  },
+  {
+    "id": 339,
+    "question": "What is the importance of data preprocessing?",
+    "keywords": ["preprocessing", "cleaning", "missing values", "scaling", "quality", "data"]
+  },
+  {
+    "id": 340,
+    "question": "How do you evaluate a machine learning model?",
+    "keywords": ["evaluation", "accuracy", "precision", "recall", "metrics", "performance"]
+  }
+],
+      "Hard": [
+  {
+    "id": 341,
+    "question": "How would you design an end-to-end data science pipeline for a production system?",
+    "keywords": ["pipeline", "data ingestion", "model training", "deployment", "monitoring", "workflow"]
+  },
+  {
+    "id": 342,
+    "question": "How do you handle imbalanced datasets in classification problems?",
+    "keywords": ["imbalanced data", "sampling", "smote", "class weight", "precision", "recall"]
+  },
+  {
+    "id": 343,
+    "question": "What is A/B testing and how do you design a proper experiment?",
+    "keywords": ["ab testing", "experiment", "control group", "metrics", "statistical significance", "hypothesis"]
+  },
+  {
+    "id": 344,
+    "question": "What is data leakage in machine learning and why is it dangerous?",
+    "keywords": ["data leakage", "training", "test data", "bias", "model error", "overfitting"]
+  },
+  {
+    "id": 345,
+    "question": "How do you detect and handle outliers in a dataset?",
+    "keywords": ["outliers", "iqr", "z-score", "anomaly", "data cleaning", "robust"]
+  },
+  {
+    "id": 346,
+    "question": "How would you explain a complex machine learning model to a non-technical stakeholder?",
+    "keywords": ["explainability", "communication", "stakeholder", "simplicity", "insights", "business"]
+  },
+  {
+    "id": 347,
+    "question": "What is model drift and how do you monitor it in production?",
+    "keywords": ["model drift", "data drift", "monitoring", "performance drop", "production", "retraining"]
+  },
+  {
+    "id": 348,
+    "question": "How do you choose the right evaluation metric for a machine learning problem?",
+    "keywords": ["metrics", "accuracy", "precision", "recall", "f1", "business goal"]
+  },
+  {
+    "id": 349,
+    "question": "What are the limitations of accuracy as a metric?",
+    "keywords": ["accuracy", "imbalanced data", "misleading", "metrics", "evaluation", "classification"]
+  },
+  {
+    "id": 350,
+    "question": "How do you handle missing or corrupted data in large datasets?",
+    "keywords": ["missing data", "imputation", "removal", "cleaning", "data quality", "preprocessing"]
+  },
+  {
+    "id": 351,
+    "question": "What is regularization and how does it help in machine learning models?",
+    "keywords": ["regularization", "overfitting", "l1", "l2", "penalty", "generalization"]
+  },
+  {
+    "id": 352,
+    "question": "What is the difference between parametric and non-parametric models?",
+    "keywords": ["parametric", "non-parametric", "model assumption", "flexibility", "data", "learning"]
+  },
+  {
+    "id": 353,
+    "question": "How do you deal with bias in datasets?",
+    "keywords": ["bias", "fairness", "sampling", "data imbalance", "ethics", "correction"]
+  },
+  {
+    "id": 354,
+    "question": "How would you improve a model that performs well in training but poorly in production?",
+    "keywords": ["overfitting", "generalization", "data drift", "retraining", "validation", "production gap"]
+  },
+  {
+    "id": 355,
+    "question": "How do you ensure reproducibility in data science projects?",
+    "keywords": ["reproducibility", "random seed", "version control", "pipeline", "data versioning", "experiments"]
+  }
+]
+    },
+
+    "AI Engineer": {
+      "Easy": [
+  {
+    "id": 356,
+    "question": "What is Artificial Intelligence (AI)?",
+    "keywords": ["artificial intelligence", "machines", "human intelligence", "learning", "problem solving", "automation"]
+  },
+  {
+    "id": 357,
+    "question": "What is the difference between AI, Machine Learning, and Deep Learning?",
+    "keywords": ["ai", "machine learning", "deep learning", "relationship", "subset", "comparison"]
+  },
+  {
+    "id": 358,
+    "question": "What is an AI model?",
+    "keywords": ["ai model", "training", "prediction", "data", "algorithm", "output"]
+  },
+  {
+    "id": 359,
+    "question": "What is Natural Language Processing (NLP)?",
+    "keywords": ["nlp", "text", "language", "processing", "understanding", "human language"]
+  },
+  {
+    "id": 360,
+    "question": "What are common applications of AI in daily life?",
+    "keywords": ["ai applications", "chatbots", "recommendation", "voice assistant", "automation", "search"]
+  },
+  {
+    "id": 361,
+    "question": "What is a chatbot?",
+    "keywords": ["chatbot", "conversation", "ai", "messages", "automation", "nlp"]
+  },
+  {
+    "id": 362,
+    "question": "What is training data in AI?",
+    "keywords": ["training data", "learning", "dataset", "model", "input", "examples"]
+  },
+  {
+    "id": 363,
+    "question": "What is a dataset in AI systems?",
+    "keywords": ["dataset", "data", "collection", "training", "testing", "examples"]
+  },
+  {
+    "id": 364,
+    "question": "What is supervised learning in AI?",
+    "keywords": ["supervised learning", "labels", "training", "prediction", "data", "model"]
+  },
+  {
+    "id": 365,
+    "question": "What is unsupervised learning in AI?",
+    "keywords": ["unsupervised learning", "clustering", "patterns", "unlabeled", "data", "structure"]
+  },
+  {
+    "id": 366,
+    "question": "What is reinforcement learning in AI?",
+    "keywords": ["reinforcement learning", "agent", "reward", "environment", "learning", "feedback"]
+  },
+  {
+    "id": 367,
+    "question": "What is a neural network?",
+    "keywords": ["neural network", "layers", "neurons", "weights", "learning", "ai"]
+  },
+  {
+    "id": 368,
+    "question": "What is the role of data in AI systems?",
+    "keywords": ["data", "training", "learning", "model", "accuracy", "input"]
+  },
+  {
+    "id": 369,
+    "question": "What is the difference between rule-based systems and AI systems?",
+    "keywords": ["rule based", "ai system", "logic", "learning", "static rules", "dynamic"]
+  },
+  {
+    "id": 370,
+    "question": "Why is Python widely used in AI development?",
+    "keywords": ["python", "libraries", "tensorflow", "pytorch", "simplicity", "ai development"]
+  }
+],
+      "Medium": [
+  {
+    "id": 371,
+    "question": "What are embeddings in AI and why are they used?",
+    "keywords": ["embeddings", "vector", "representation", "text", "similarity", "nlp"]
+  },
+  {
+    "id": 372,
+    "question": "What is a transformer model in AI?",
+    "keywords": ["transformer", "attention", "nlp", "deep learning", "architecture", "model"]
+  },
+  {
+    "id": 373,
+    "question": "What is attention mechanism in deep learning?",
+    "keywords": ["attention", "weights", "focus", "transformer", "context", "nlp"]
+  },
+  {
+    "id": 374,
+    "question": "What is the difference between traditional NLP and modern LLM-based NLP?",
+    "keywords": ["nlp", "llm", "transformer", "rule based", "machine learning", "context"]
+  },
+  {
+    "id": 375,
+    "question": "What is a large language model (LLM)?",
+    "keywords": ["llm", "language model", "gpt", "text generation", "ai", "training"]
+  },
+  {
+    "id": 376,
+    "question": "What is fine-tuning in AI models?",
+    "keywords": ["fine tuning", "training", "pretrained model", "adaptation", "dataset", "customization"]
+  },
+  {
+    "id": 377,
+    "question": "What is prompt engineering?",
+    "keywords": ["prompt engineering", "llm", "instructions", "output control", "chatgpt", "ai"]
+  },
+  {
+    "id": 378,
+    "question": "What is the difference between training and inference in AI?",
+    "keywords": ["training", "inference", "model", "prediction", "compute", "ai lifecycle"]
+  },
+  {
+    "id": 379,
+    "question": "What are evaluation metrics for NLP models?",
+    "keywords": ["evaluation", "accuracy", "bleu", "f1", "precision", "recall"]
+  },
+  {
+    "id": 380,
+    "question": "What is transfer learning in AI?",
+    "keywords": ["transfer learning", "pretrained", "fine tuning", "efficiency", "model reuse", "ai"]
+  },
+  {
+    "id": 381,
+    "question": "What is vector database and why is it used in AI systems?",
+    "keywords": ["vector database", "similarity search", "embeddings", "retrieval", "pinecone", "faiss"]
+  },
+  {
+    "id": 382,
+    "question": "What is cosine similarity and where is it used?",
+    "keywords": ["cosine similarity", "vectors", "similarity", "embeddings", "nlp", "distance"]
+  },
+  {
+    "id": 383,
+    "question": "What is hallucination in large language models?",
+    "keywords": ["hallucination", "llm", "incorrect output", "generation error", "ai reliability", "accuracy"]
+  },
+  {
+    "id": 384,
+    "question": "What is an AI pipeline in production systems?",
+    "keywords": ["ai pipeline", "data flow", "training", "deployment", "monitoring", "automation"]
+  },
+  {
+    "id": 385,
+    "question": "Why is data quality important in AI systems?",
+    "keywords": ["data quality", "accuracy", "training data", "bias", "performance", "reliability"]
+  }
+],
+      "Hard": [
+  {
+    "id": 386,
+    "question": "How would you design a production-ready LLM-based system for a chatbot at scale?",
+    "keywords": ["llm system", "scalability", "architecture", "latency", "vector database", "api"]
+  },
+  {
+    "id": 387,
+    "question": "What is Retrieval-Augmented Generation (RAG) and why is it used?",
+    "keywords": ["rag", "retrieval", "llm", "vector database", "context", "knowledge base"]
+  },
+  {
+    "id": 388,
+    "question": "What are the challenges in deploying large language models in production?",
+    "keywords": ["deployment", "llm", "latency", "cost", "scalability", "inference"]
+  },
+  {
+    "id": 389,
+    "question": "How do you reduce hallucinations in LLM-based systems?",
+    "keywords": ["hallucination", "llm", "retrieval", "prompting", "fine tuning", "accuracy"]
+  },
+  {
+    "id": 390,
+    "question": "How do you optimize inference cost in large AI systems?",
+    "keywords": ["inference", "cost optimization", "quantization", "batching", "gpu", "efficiency"]
+  },
+  {
+    "id": 391,
+    "question": "What is model quantization and why is it important?",
+    "keywords": ["quantization", "model compression", "performance", "latency", "memory", "ai optimization"]
+  },
+  {
+    "id": 392,
+    "question": "What is the difference between embedding-based search and keyword search?",
+    "keywords": ["embeddings", "keyword search", "semantic search", "vector similarity", "retrieval", "ranking"]
+  },
+  {
+    "id": 393,
+    "question": "How would you evaluate the performance of an LLM application?",
+    "keywords": ["evaluation", "metrics", "accuracy", "human evaluation", "quality", "llm"]
+  },
+  {
+    "id": 394,
+    "question": "What is context window limitation in LLMs?",
+    "keywords": ["context window", "tokens", "limitations", "memory", "llm", "input size"]
+  },
+  {
+    "id": 395,
+    "question": "How do you handle real-time AI inference in production systems?",
+    "keywords": ["real-time", "inference", "latency", "api", "scaling", "streaming"]
+  },
+  {
+    "id": 396,
+    "question": "What is prompt injection and how do you prevent it?",
+    "keywords": ["prompt injection", "security", "llm", "attack", "safety", "validation"]
+  },
+  {
+    "id": 397,
+    "question": "How do you design a vector database system for millions of embeddings?",
+    "keywords": ["vector database", "scalability", "faiss", "pinecone", "indexing", "search"]
+  },
+  {
+    "id": 398,
+    "question": "What is fine-tuning vs RAG and when would you choose each?",
+    "keywords": ["fine tuning", "rag", "trade-off", "llm", "customization", "retrieval"]
+  },
+  {
+    "id": 399,
+    "question": "How do you ensure reliability and safety in AI systems?",
+    "keywords": ["reliability", "safety", "guardrails", "testing", "validation", "llm"]
+  },
+  {
+    "id": 400,
+    "question": "How would you design a multi-modal AI system (text, image, audio)?",
+    "keywords": ["multimodal", "ai system", "text", "image", "audio", "integration"]
+  }
+]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interview</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script defer src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+
+<!-- IMPORTANT: data-total used by JS -->
+<body data-theme="dark" data-total="{{ total }}">
+
+<div class="bg-orb"></div>
+<div class="bg-orb orb-2"></div>
+
+<button class="side-button" type="button" data-drawer-toggle>
+    <div class="burger"><span></span></div>
+</button>
+
+<div class="corner-theme">
+    <label class="toggle">
+        <input id="themeSwitch" type="checkbox">
+        <span class="toggle-track"></span>
+        <span class="toggle-thumb"></span>
+    </label>
+    <span data-theme-label>Dark</span>
+</div>
+
+<div class="drawer-overlay" data-drawer-overlay></div>
+
+<main class="page">
+    <div class="shell">
+        <div class="app-layout">
+
+            <!-- SIDEBAR -->
+            <aside class="behind-nav" data-drawer>
+                <div class="nav-top">
+                    <button class="nav-toggle" data-drawer-toggle>
+                        <div class="burger"><span></span></div>
+                    </button>
+                    <div class="nav-title">AI Mock Interview</div>
+                </div>
+
+                <nav class="sidebar-nav">
+                    <a class="amazon-nav-link" href="/">Dashboard</a>
+                </nav>
+
+                <details open>
+                    <summary>Tips & Tricks</summary>
+                    <div class="glass-card">
+                        <div class="pill">Structure: Context → Approach → Tradeoffs</div>
+                        <div class="pill">Use examples</div>
+                        <div class="pill">Be concise</div>
+                    </div>
+                </details>
+            </aside>
+
+            <!-- MAIN -->
+            <div class="screen glass card" data-screen>
+
+                <section class="stack main-panel">
+
+                    <!-- TOP INFO BAR -->
+                    <div class="row" style="justify-content: space-between;">
+                        <span class="pill">
+                            Question <span id="q-index">1</span> / {{ total }}
+                        </span>
+
+                        <span class="pill" id="timer">
+                            Time: {{ total * 60 }}s
+                        </span>
+                    </div>
+
+                    <!-- PROGRESS BAR -->
+                    <div class="progress-bar" style="--progress: {{ (1 / total) * 100 }}%;">
+                        <div class="progress"></div>
+                    </div>
+
+                    <!-- QUESTION -->
+                    <div id="question-box" class="glass-card">
+                        {{ question }}
+                    </div>
+
+                    <!-- ANSWER -->
+                    <div class="glass-card">
+                        <label for="answer">Your answer</label>
+                        <textarea id="answer" placeholder="Type your answer here..." autofocus></textarea>
+                    </div>
+
+                    <!-- BUTTON -->
+                    <button class="btn-3d" type="button" data-submit-answer id="submitBtn">
+                        Submit Answer
+                    </button>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- 🔥 UI CONTROL SCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const answerEl = document.getElementById("answer");
+    const submitBtn = document.getElementById("submitBtn");
+    const qIndexEl = document.getElementById("q-index");
+
+    let currentIndex = 0;
+
+    function safeSubmit() {
+        const val = answerEl.value.trim();
+
+        // Prevent empty answers
+        if (!val) {
+            alert("Answer cannot be empty.");
+            return;
+        }
+
+        // Call global function from script.js
+        submitAnswer();
+
+        // Update question index visually
+        currentIndex++;
+        if (qIndexEl) {
+            qIndexEl.textContent = currentIndex + 1;
+        }
+    }
+
+    // Button click
+    if (submitBtn) {
+        submitBtn.addEventListener("click", safeSubmit);
+    }
+
+    // Enter key submit (without Shift)
+    if (answerEl) {
+        answerEl.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                safeSubmit();
+            }
+        });
+    }
+
+});
+</script>
+
+</body>
+</html>

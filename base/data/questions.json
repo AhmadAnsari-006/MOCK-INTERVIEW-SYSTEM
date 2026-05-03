@@ -1,0 +1,4151 @@
+{
+  "Software Engineer": {
+    "Python": {
+      "Fundamentals_OOP": {
+        "Easy": [
+    {
+      "id": 1,
+      "question": "What is Python?",
+      "keywords": ["programming language", "interpreted", "high level"]
+    },
+    {
+      "id": 2,
+      "question": "What is a variable in Python?",
+      "keywords": ["store value", "data", "assignment"]
+    },
+    {
+      "id": 3,
+      "question": "What are data types in Python?",
+      "keywords": ["int", "float", "string", "boolean"]
+    },
+    {
+      "id": 4,
+      "question": "What is a list in Python?",
+      "keywords": ["ordered", "mutable", "collection"]
+    },
+    {
+      "id": 5,
+      "question": "What is a tuple in Python?",
+      "keywords": ["ordered", "immutable", "collection"]
+    },
+    {
+      "id": 6,
+      "question": "What is a dictionary in Python?",
+      "keywords": ["key value", "unordered", "mapping"]
+    },
+    {
+      "id": 7,
+      "question": "What is a set in Python?",
+      "keywords": ["unique elements", "unordered"]
+    },
+    {
+      "id": 8,
+      "question": "What is a function in Python?",
+      "keywords": ["reusable", "block of code", "def"]
+    },
+    {
+      "id": 9,
+      "question": "What is a loop in Python?",
+      "keywords": ["iteration", "for", "while"]
+    },
+    {
+      "id": 10,
+      "question": "What is an if statement?",
+      "keywords": ["condition", "decision making"]
+    },
+    {
+      "id": 11,
+      "question": "What is indentation in Python?",
+      "keywords": ["spacing", "syntax", "block"]
+    },
+    {
+      "id": 12,
+      "question": "What is a string in Python?",
+      "keywords": ["text", "characters"]
+    },
+    {
+      "id": 13,
+      "question": "What is type casting in Python?",
+      "keywords": ["convert", "int", "float", "str"]
+    },
+    {
+      "id": 14,
+      "question": "What is input() function?",
+      "keywords": ["user input", "string"]
+    },
+    {
+      "id": 15,
+      "question": "What is print() function?",
+      "keywords": ["output", "display"]
+    },
+    {
+      "id": 16,
+      "question": "What is an object in Python?",
+      "keywords": ["instance", "class"]
+    },
+    {
+      "id": 17,
+      "question": "What is a class in Python?",
+      "keywords": ["blueprint", "object", "oop"]
+    },
+    {
+      "id": 18,
+      "question": "What is inheritance in Python?",
+      "keywords": ["parent", "child", "reuse"]
+    },
+    {
+      "id": 19,
+      "question": "What is encapsulation?",
+      "keywords": ["data hiding", "class"]
+    },
+    {
+      "id": 20,
+      "question": "What is polymorphism?",
+      "keywords": ["many forms", "method"]
+    },
+    {
+      "id": 21,
+      "question": "What is a constructor in Python?",
+      "keywords": ["__init__", "initialize", "object"]
+    },
+    {
+      "id": 22,
+      "question": "What is self in Python?",
+      "keywords": ["instance", "reference"]
+    },
+    {
+      "id": 23,
+      "question": "What is a method in Python?",
+      "keywords": ["function", "class"]
+    },
+    {
+      "id": 24,
+      "question": "What is a module in Python?",
+      "keywords": ["file", "code reuse"]
+    },
+    {
+      "id": 25,
+      "question": "What is a package in Python?",
+      "keywords": ["collection", "modules"]
+    },
+    {
+      "id": 26,
+      "question": "What is exception handling?",
+      "keywords": ["try", "except", "error"]
+    },
+    {
+      "id": 27,
+      "question": "What is a comment in Python?",
+      "keywords": ["#", "ignore", "documentation"]
+    },
+    {
+      "id": 28,
+      "question": "What is slicing in Python?",
+      "keywords": ["index", "substring", "range"]
+    },
+    {
+      "id": 29,
+      "question": "What is len() function?",
+      "keywords": ["length", "count"]
+    },
+    {
+      "id": 30,
+      "question": "What is range() function?",
+      "keywords": ["sequence", "numbers"]
+    }
+  ],
+        "Medium":  [
+    {
+      "id": 1,
+      "question": "What is the difference between list and tuple in Python?",
+      "keywords": ["mutable", "immutable", "performance"]
+    },
+    {
+      "id": 2,
+      "question": "How are lists and dictionaries different?",
+      "keywords": ["ordered", "key value", "index"]
+    },
+    {
+      "id": 3,
+      "question": "What is the use of else in loops?",
+      "keywords": ["loop completion", "no break"]
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between for loop and while loop?",
+      "keywords": ["iteration", "condition"]
+    },
+    {
+      "id": 5,
+      "question": "What is a nested loop?",
+      "keywords": ["loop inside loop", "iteration"]
+    },
+    {
+      "id": 6,
+      "question": "How do functions improve code reusability?",
+      "keywords": ["modular", "reuse"]
+    },
+    {
+      "id": 7,
+      "question": "What is the difference between return and print?",
+      "keywords": ["output", "function result"]
+    },
+    {
+      "id": 8,
+      "question": "What are default arguments in Python?",
+      "keywords": ["optional", "parameters"]
+    },
+    {
+      "id": 9,
+      "question": "What are keyword arguments?",
+      "keywords": ["named arguments", "flexibility"]
+    },
+    {
+      "id": 10,
+      "question": "What is variable scope in Python?",
+      "keywords": ["local", "global"]
+    },
+    {
+      "id": 11,
+      "question": "What is the difference between local and global variables?",
+      "keywords": ["scope", "lifetime"]
+    },
+    {
+      "id": 12,
+      "question": "How does Python handle memory for variables?",
+      "keywords": ["reference", "object"]
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of __init__ method?",
+      "keywords": ["constructor", "initialize"]
+    },
+    {
+      "id": 14,
+      "question": "How do you create an object in Python?",
+      "keywords": ["class", "instance"]
+    },
+    {
+      "id": 15,
+      "question": "What is the difference between class and object?",
+      "keywords": ["blueprint", "instance"]
+    },
+    {
+      "id": 16,
+      "question": "How does inheritance help in code reuse?",
+      "keywords": ["parent", "child"]
+    },
+    {
+      "id": 17,
+      "question": "What is method overriding in Python?",
+      "keywords": ["same method", "child class"]
+    },
+    {
+      "id": 18,
+      "question": "What is encapsulation and why is it useful?",
+      "keywords": ["data hiding", "security"]
+    },
+    {
+      "id": 19,
+      "question": "What is polymorphism with example?",
+      "keywords": ["same interface", "different behavior"]
+    },
+    {
+      "id": 20,
+      "question": "What are instance variables?",
+      "keywords": ["object specific", "data"]
+    },
+    {
+      "id": 21,
+      "question": "What are class variables?",
+      "keywords": ["shared", "class level"]
+    },
+    {
+      "id": 22,
+      "question": "What is the difference between instance and class variables?",
+      "keywords": ["shared", "object"]
+    },
+    {
+      "id": 23,
+      "question": "What is a method in a class?",
+      "keywords": ["function", "class"]
+    },
+    {
+      "id": 24,
+      "question": "What is the use of self keyword?",
+      "keywords": ["instance", "reference"]
+    },
+    {
+      "id": 25,
+      "question": "What happens if you don’t use self in methods?",
+      "keywords": ["error", "missing reference"]
+    },
+    {
+      "id": 26,
+      "question": "What is multiple inheritance in Python?",
+      "keywords": ["multiple parents", "class"]
+    },
+    {
+      "id": 27,
+      "question": "What is a constructor and when is it called?",
+      "keywords": ["__init__", "object creation"]
+    },
+    {
+      "id": 28,
+      "question": "What is exception handling and why is it needed?",
+      "keywords": ["error handling", "try except"]
+    },
+    {
+      "id": 29,
+      "question": "What is the difference between errors and exceptions?",
+      "keywords": ["runtime", "syntax"]
+    },
+    {
+      "id": 30,
+      "question": "How does Python support dynamic typing?",
+      "keywords": ["no declaration", "runtime"]
+    }
+  ],
+        "Hard":  [
+    {
+      "id": 1,
+      "question": "Explain the difference between shallow copy and deep copy in Python.",
+      "keywords": ["copy", "reference", "nested objects"]
+    },
+    {
+      "id": 2,
+      "question": "How does memory management work in Python?",
+      "keywords": ["heap", "stack", "garbage collection"]
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between is and == in Python?",
+      "keywords": ["identity", "equality"]
+    },
+    {
+      "id": 4,
+      "question": "Explain mutable vs immutable objects with examples.",
+      "keywords": ["list", "tuple", "change"]
+    },
+    {
+      "id": 5,
+      "question": "What are decorators in Python?",
+      "keywords": ["function wrapper", "@"]
+    },
+    {
+      "id": 6,
+      "question": "Explain generators and how they differ from lists.",
+      "keywords": ["yield", "lazy evaluation"]
+    },
+    {
+      "id": 7,
+      "question": "What is the difference between __str__ and __repr__?",
+      "keywords": ["string representation", "debug"]
+    },
+    {
+      "id": 8,
+      "question": "Explain method overloading in Python.",
+      "keywords": ["default arguments", "same function"]
+    },
+    {
+      "id": 9,
+      "question": "Explain method overriding with example.",
+      "keywords": ["inheritance", "child class"]
+    },
+    {
+      "id": 10,
+      "question": "What is multiple inheritance and what problems can it cause?",
+      "keywords": ["diamond problem", "mro"]
+    },
+    {
+      "id": 11,
+      "question": "What is Method Resolution Order (MRO)?",
+      "keywords": ["inheritance", "order", "lookup"]
+    },
+    {
+      "id": 12,
+      "question": "What are magic methods in Python?",
+      "keywords": ["dunder", "__init__", "__str__"]
+    },
+    {
+      "id": 13,
+      "question": "Explain encapsulation in Python with practical example.",
+      "keywords": ["private", "_", "__"]
+    },
+    {
+      "id": 14,
+      "question": "What is abstraction and how is it implemented in Python?",
+      "keywords": ["abstract class", "abc"]
+    },
+    {
+      "id": 15,
+      "question": "What is the difference between class variable and instance variable?",
+      "keywords": ["shared", "object specific"]
+    },
+    {
+      "id": 16,
+      "question": "Explain static method vs class method.",
+      "keywords": ["@staticmethod", "@classmethod"]
+    },
+    {
+      "id": 17,
+      "question": "What is duck typing in Python?",
+      "keywords": ["dynamic typing", "behavior"]
+    },
+    {
+      "id": 18,
+      "question": "What is dynamic typing in Python?",
+      "keywords": ["runtime", "type inference"]
+    },
+    {
+      "id": 19,
+      "question": "Explain the use of __init__ method in detail.",
+      "keywords": ["constructor", "initialization"]
+    },
+    {
+      "id": 20,
+      "question": "What happens when you pass objects as arguments in Python?",
+      "keywords": ["reference", "mutable"]
+    },
+    {
+      "id": 21,
+      "question": "Explain difference between list comprehension and loop.",
+      "keywords": ["concise", "performance"]
+    },
+    {
+      "id": 22,
+      "question": "What is the global keyword in Python?",
+      "keywords": ["scope", "variable"]
+    },
+    {
+      "id": 23,
+      "question": "What is the nonlocal keyword?",
+      "keywords": ["nested function", "scope"]
+    },
+    {
+      "id": 24,
+      "question": "Explain namespaces and scope in Python.",
+      "keywords": ["local", "global", "built-in"]
+    },
+    {
+      "id": 25,
+      "question": "What is recursion and when should it be avoided?",
+      "keywords": ["function call", "stack"]
+    },
+    {
+      "id": 26,
+      "question": "What are lambda functions and their limitations?",
+      "keywords": ["anonymous", "single expression"]
+    },
+    {
+      "id": 27,
+      "question": "Explain difference between pass, continue, and break.",
+      "keywords": ["control flow"]
+    },
+    {
+      "id": 28,
+      "question": "What is exception chaining in Python?",
+      "keywords": ["raise", "from"]
+    },
+    {
+      "id": 29,
+      "question": "What is the difference between module and package?",
+      "keywords": ["file", "directory"]
+    },
+    {
+      "id": 30,
+      "question": "Explain how Python handles function arguments internally.",
+      "keywords": ["call by object reference", "memory"]
+    }
+  ]
+      },
+
+      "Data_Handling_JSON": {
+        "Easy": [
+    {
+      "id": 1,
+      "question": "What is file handling in Python?",
+      "keywords": ["read", "write", "files"]
+    },
+    {
+      "id": 2,
+      "question": "How do you open a file in Python?",
+      "keywords": ["open()", "file path", "mode"]
+    },
+    {
+      "id": 3,
+      "question": "What are file modes in Python?",
+      "keywords": ["r", "w", "a", "read write append"]
+    },
+    {
+      "id": 4,
+      "question": "What does 'r' mode do in file handling?",
+      "keywords": ["read", "default"]
+    },
+    {
+      "id": 5,
+      "question": "What does 'w' mode do in file handling?",
+      "keywords": ["write", "overwrite"]
+    },
+    {
+      "id": 6,
+      "question": "What does 'a' mode do in file handling?",
+      "keywords": ["append", "add data"]
+    },
+    {
+      "id": 7,
+      "question": "How do you read data from a file?",
+      "keywords": ["read()", "file object"]
+    },
+    {
+      "id": 8,
+      "question": "What is readline() function?",
+      "keywords": ["single line", "read"]
+    },
+    {
+      "id": 9,
+      "question": "What is readlines() function?",
+      "keywords": ["list", "lines"]
+    },
+    {
+      "id": 10,
+      "question": "How do you write data to a file?",
+      "keywords": ["write()", "file"]
+    },
+    {
+      "id": 11,
+      "question": "Why is it important to close a file?",
+      "keywords": ["close()", "resource", "memory"]
+    },
+    {
+      "id": 12,
+      "question": "What is the use of with statement in file handling?",
+      "keywords": ["automatic close", "context manager"]
+    },
+    {
+      "id": 13,
+      "question": "What is JSON?",
+      "keywords": ["data format", "key value", "text"]
+    },
+    {
+      "id": 14,
+      "question": "What does JSON stand for?",
+      "keywords": ["javascript object notation"]
+    },
+    {
+      "id": 15,
+      "question": "How is JSON different from Python dictionary?",
+      "keywords": ["string format", "data exchange"]
+    },
+    {
+      "id": 16,
+      "question": "How do you import JSON module in Python?",
+      "keywords": ["import json"]
+    },
+    {
+      "id": 17,
+      "question": "What does json.load() do?",
+      "keywords": ["read file", "parse"]
+    },
+    {
+      "id": 18,
+      "question": "What does json.loads() do?",
+      "keywords": ["string", "convert"]
+    },
+    {
+      "id": 19,
+      "question": "What does json.dump() do?",
+      "keywords": ["write file", "convert"]
+    },
+    {
+      "id": 20,
+      "question": "What does json.dumps() do?",
+      "keywords": ["string", "convert"]
+    },
+    {
+      "id": 21,
+      "question": "What is data handling in Python?",
+      "keywords": ["process", "store", "manipulate"]
+    },
+    {
+      "id": 22,
+      "question": "What is CSV file?",
+      "keywords": ["comma separated", "data"]
+    },
+    {
+      "id": 23,
+      "question": "How do you read a CSV file in Python?",
+      "keywords": ["csv module", "reader"]
+    },
+    {
+      "id": 24,
+      "question": "How do you write to a CSV file?",
+      "keywords": ["csv writer", "write"]
+    },
+    {
+      "id": 25,
+      "question": "What is a file path?",
+      "keywords": ["location", "directory"]
+    },
+    {
+      "id": 26,
+      "question": "What is absolute path?",
+      "keywords": ["full path", "root"]
+    },
+    {
+      "id": 27,
+      "question": "What is relative path?",
+      "keywords": ["current directory", "path"]
+    },
+    {
+      "id": 28,
+      "question": "What is encoding in file handling?",
+      "keywords": ["utf-8", "characters"]
+    },
+    {
+      "id": 29,
+      "question": "What happens if a file does not exist?",
+      "keywords": ["error", "exception"]
+    },
+    {
+      "id": 30,
+      "question": "What is exception handling in file operations?",
+      "keywords": ["try", "except", "error"]
+    }
+  ],
+        "Medium":  [
+    {
+      "id": 1,
+      "question": "What is the difference between read(), readline(), and readlines()?",
+      "keywords": ["full content", "single line", "list"]
+    },
+    {
+      "id": 2,
+      "question": "What happens if you open a file in write mode that already exists?",
+      "keywords": ["overwrite", "data loss"]
+    },
+    {
+      "id": 3,
+      "question": "How does append mode differ from write mode?",
+      "keywords": ["add data", "overwrite"]
+    },
+    {
+      "id": 4,
+      "question": "Why should you use with statement while working with files?",
+      "keywords": ["auto close", "context manager"]
+    },
+    {
+      "id": 5,
+      "question": "What happens if you don’t close a file?",
+      "keywords": ["memory leak", "resource"]
+    },
+    {
+      "id": 6,
+      "question": "How do you handle file not found error in Python?",
+      "keywords": ["try", "except", "FileNotFoundError"]
+    },
+    {
+      "id": 7,
+      "question": "What is the difference between text mode and binary mode?",
+      "keywords": ["text", "binary", "encoding"]
+    },
+    {
+      "id": 8,
+      "question": "How do you read a file line by line efficiently?",
+      "keywords": ["loop", "memory efficient"]
+    },
+    {
+      "id": 9,
+      "question": "What is file pointer and how does it work?",
+      "keywords": ["cursor", "position"]
+    },
+    {
+      "id": 10,
+      "question": "How do you move the file pointer manually?",
+      "keywords": ["seek()", "position"]
+    },
+    {
+      "id": 11,
+      "question": "What is encoding and why is it important?",
+      "keywords": ["utf-8", "characters"]
+    },
+    {
+      "id": 12,
+      "question": "What is the difference between json.load() and json.loads()?",
+      "keywords": ["file", "string"]
+    },
+    {
+      "id": 13,
+      "question": "What is the difference between json.dump() and json.dumps()?",
+      "keywords": ["write file", "string"]
+    },
+    {
+      "id": 14,
+      "question": "How do you convert a Python dictionary to JSON?",
+      "keywords": ["json.dumps", "convert"]
+    },
+    {
+      "id": 15,
+      "question": "How do you convert JSON data to Python object?",
+      "keywords": ["json.loads", "parse"]
+    },
+    {
+      "id": 16,
+      "question": "What types of data can JSON store?",
+      "keywords": ["string", "number", "list", "object"]
+    },
+    {
+      "id": 17,
+      "question": "What is the limitation of JSON compared to Python objects?",
+      "keywords": ["no functions", "limited types"]
+    },
+    {
+      "id": 18,
+      "question": "How do you pretty print JSON data in Python?",
+      "keywords": ["indent", "format"]
+    },
+    {
+      "id": 19,
+      "question": "How do you handle invalid JSON data?",
+      "keywords": ["error", "exception"]
+    },
+    {
+      "id": 20,
+      "question": "What is data preprocessing in Python?",
+      "keywords": ["cleaning", "transform"]
+    },
+    {
+      "id": 21,
+      "question": "How do you remove empty values from a dataset?",
+      "keywords": ["filter", "clean"]
+    },
+    {
+      "id": 22,
+      "question": "What is the difference between structured and unstructured data?",
+      "keywords": ["organized", "raw"]
+    },
+    {
+      "id": 23,
+      "question": "How do you handle missing data in Python?",
+      "keywords": ["default", "cleaning"]
+    },
+    {
+      "id": 24,
+      "question": "What is CSV file handling in Python?",
+      "keywords": ["comma separated", "data"]
+    },
+    {
+      "id": 25,
+      "question": "What is the role of delimiter in CSV files?",
+      "keywords": ["separator", "comma"]
+    },
+    {
+      "id": 26,
+      "question": "How do you read a CSV file row by row?",
+      "keywords": ["csv reader", "loop"]
+    },
+    {
+      "id": 27,
+      "question": "What is the difference between JSON and CSV?",
+      "keywords": ["structure", "format"]
+    },
+    {
+      "id": 28,
+      "question": "What is data transformation?",
+      "keywords": ["modify", "convert"]
+    },
+    {
+      "id": 29,
+      "question": "How do you merge two datasets in Python?",
+      "keywords": ["combine", "data"]
+    },
+    {
+      "id": 30,
+      "question": "Why is data validation important?",
+      "keywords": ["accuracy", "clean data"]
+    }
+  ],
+        "Hard": [
+    {
+      "id": 1,
+      "question": "Explain how buffering works in Python file handling.",
+      "keywords": ["buffer", "io", "performance"]
+    },
+    {
+      "id": 2,
+      "question": "What are the differences between buffered and unbuffered file operations?",
+      "keywords": ["memory", "performance"]
+    },
+    {
+      "id": 3,
+      "question": "How does Python internally manage file descriptors?",
+      "keywords": ["os", "resources", "handle"]
+    },
+    {
+      "id": 4,
+      "question": "What are potential risks of using 'w' mode in production systems?",
+      "keywords": ["overwrite", "data loss"]
+    },
+    {
+      "id": 5,
+      "question": "Explain how file locking works and why it is important.",
+      "keywords": ["concurrency", "race condition"]
+    },
+    {
+      "id": 6,
+      "question": "How do you handle concurrent file access in Python?",
+      "keywords": ["thread", "lock"]
+    },
+    {
+      "id": 7,
+      "question": "What happens when multiple processes write to the same file?",
+      "keywords": ["corruption", "race condition"]
+    },
+    {
+      "id": 8,
+      "question": "Explain memory-mapped file handling.",
+      "keywords": ["mmap", "performance"]
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between seek() and tell()?",
+      "keywords": ["position", "cursor"]
+    },
+    {
+      "id": 10,
+      "question": "How do you safely read large files without loading them into memory?",
+      "keywords": ["chunking", "generator"]
+    },
+    {
+      "id": 11,
+      "question": "Explain encoding errors and how to handle them.",
+      "keywords": ["unicode", "utf-8", "decode"]
+    },
+    {
+      "id": 12,
+      "question": "What is the difference between UTF-8 and ASCII encoding?",
+      "keywords": ["character set", "compatibility"]
+    },
+    {
+      "id": 13,
+      "question": "How do you validate JSON data before processing?",
+      "keywords": ["schema", "validation"]
+    },
+    {
+      "id": 14,
+      "question": "What happens if JSON data is malformed?",
+      "keywords": ["error", "exception"]
+    },
+    {
+      "id": 15,
+      "question": "Explain JSON serialization limitations in Python.",
+      "keywords": ["custom objects", "non serializable"]
+    },
+    {
+      "id": 16,
+      "question": "How do you serialize custom Python objects into JSON?",
+      "keywords": ["default", "encoder"]
+    },
+    {
+      "id": 17,
+      "question": "What are the security risks when handling JSON data?",
+      "keywords": ["injection", "untrusted data"]
+    },
+    {
+      "id": 18,
+      "question": "How do you handle deeply nested JSON structures efficiently?",
+      "keywords": ["recursion", "parsing"]
+    },
+    {
+      "id": 19,
+      "question": "Explain differences between JSON and Pickle in Python.",
+      "keywords": ["serialization", "security"]
+    },
+    {
+      "id": 20,
+      "question": "Why is Pickle considered unsafe in some cases?",
+      "keywords": ["code execution", "security risk"]
+    },
+    {
+      "id": 21,
+      "question": "How do you optimize file read/write operations for performance?",
+      "keywords": ["buffering", "batching"]
+    },
+    {
+      "id": 22,
+      "question": "What is lazy loading in file processing?",
+      "keywords": ["memory efficient", "on demand"]
+    },
+    {
+      "id": 23,
+      "question": "Explain how large datasets are processed in Python efficiently.",
+      "keywords": ["streaming", "chunk"]
+    },
+    {
+      "id": 24,
+      "question": "What are the challenges of handling big data files?",
+      "keywords": ["memory", "performance"]
+    },
+    {
+      "id": 25,
+      "question": "How do you ensure data consistency when writing files?",
+      "keywords": ["atomic", "integrity"]
+    },
+    {
+      "id": 26,
+      "question": "What is atomic file writing and why is it important?",
+      "keywords": ["safe write", "temporary file"]
+    },
+    {
+      "id": 27,
+      "question": "How do you handle partial file writes or failures?",
+      "keywords": ["recovery", "retry"]
+    },
+    {
+      "id": 28,
+      "question": "Explain schema validation in structured data.",
+      "keywords": ["format", "rules"]
+    },
+    {
+      "id": 29,
+      "question": "How do you merge large datasets efficiently?",
+      "keywords": ["memory", "stream"]
+    },
+    {
+      "id": 30,
+      "question": "What are best practices for handling data pipelines in Python?",
+      "keywords": ["modular", "scalable"]
+    }
+  ]
+      },
+
+      "Backend_APIs": {
+        "Easy": [
+    {
+      "id": 1,
+      "question": "What is a backend in web development?",
+      "keywords": ["server", "logic", "data processing"]
+    },
+    {
+      "id": 2,
+      "question": "What is an API?",
+      "keywords": ["communication", "interface", "client server"]
+    },
+    {
+      "id": 3,
+      "question": "What does API stand for?",
+      "keywords": ["application programming interface"]
+    },
+    {
+      "id": 4,
+      "question": "What is Flask in Python?",
+      "keywords": ["framework", "web", "python"]
+    },
+    {
+      "id": 5,
+      "question": "How do you install Flask?",
+      "keywords": ["pip install flask"]
+    },
+    {
+      "id": 6,
+      "question": "What is a route in Flask?",
+      "keywords": ["url", "endpoint"]
+    },
+    {
+      "id": 7,
+      "question": "What does @app.route do?",
+      "keywords": ["decorator", "url mapping"]
+    },
+    {
+      "id": 8,
+      "question": "What is a web server?",
+      "keywords": ["serve", "request response"]
+    },
+    {
+      "id": 9,
+      "question": "What is a client in web applications?",
+      "keywords": ["user", "browser"]
+    },
+    {
+      "id": 10,
+      "question": "What is a request?",
+      "keywords": ["client", "send data"]
+    },
+    {
+      "id": 11,
+      "question": "What is a response?",
+      "keywords": ["server", "return data"]
+    },
+    {
+      "id": 12,
+      "question": "What is HTTP?",
+      "keywords": ["protocol", "web communication"]
+    },
+    {
+      "id": 13,
+      "question": "What are HTTP methods?",
+      "keywords": ["GET", "POST", "PUT", "DELETE"]
+    },
+    {
+      "id": 14,
+      "question": "What does GET method do?",
+      "keywords": ["fetch", "retrieve data"]
+    },
+    {
+      "id": 15,
+      "question": "What does POST method do?",
+      "keywords": ["send", "create data"]
+    },
+    {
+      "id": 16,
+      "question": "What is JSON response in API?",
+      "keywords": ["data format", "response"]
+    },
+    {
+      "id": 17,
+      "question": "What is jsonify in Flask?",
+      "keywords": ["convert", "json response"]
+    },
+    {
+      "id": 18,
+      "question": "What is request object in Flask?",
+      "keywords": ["input data", "client"]
+    },
+    {
+      "id": 19,
+      "question": "How do you get data from a form in Flask?",
+      "keywords": ["request.form"]
+    },
+    {
+      "id": 20,
+      "question": "How do you get JSON data from request?",
+      "keywords": ["request.json"]
+    },
+    {
+      "id": 21,
+      "question": "What is a URL?",
+      "keywords": ["address", "web"]
+    },
+    {
+      "id": 22,
+      "question": "What is routing in web development?",
+      "keywords": ["url mapping", "endpoint"]
+    },
+    {
+      "id": 23,
+      "question": "What is a template in Flask?",
+      "keywords": ["html", "render"]
+    },
+    {
+      "id": 24,
+      "question": "What is render_template function?",
+      "keywords": ["html", "display"]
+    },
+    {
+      "id": 25,
+      "question": "What is static folder in Flask?",
+      "keywords": ["css", "js", "assets"]
+    },
+    {
+      "id": 26,
+      "question": "What is debug mode in Flask?",
+      "keywords": ["error", "development"]
+    },
+    {
+      "id": 27,
+      "question": "What is port in web server?",
+      "keywords": ["connection", "number"]
+    },
+    {
+      "id": 28,
+      "question": "What is localhost?",
+      "keywords": ["local server", "127.0.0.1"]
+    },
+    {
+      "id": 29,
+      "question": "What is REST API?",
+      "keywords": ["stateless", "http"]
+    },
+    {
+      "id": 30,
+      "question": "What is status code in HTTP?",
+      "keywords": ["200", "404", "500"]
+    }
+  ],
+        "Medium": [
+    {
+      "id": 1,
+      "question": "What is the difference between frontend and backend?",
+      "keywords": ["client", "server", "logic"]
+    },
+    {
+      "id": 2,
+      "question": "How does a client-server architecture work?",
+      "keywords": ["request", "response", "communication"]
+    },
+    {
+      "id": 3,
+      "question": "What happens when a user enters a URL in the browser?",
+      "keywords": ["dns", "request", "response"]
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between GET and POST requests?",
+      "keywords": ["retrieve", "send data"]
+    },
+    {
+      "id": 5,
+      "question": "When should you use PUT and DELETE methods?",
+      "keywords": ["update", "remove"]
+    },
+    {
+      "id": 6,
+      "question": "How does routing work in Flask?",
+      "keywords": ["url", "function mapping"]
+    },
+    {
+      "id": 7,
+      "question": "What is dynamic routing in Flask?",
+      "keywords": ["variable url", "parameters"]
+    },
+    {
+      "id": 8,
+      "question": "How do you pass parameters in a URL?",
+      "keywords": ["path", "query"]
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between path parameters and query parameters?",
+      "keywords": ["url path", "query string"]
+    },
+    {
+      "id": 10,
+      "question": "How does Flask handle form data?",
+      "keywords": ["request.form", "post"]
+    },
+    {
+      "id": 11,
+      "question": "How does Flask handle JSON data?",
+      "keywords": ["request.json", "api"]
+    },
+    {
+      "id": 12,
+      "question": "What is the role of jsonify in APIs?",
+      "keywords": ["convert", "response"]
+    },
+    {
+      "id": 13,
+      "question": "What is the difference between render_template and jsonify?",
+      "keywords": ["html", "json"]
+    },
+    {
+      "id": 14,
+      "question": "What is RESTful API design?",
+      "keywords": ["resource", "stateless"]
+    },
+    {
+      "id": 15,
+      "question": "What are common HTTP status codes and their meanings?",
+      "keywords": ["200", "404", "500"]
+    },
+    {
+      "id": 16,
+      "question": "What is middleware in web applications?",
+      "keywords": ["processing", "request"]
+    },
+    {
+      "id": 17,
+      "question": "What is CORS and why is it needed?",
+      "keywords": ["cross origin", "security"]
+    },
+    {
+      "id": 18,
+      "question": "What is session management in Flask?",
+      "keywords": ["user data", "state"]
+    },
+    {
+      "id": 19,
+      "question": "What is cookie in web development?",
+      "keywords": ["client storage", "data"]
+    },
+    {
+      "id": 20,
+      "question": "What is the difference between cookies and sessions?",
+      "keywords": ["client", "server"]
+    },
+    {
+      "id": 21,
+      "question": "How do you handle errors in Flask?",
+      "keywords": ["error handler", "exceptions"]
+    },
+    {
+      "id": 22,
+      "question": "What is debug mode and why should it not be used in production?",
+      "keywords": ["security", "development"]
+    },
+    {
+      "id": 23,
+      "question": "What is the role of templates in backend?",
+      "keywords": ["dynamic html", "render"]
+    },
+    {
+      "id": 24,
+      "question": "How do static files work in Flask?",
+      "keywords": ["css", "js", "assets"]
+    },
+    {
+      "id": 25,
+      "question": "What is API endpoint?",
+      "keywords": ["url", "resource"]
+    },
+    {
+      "id": 26,
+      "question": "What is data validation in APIs?",
+      "keywords": ["check input", "security"]
+    },
+    {
+      "id": 27,
+      "question": "What happens if invalid data is sent to an API?",
+      "keywords": ["error", "validation"]
+    },
+    {
+      "id": 28,
+      "question": "What is rate limiting in APIs?",
+      "keywords": ["limit", "requests"]
+    },
+    {
+      "id": 29,
+      "question": "What is API testing?",
+      "keywords": ["postman", "testing"]
+    },
+    {
+      "id": 30,
+      "question": "How do you connect frontend with backend APIs?",
+      "keywords": ["fetch", "axios", "request"]
+    }
+  ],
+        "Hard": [
+    {
+      "id": 1,
+      "question": "Explain the full lifecycle of an HTTP request in a web application.",
+      "keywords": ["dns", "server", "response"]
+    },
+    {
+      "id": 2,
+      "question": "How does Flask handle concurrent requests?",
+      "keywords": ["threading", "wsgi"]
+    },
+    {
+      "id": 3,
+      "question": "What are the limitations of Flask in production systems?",
+      "keywords": ["scalability", "performance"]
+    },
+    {
+      "id": 4,
+      "question": "What is WSGI and how does it work?",
+      "keywords": ["interface", "server", "application"]
+    },
+    {
+      "id": 5,
+      "question": "What is the difference between synchronous and asynchronous APIs?",
+      "keywords": ["blocking", "non blocking"]
+    },
+    {
+      "id": 6,
+      "question": "How do you handle high traffic in a Flask application?",
+      "keywords": ["load balancing", "scaling"]
+    },
+    {
+      "id": 7,
+      "question": "What is load balancing and why is it needed?",
+      "keywords": ["traffic distribution", "server"]
+    },
+    {
+      "id": 8,
+      "question": "How do you design a scalable REST API?",
+      "keywords": ["stateless", "modular"]
+    },
+    {
+      "id": 9,
+      "question": "What are REST API best practices?",
+      "keywords": ["naming", "status codes"]
+    },
+    {
+      "id": 10,
+      "question": "How do you secure an API?",
+      "keywords": ["authentication", "authorization"]
+    },
+    {
+      "id": 11,
+      "question": "What is JWT authentication and how does it work?",
+      "keywords": ["token", "authentication"]
+    },
+    {
+      "id": 12,
+      "question": "What are common API security vulnerabilities?",
+      "keywords": ["injection", "xss", "csrf"]
+    },
+    {
+      "id": 13,
+      "question": "What is CSRF and how can it be prevented?",
+      "keywords": ["attack", "token"]
+    },
+    {
+      "id": 14,
+      "question": "What is XSS and how does it affect web apps?",
+      "keywords": ["script injection", "security"]
+    },
+    {
+      "id": 15,
+      "question": "What is API versioning and why is it important?",
+      "keywords": ["v1", "backward compatibility"]
+    },
+    {
+      "id": 16,
+      "question": "How do you handle errors globally in Flask?",
+      "keywords": ["error handler", "exceptions"]
+    },
+    {
+      "id": 17,
+      "question": "What is middleware and how can it be implemented in Flask?",
+      "keywords": ["request processing", "hooks"]
+    },
+    {
+      "id": 18,
+      "question": "How do you optimize API response time?",
+      "keywords": ["caching", "performance"]
+    },
+    {
+      "id": 19,
+      "question": "What is caching and how does it improve performance?",
+      "keywords": ["memory", "speed"]
+    },
+    {
+      "id": 20,
+      "question": "What are different types of caching strategies?",
+      "keywords": ["client", "server"]
+    },
+    {
+      "id": 21,
+      "question": "What is database connection pooling?",
+      "keywords": ["connections", "reuse"]
+    },
+    {
+      "id": 22,
+      "question": "How do you handle long-running tasks in backend?",
+      "keywords": ["queue", "background"]
+    },
+    {
+      "id": 23,
+      "question": "What is message queue and why is it used?",
+      "keywords": ["async", "task"]
+    },
+    {
+      "id": 24,
+      "question": "How do you ensure data consistency in APIs?",
+      "keywords": ["transactions", "atomic"]
+    },
+    {
+      "id": 25,
+      "question": "What is idempotency in APIs?",
+      "keywords": ["same result", "multiple requests"]
+    },
+    {
+      "id": 26,
+      "question": "What is rate limiting and how do you implement it?",
+      "keywords": ["limit", "requests"]
+    },
+    {
+      "id": 27,
+      "question": "How do you log and monitor backend applications?",
+      "keywords": ["logs", "monitoring"]
+    },
+    {
+      "id": 28,
+      "question": "What is API documentation and why is it important?",
+      "keywords": ["swagger", "docs"]
+    },
+    {
+      "id": 29,
+      "question": "What is deployment in web applications?",
+      "keywords": ["server", "production"]
+    },
+    {
+      "id": 30,
+      "question": "What are best practices for structuring a Flask project?",
+      "keywords": ["modular", "scalable"]
+    }
+  ]
+      }
+    },
+
+    "Java": {
+      "Core_Java_OOP": {
+        "Easy":  [
+    {
+      "id": 1,
+      "question": "What is Java?",
+      "keywords": ["programming language", "object oriented", "platform independent"]
+    },
+    {
+      "id": 2,
+      "question": "What does JVM stand for?",
+      "keywords": ["java virtual machine"]
+    },
+    {
+      "id": 3,
+      "question": "What is JDK?",
+      "keywords": ["development kit", "tools"]
+    },
+    {
+      "id": 4,
+      "question": "What is JRE?",
+      "keywords": ["runtime environment"]
+    },
+    {
+      "id": 5,
+      "question": "What is a class in Java?",
+      "keywords": ["blueprint", "object"]
+    },
+    {
+      "id": 6,
+      "question": "What is an object in Java?",
+      "keywords": ["instance", "class"]
+    },
+    {
+      "id": 7,
+      "question": "What are data types in Java?",
+      "keywords": ["int", "float", "boolean"]
+    },
+    {
+      "id": 8,
+      "question": "What is a variable in Java?",
+      "keywords": ["store value", "data"]
+    },
+    {
+      "id": 9,
+      "question": "What is a method in Java?",
+      "keywords": ["function", "class"]
+    },
+    {
+      "id": 10,
+      "question": "What is a constructor?",
+      "keywords": ["initialize", "object"]
+    },
+    {
+      "id": 11,
+      "question": "What is inheritance?",
+      "keywords": ["parent", "child"]
+    },
+    {
+      "id": 12,
+      "question": "What is polymorphism?",
+      "keywords": ["many forms", "method"]
+    },
+    {
+      "id": 13,
+      "question": "What is encapsulation?",
+      "keywords": ["data hiding", "class"]
+    },
+    {
+      "id": 14,
+      "question": "What is abstraction?",
+      "keywords": ["hide details", "abstract"]
+    },
+    {
+      "id": 15,
+      "question": "What is an interface in Java?",
+      "keywords": ["contract", "methods"]
+    },
+    {
+      "id": 16,
+      "question": "What is an abstract class?",
+      "keywords": ["partial abstraction", "methods"]
+    },
+    {
+      "id": 17,
+      "question": "What is the main method in Java?",
+      "keywords": ["entry point", "public static void main"]
+    },
+    {
+      "id": 18,
+      "question": "What is static keyword?",
+      "keywords": ["class level", "shared"]
+    },
+    {
+      "id": 19,
+      "question": "What is final keyword?",
+      "keywords": ["constant", "cannot change"]
+    },
+    {
+      "id": 20,
+      "question": "What is this keyword?",
+      "keywords": ["current object", "reference"]
+    },
+    {
+      "id": 21,
+      "question": "What is super keyword?",
+      "keywords": ["parent class", "reference"]
+    },
+    {
+      "id": 22,
+      "question": "What is method overloading?",
+      "keywords": ["same name", "different parameters"]
+    },
+    {
+      "id": 23,
+      "question": "What is method overriding?",
+      "keywords": ["same method", "child class"]
+    },
+    {
+      "id": 24,
+      "question": "What is a package in Java?",
+      "keywords": ["namespace", "organization"]
+    },
+    {
+      "id": 25,
+      "question": "What is access modifier?",
+      "keywords": ["public", "private", "protected"]
+    },
+    {
+      "id": 26,
+      "question": "What is a loop in Java?",
+      "keywords": ["for", "while"]
+    },
+    {
+      "id": 27,
+      "question": "What is an array?",
+      "keywords": ["collection", "fixed size"]
+    },
+    {
+      "id": 28,
+      "question": "What is exception handling?",
+      "keywords": ["try", "catch"]
+    },
+    {
+      "id": 29,
+      "question": "What is a comment in Java?",
+      "keywords": ["//", "ignore"]
+    },
+    {
+      "id": 30,
+      "question": "What is type casting in Java?",
+      "keywords": ["convert", "data type"]
+    }
+  ],
+        "Medium": [
+    {
+      "id": 1,
+      "question": "What is the difference between JDK, JRE, and JVM?",
+      "keywords": ["tools", "runtime", "execution"]
+    },
+    {
+      "id": 2,
+      "question": "What is the difference between class and object?",
+      "keywords": ["blueprint", "instance"]
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between method overloading and overriding?",
+      "keywords": ["compile time", "runtime"]
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between abstract class and interface?",
+      "keywords": ["implementation", "methods"]
+    },
+    {
+      "id": 5,
+      "question": "What is the difference between array and ArrayList?",
+      "keywords": ["fixed", "dynamic"]
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of constructors?",
+      "keywords": ["initialize", "object"]
+    },
+    {
+      "id": 7,
+      "question": "What is the use of static keyword in Java?",
+      "keywords": ["class level", "shared"]
+    },
+    {
+      "id": 8,
+      "question": "What is the use of final keyword?",
+      "keywords": ["constant", "restrict"]
+    },
+    {
+      "id": 9,
+      "question": "What is encapsulation and why is it important?",
+      "keywords": ["data hiding", "security"]
+    },
+    {
+      "id": 10,
+      "question": "What is polymorphism with example?",
+      "keywords": ["same method", "different behavior"]
+    },
+    {
+      "id": 11,
+      "question": "What is inheritance and how is it used?",
+      "keywords": ["reuse", "extends"]
+    },
+    {
+      "id": 12,
+      "question": "What is the difference between this and super keyword?",
+      "keywords": ["current object", "parent"]
+    },
+    {
+      "id": 13,
+      "question": "What are access modifiers in Java?",
+      "keywords": ["public", "private", "protected"]
+    },
+    {
+      "id": 14,
+      "question": "What is exception handling in Java?",
+      "keywords": ["try", "catch", "error"]
+    },
+    {
+      "id": 15,
+      "question": "What is the difference between checked and unchecked exceptions?",
+      "keywords": ["compile", "runtime"]
+    },
+    {
+      "id": 16,
+      "question": "What is the difference between break and continue?",
+      "keywords": ["loop control"]
+    },
+    {
+      "id": 17,
+      "question": "What is a package and why is it used?",
+      "keywords": ["organization", "namespace"]
+    },
+    {
+      "id": 18,
+      "question": "What is type casting in Java?",
+      "keywords": ["convert", "data type"]
+    },
+    {
+      "id": 19,
+      "question": "What is method signature?",
+      "keywords": ["name", "parameters"]
+    },
+    {
+      "id": 20,
+      "question": "What is the role of main method in Java?",
+      "keywords": ["entry point"]
+    },
+    {
+      "id": 21,
+      "question": "What is object reference in Java?",
+      "keywords": ["memory", "pointer"]
+    },
+    {
+      "id": 22,
+      "question": "What is garbage collection?",
+      "keywords": ["memory", "cleanup"]
+    },
+    {
+      "id": 23,
+      "question": "What is the difference between == and equals()?",
+      "keywords": ["reference", "value"]
+    },
+    {
+      "id": 24,
+      "question": "What is string immutability in Java?",
+      "keywords": ["immutable", "string"]
+    },
+    {
+      "id": 25,
+      "question": "What is the difference between String and StringBuilder?",
+      "keywords": ["mutable", "performance"]
+    },
+    {
+      "id": 26,
+      "question": "What is constructor overloading?",
+      "keywords": ["multiple constructors"]
+    },
+    {
+      "id": 27,
+      "question": "What is method overriding and its rules?",
+      "keywords": ["inheritance", "runtime"]
+    },
+    {
+      "id": 28,
+      "question": "What is default keyword in Java?",
+      "keywords": ["access modifier"]
+    },
+    {
+      "id": 29,
+      "question": "What is instanceof operator?",
+      "keywords": ["type check"]
+    },
+    {
+      "id": 30,
+      "question": "What is wrapper class in Java?",
+      "keywords": ["primitive", "object"]
+    }
+  ],
+
+  "Hard": [
+    {
+      "id": 1,
+      "question": "Explain how JVM manages memory in Java.",
+      "keywords": ["heap", "stack", "memory"]
+    },
+    {
+      "id": 2,
+      "question": "What is the difference between stack and heap memory?",
+      "keywords": ["allocation", "objects"]
+    },
+    {
+      "id": 3,
+      "question": "Explain garbage collection process in detail.",
+      "keywords": ["mark", "sweep"]
+    },
+    {
+      "id": 4,
+      "question": "What are different types of garbage collectors in Java?",
+      "keywords": ["g1", "parallel"]
+    },
+    {
+      "id": 5,
+      "question": "What is method overloading vs overriding with real scenarios?",
+      "keywords": ["compile", "runtime"]
+    },
+    {
+      "id": 6,
+      "question": "Explain multiple inheritance problem in Java.",
+      "keywords": ["diamond problem", "interfaces"]
+    },
+    {
+      "id": 7,
+      "question": "How does Java achieve abstraction internally?",
+      "keywords": ["interface", "abstract"]
+    },
+    {
+      "id": 8,
+      "question": "What are inner classes and their types?",
+      "keywords": ["nested", "local"]
+    },
+    {
+      "id": 9,
+      "question": "Explain difference between composition and inheritance.",
+      "keywords": ["has a", "is a"]
+    },
+    {
+      "id": 10,
+      "question": "What is the use of transient keyword?",
+      "keywords": ["serialization", "skip"]
+    },
+    {
+      "id": 11,
+      "question": "What is the use of volatile keyword?",
+      "keywords": ["thread", "visibility"]
+    },
+    {
+      "id": 12,
+      "question": "Explain synchronization in Java.",
+      "keywords": ["thread safety", "lock"]
+    },
+    {
+      "id": 13,
+      "question": "What is deadlock in Java?",
+      "keywords": ["threads", "blocking"]
+    },
+    {
+      "id": 14,
+      "question": "What is method resolution in Java?",
+      "keywords": ["compile", "runtime"]
+    },
+    {
+      "id": 15,
+      "question": "Explain class loading mechanism in Java.",
+      "keywords": ["classloader", "loading"]
+    },
+    {
+      "id": 16,
+      "question": "What is reflection in Java?",
+      "keywords": ["runtime", "inspect"]
+    },
+    {
+      "id": 17,
+      "question": "What are annotations in Java?",
+      "keywords": ["metadata", "runtime"]
+    },
+    {
+      "id": 18,
+      "question": "Explain serialization and deserialization.",
+      "keywords": ["convert", "object"]
+    },
+    {
+      "id": 19,
+      "question": "What is cloning in Java?",
+      "keywords": ["copy", "object"]
+    },
+    {
+      "id": 20,
+      "question": "What is deep copy vs shallow copy in Java?",
+      "keywords": ["reference", "object"]
+    },
+    {
+      "id": 21,
+      "question": "Explain immutability in Java with example.",
+      "keywords": ["final", "object"]
+    },
+    {
+      "id": 22,
+      "question": "What is dependency injection concept?",
+      "keywords": ["loose coupling"]
+    },
+    {
+      "id": 23,
+      "question": "What is SOLID principles overview?",
+      "keywords": ["design", "principles"]
+    },
+    {
+      "id": 24,
+      "question": "Explain Liskov Substitution Principle.",
+      "keywords": ["inheritance", "substitution"]
+    },
+    {
+      "id": 25,
+      "question": "What is open closed principle?",
+      "keywords": ["extend", "modify"]
+    },
+    {
+      "id": 26,
+      "question": "Explain interface segregation principle.",
+      "keywords": ["small interfaces"]
+    },
+    {
+      "id": 27,
+      "question": "What is dependency inversion principle?",
+      "keywords": ["abstraction", "decoupling"]
+    },
+    {
+      "id": 28,
+      "question": "What is polymorphism at runtime?",
+      "keywords": ["dynamic binding"]
+    },
+    {
+      "id": 29,
+      "question": "Explain method hiding in Java.",
+      "keywords": ["static", "override"]
+    },
+    {
+      "id": 30,
+      "question": "What is classpath in Java?",
+      "keywords": ["path", "loading"]
+    }
+  ]
+      },
+
+      "Collections_Concurrency": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is Collection Framework in Java?",
+        "keywords": ["data structures", "framework"]
+      },
+      {
+        "id": 2,
+        "question": "What is List interface?",
+        "keywords": ["ordered", "duplicates"]
+      },
+      {
+        "id": 3,
+        "question": "What is Set interface?",
+        "keywords": ["unique", "unordered"]
+      },
+      {
+        "id": 4,
+        "question": "What is Map interface?",
+        "keywords": ["key value", "mapping"]
+      },
+      {
+        "id": 5,
+        "question": "What is ArrayList?",
+        "keywords": ["dynamic array", "list"]
+      },
+      {
+        "id": 6,
+        "question": "What is LinkedList?",
+        "keywords": ["nodes", "linked"]
+      },
+      {
+        "id": 7,
+        "question": "What is HashSet?",
+        "keywords": ["unique", "hash"]
+      },
+      {
+        "id": 8,
+        "question": "What is HashMap?",
+        "keywords": ["key value", "hash"]
+      },
+      {
+        "id": 9,
+        "question": "What is Iterator?",
+        "keywords": ["traverse", "collection"]
+      },
+      {
+        "id": 10,
+        "question": "What is size() method?",
+        "keywords": ["count", "elements"]
+      },
+      {
+        "id": 11,
+        "question": "What is add() method?",
+        "keywords": ["insert", "element"]
+      },
+      {
+        "id": 12,
+        "question": "What is remove() method?",
+        "keywords": ["delete", "element"]
+      },
+      {
+        "id": 13,
+        "question": "What is contains() method?",
+        "keywords": ["check", "exist"]
+      },
+      {
+        "id": 14,
+        "question": "What is Thread in Java?",
+        "keywords": ["execution", "unit"]
+      },
+      {
+        "id": 15,
+        "question": "What is multithreading?",
+        "keywords": ["parallel", "threads"]
+      },
+      {
+        "id": 16,
+        "question": "What is Runnable interface?",
+        "keywords": ["thread", "run"]
+      },
+      {
+        "id": 17,
+        "question": "What is start() method in thread?",
+        "keywords": ["begin", "execution"]
+      },
+      {
+        "id": 18,
+        "question": "What is run() method?",
+        "keywords": ["task", "thread"]
+      },
+      {
+        "id": 19,
+        "question": "What is sleep() method?",
+        "keywords": ["pause", "thread"]
+      },
+      {
+        "id": 20,
+        "question": "What is join() method?",
+        "keywords": ["wait", "thread"]
+      },
+      {
+        "id": 21,
+        "question": "What is synchronization?",
+        "keywords": ["control", "threads"]
+      },
+      {
+        "id": 22,
+        "question": "What is synchronized keyword?",
+        "keywords": ["lock", "thread safety"]
+      },
+      {
+        "id": 23,
+        "question": "What is concurrency?",
+        "keywords": ["multiple", "tasks"]
+      },
+      {
+        "id": 24,
+        "question": "What is deadlock?",
+        "keywords": ["block", "threads"]
+      },
+      {
+        "id": 25,
+        "question": "What is priority of thread?",
+        "keywords": ["execution", "order"]
+      },
+      {
+        "id": 26,
+        "question": "What is currentThread() method?",
+        "keywords": ["thread", "reference"]
+      },
+      {
+        "id": 27,
+        "question": "What is yield() method?",
+        "keywords": ["pause", "thread"]
+      },
+      {
+        "id": 28,
+        "question": "What is Thread class?",
+        "keywords": ["create", "thread"]
+      },
+      {
+        "id": 29,
+        "question": "What is main thread?",
+        "keywords": ["default", "execution"]
+      },
+      {
+        "id": 30,
+        "question": "What is daemon thread?",
+        "keywords": ["background", "thread"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "id": 1,
+        "question": "Difference between ArrayList and LinkedList?",
+        "keywords": ["array", "linked", "performance"]
+      },
+      {
+        "id": 2,
+        "question": "Difference between HashSet and TreeSet?",
+        "keywords": ["sorting", "unique"]
+      },
+      {
+        "id": 3,
+        "question": "Difference between HashMap and TreeMap?",
+        "keywords": ["sorting", "key"]
+      },
+      {
+        "id": 4,
+        "question": "Difference between List and Set?",
+        "keywords": ["duplicates", "order"]
+      },
+      {
+        "id": 5,
+        "question": "How does HashMap work internally?",
+        "keywords": ["hashing", "bucket"]
+      },
+      {
+        "id": 6,
+        "question": "What is load factor in HashMap?",
+        "keywords": ["capacity", "resize"]
+      },
+      {
+        "id": 7,
+        "question": "What is collision in HashMap?",
+        "keywords": ["same hash", "bucket"]
+      },
+      {
+        "id": 8,
+        "question": "How do you iterate over a Map?",
+        "keywords": ["entryset", "loop"]
+      },
+      {
+        "id": 9,
+        "question": "What is Comparable interface?",
+        "keywords": ["sorting", "compare"]
+      },
+      {
+        "id": 10,
+        "question": "What is Comparator interface?",
+        "keywords": ["custom sort"]
+      },
+      {
+        "id": 11,
+        "question": "Difference between Comparable and Comparator?",
+        "keywords": ["internal", "external"]
+      },
+      {
+        "id": 12,
+        "question": "What is thread lifecycle?",
+        "keywords": ["new", "running", "terminated"]
+      },
+      {
+        "id": 13,
+        "question": "Difference between start() and run()?",
+        "keywords": ["thread", "method"]
+      },
+      {
+        "id": 14,
+        "question": "Difference between sleep() and wait()?",
+        "keywords": ["thread", "object"]
+      },
+      {
+        "id": 15,
+        "question": "What is thread synchronization problem?",
+        "keywords": ["race condition"]
+      },
+      {
+        "id": 16,
+        "question": "What is race condition?",
+        "keywords": ["data inconsistency"]
+      },
+      {
+        "id": 17,
+        "question": "How does synchronized block work?",
+        "keywords": ["lock", "object"]
+      },
+      {
+        "id": 18,
+        "question": "What is inter-thread communication?",
+        "keywords": ["wait", "notify"]
+      },
+      {
+        "id": 19,
+        "question": "What is notify() and notifyAll()?",
+        "keywords": ["communication", "threads"]
+      },
+      {
+        "id": 20,
+        "question": "What is Executor framework?",
+        "keywords": ["thread pool"]
+      },
+      {
+        "id": 21,
+        "question": "What is thread pool?",
+        "keywords": ["reuse", "threads"]
+      },
+      {
+        "id": 22,
+        "question": "Difference between synchronized and Lock?",
+        "keywords": ["control", "flexibility"]
+      },
+      {
+        "id": 23,
+        "question": "What is ConcurrentHashMap?",
+        "keywords": ["thread safe", "map"]
+      },
+      {
+        "id": 24,
+        "question": "Difference between HashMap and ConcurrentHashMap?",
+        "keywords": ["thread safe"]
+      },
+      {
+        "id": 25,
+        "question": "What is blocking queue?",
+        "keywords": ["queue", "thread"]
+      },
+      {
+        "id": 26,
+        "question": "What is volatile keyword?",
+        "keywords": ["visibility", "thread"]
+      },
+      {
+        "id": 27,
+        "question": "What is Callable interface?",
+        "keywords": ["return value", "thread"]
+      },
+      {
+        "id": 28,
+        "question": "Difference between Runnable and Callable?",
+        "keywords": ["return", "exception"]
+      },
+      {
+        "id": 29,
+        "question": "What is Future in Java?",
+        "keywords": ["result", "async"]
+      },
+      {
+        "id": 30,
+        "question": "What is thread safety?",
+        "keywords": ["safe", "concurrent"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "id": 1,
+        "question": "Explain internal working of HashMap in detail.",
+        "keywords": ["hash", "bucket", "tree"]
+      },
+      {
+        "id": 2,
+        "question": "How does resizing happen in HashMap?",
+        "keywords": ["rehash", "capacity"]
+      },
+      {
+        "id": 3,
+        "question": "What is time complexity of different collections?",
+        "keywords": ["big o", "performance"]
+      },
+      {
+        "id": 4,
+        "question": "Why is HashMap not thread safe?",
+        "keywords": ["concurrency", "issue"]
+      },
+      {
+        "id": 5,
+        "question": "How does ConcurrentHashMap achieve thread safety?",
+        "keywords": ["segments", "lock"]
+      },
+      {
+        "id": 6,
+        "question": "Explain CopyOnWriteArrayList.",
+        "keywords": ["thread safe", "copy"]
+      },
+      {
+        "id": 7,
+        "question": "What is fail-fast vs fail-safe iterator?",
+        "keywords": ["modification", "exception"]
+      },
+      {
+        "id": 8,
+        "question": "Explain thread lifecycle in detail.",
+        "keywords": ["states", "transitions"]
+      },
+      {
+        "id": 9,
+        "question": "What causes deadlock and how to prevent it?",
+        "keywords": ["lock", "avoid"]
+      },
+      {
+        "id": 10,
+        "question": "What is livelock and starvation?",
+        "keywords": ["thread", "issue"]
+      },
+      {
+        "id": 11,
+        "question": "Explain thread scheduling in Java.",
+        "keywords": ["priority", "cpu"]
+      },
+      {
+        "id": 12,
+        "question": "What is ForkJoin framework?",
+        "keywords": ["parallel", "task"]
+      },
+      {
+        "id": 13,
+        "question": "Explain parallel streams.",
+        "keywords": ["stream", "parallel"]
+      },
+      {
+        "id": 14,
+        "question": "What is ReentrantLock?",
+        "keywords": ["lock", "control"]
+      },
+      {
+        "id": 15,
+        "question": "Difference between ReentrantLock and synchronized?",
+        "keywords": ["flexibility", "lock"]
+      },
+      {
+        "id": 16,
+        "question": "What is semaphore in Java?",
+        "keywords": ["permit", "thread"]
+      },
+      {
+        "id": 17,
+        "question": "What is CountDownLatch?",
+        "keywords": ["sync", "threads"]
+      },
+      {
+        "id": 18,
+        "question": "What is CyclicBarrier?",
+        "keywords": ["barrier", "threads"]
+      },
+      {
+        "id": 19,
+        "question": "Explain memory visibility problem.",
+        "keywords": ["thread", "cache"]
+      },
+      {
+        "id": 20,
+        "question": "What is happens-before relationship?",
+        "keywords": ["ordering", "thread"]
+      },
+      {
+        "id": 21,
+        "question": "Explain double checked locking.",
+        "keywords": ["singleton", "optimization"]
+      },
+      {
+        "id": 22,
+        "question": "What is thread starvation?",
+        "keywords": ["priority", "issue"]
+      },
+      {
+        "id": 23,
+        "question": "Explain blocking vs non-blocking algorithms.",
+        "keywords": ["concurrency", "performance"]
+      },
+      {
+        "id": 24,
+        "question": "What is lock contention?",
+        "keywords": ["threads", "competition"]
+      },
+      {
+        "id": 25,
+        "question": "How does ExecutorService manage threads?",
+        "keywords": ["pool", "task"]
+      },
+      {
+        "id": 26,
+        "question": "Explain FutureTask in Java.",
+        "keywords": ["async", "result"]
+      },
+      {
+        "id": 27,
+        "question": "What is CompletableFuture?",
+        "keywords": ["async", "chain"]
+      },
+      {
+        "id": 28,
+        "question": "What is non-blocking queue?",
+        "keywords": ["concurrent", "queue"]
+      },
+      {
+        "id": 29,
+        "question": "Explain producer-consumer problem.",
+        "keywords": ["queue", "thread"]
+      },
+      {
+        "id": 30,
+        "question": "What are best practices for multithreading?",
+        "keywords": ["safe", "design"]
+      }
+    ]
+      },
+
+      "Backend_Frameworks": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is Spring Framework?",
+        "keywords": ["framework", "java"]
+      },
+      {
+        "id": 2,
+        "question": "What is Spring Boot?",
+        "keywords": ["framework", "auto configuration"]
+      },
+      {
+        "id": 3,
+        "question": "What is dependency injection?",
+        "keywords": ["loose coupling", "injection"]
+      },
+      {
+        "id": 4,
+        "question": "What is inversion of control?",
+        "keywords": ["control", "container"]
+      },
+      {
+        "id": 5,
+        "question": "What is a bean in Spring?",
+        "keywords": ["object", "managed"]
+      },
+      {
+        "id": 6,
+        "question": "What is @SpringBootApplication?",
+        "keywords": ["annotation", "main"]
+      },
+      {
+        "id": 7,
+        "question": "What is @RestController?",
+        "keywords": ["api", "controller"]
+      },
+      {
+        "id": 8,
+        "question": "What is @RequestMapping?",
+        "keywords": ["url", "mapping"]
+      },
+      {
+        "id": 9,
+        "question": "What is @GetMapping?",
+        "keywords": ["get", "request"]
+      },
+      {
+        "id": 10,
+        "question": "What is @PostMapping?",
+        "keywords": ["post", "request"]
+      },
+      {
+        "id": 11,
+        "question": "What is @Autowired?",
+        "keywords": ["inject", "dependency"]
+      },
+      {
+        "id": 12,
+        "question": "What is application.properties file?",
+        "keywords": ["configuration", "settings"]
+      },
+      {
+        "id": 13,
+        "question": "What is a REST API?",
+        "keywords": ["http", "stateless"]
+      },
+      {
+        "id": 14,
+        "question": "What is HTTP?",
+        "keywords": ["protocol", "web"]
+      },
+      {
+        "id": 15,
+        "question": "What are HTTP methods?",
+        "keywords": ["get", "post", "put", "delete"]
+      },
+      {
+        "id": 16,
+        "question": "What is JSON?",
+        "keywords": ["data format", "api"]
+      },
+      {
+        "id": 17,
+        "question": "What is a controller in Spring?",
+        "keywords": ["handle", "request"]
+      },
+      {
+        "id": 18,
+        "question": "What is a service layer?",
+        "keywords": ["business logic"]
+      },
+      {
+        "id": 19,
+        "question": "What is a repository in Spring?",
+        "keywords": ["database", "access"]
+      },
+      {
+        "id": 20,
+        "question": "What is @Entity?",
+        "keywords": ["table", "database"]
+      },
+      {
+        "id": 21,
+        "question": "What is @Id annotation?",
+        "keywords": ["primary key"]
+      },
+      {
+        "id": 22,
+        "question": "What is @Table?",
+        "keywords": ["database", "mapping"]
+      },
+      {
+        "id": 23,
+        "question": "What is Maven?",
+        "keywords": ["build tool", "dependencies"]
+      },
+      {
+        "id": 24,
+        "question": "What is Gradle?",
+        "keywords": ["build tool"]
+      },
+      {
+        "id": 25,
+        "question": "What is application.yml?",
+        "keywords": ["configuration"]
+      },
+      {
+        "id": 26,
+        "question": "What is port in Spring Boot?",
+        "keywords": ["server", "connection"]
+      },
+      {
+        "id": 27,
+        "question": "What is embedded server?",
+        "keywords": ["tomcat", "built in"]
+      },
+      {
+        "id": 28,
+        "question": "What is @PathVariable?",
+        "keywords": ["url", "parameter"]
+      },
+      {
+        "id": 29,
+        "question": "What is @RequestParam?",
+        "keywords": ["query", "parameter"]
+      },
+      {
+        "id": 30,
+        "question": "What is @RequestBody?",
+        "keywords": ["json", "input"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is the difference between Spring and Spring Boot?",
+        "keywords": ["configuration", "auto"]
+      },
+      {
+        "id": 2,
+        "question": "How does dependency injection work in Spring?",
+        "keywords": ["container", "inject"]
+      },
+      {
+        "id": 3,
+        "question": "What are different types of dependency injection?",
+        "keywords": ["constructor", "setter"]
+      },
+      {
+        "id": 4,
+        "question": "What is component scanning?",
+        "keywords": ["scan", "beans"]
+      },
+      {
+        "id": 5,
+        "question": "What is @Component annotation?",
+        "keywords": ["bean", "scan"]
+      },
+      {
+        "id": 6,
+        "question": "Difference between @Component, @Service, and @Repository?",
+        "keywords": ["layers", "annotations"]
+      },
+      {
+        "id": 7,
+        "question": "What is MVC architecture?",
+        "keywords": ["model", "view", "controller"]
+      },
+      {
+        "id": 8,
+        "question": "How does Spring MVC handle requests?",
+        "keywords": ["dispatcher", "flow"]
+      },
+      {
+        "id": 9,
+        "question": "What is DispatcherServlet?",
+        "keywords": ["controller", "request"]
+      },
+      {
+        "id": 10,
+        "question": "What is RESTful API design?",
+        "keywords": ["resource", "stateless"]
+      },
+      {
+        "id": 11,
+        "question": "What is @ResponseBody?",
+        "keywords": ["json", "output"]
+      },
+      {
+        "id": 12,
+        "question": "What is exception handling in Spring?",
+        "keywords": ["error", "handler"]
+      },
+      {
+        "id": 13,
+        "question": "What is @ExceptionHandler?",
+        "keywords": ["handle", "error"]
+      },
+      {
+        "id": 14,
+        "question": "What is Spring Data JPA?",
+        "keywords": ["orm", "database"]
+      },
+      {
+        "id": 15,
+        "question": "What is Hibernate?",
+        "keywords": ["orm", "mapping"]
+      },
+      {
+        "id": 16,
+        "question": "Difference between JPA and Hibernate?",
+        "keywords": ["specification", "implementation"]
+      },
+      {
+        "id": 17,
+        "question": "What is lazy loading?",
+        "keywords": ["fetch", "delay"]
+      },
+      {
+        "id": 18,
+        "question": "What is eager loading?",
+        "keywords": ["fetch", "immediate"]
+      },
+      {
+        "id": 19,
+        "question": "What is transaction management?",
+        "keywords": ["commit", "rollback"]
+      },
+      {
+        "id": 20,
+        "question": "What is @Transactional?",
+        "keywords": ["transaction", "management"]
+      },
+      {
+        "id": 21,
+        "question": "What is REST controller flow?",
+        "keywords": ["request", "response"]
+      },
+      {
+        "id": 22,
+        "question": "What is validation in Spring?",
+        "keywords": ["input", "check"]
+      },
+      {
+        "id": 23,
+        "question": "What is DTO in Spring?",
+        "keywords": ["data transfer"]
+      },
+      {
+        "id": 24,
+        "question": "What is pagination in APIs?",
+        "keywords": ["limit", "offset"]
+      },
+      {
+        "id": 25,
+        "question": "What is logging in Spring Boot?",
+        "keywords": ["log", "debug"]
+      },
+      {
+        "id": 26,
+        "question": "What is actuator in Spring Boot?",
+        "keywords": ["monitor", "health"]
+      },
+      {
+        "id": 27,
+        "question": "What is profile in Spring?",
+        "keywords": ["environment", "config"]
+      },
+      {
+        "id": 28,
+        "question": "What is cross-origin request?",
+        "keywords": ["cors", "security"]
+      },
+      {
+        "id": 29,
+        "question": "What is API versioning?",
+        "keywords": ["v1", "compatibility"]
+      },
+      {
+        "id": 30,
+        "question": "What is testing in Spring Boot?",
+        "keywords": ["unit", "integration"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "id": 1,
+        "question": "Explain complete request lifecycle in Spring Boot.",
+        "keywords": ["dispatcher", "flow"]
+      },
+      {
+        "id": 2,
+        "question": "How does Spring Boot auto-configuration work?",
+        "keywords": ["annotations", "config"]
+      },
+      {
+        "id": 3,
+        "question": "What is Spring Boot starter and how does it work?",
+        "keywords": ["dependencies", "starter"]
+      },
+      {
+        "id": 4,
+        "question": "How does dependency injection container work internally?",
+        "keywords": ["ioc", "bean"]
+      },
+      {
+        "id": 5,
+        "question": "What are scopes of beans in Spring?",
+        "keywords": ["singleton", "prototype"]
+      },
+      {
+        "id": 6,
+        "question": "How does Spring manage transactions internally?",
+        "keywords": ["proxy", "aop"]
+      },
+      {
+        "id": 7,
+        "question": "What is AOP in Spring?",
+        "keywords": ["aspect", "cross cutting"]
+      },
+      {
+        "id": 8,
+        "question": "What are different types of advice in AOP?",
+        "keywords": ["before", "after"]
+      },
+      {
+        "id": 9,
+        "question": "How does Hibernate manage session?",
+        "keywords": ["session", "cache"]
+      },
+      {
+        "id": 10,
+        "question": "What is first level and second level cache?",
+        "keywords": ["cache", "performance"]
+      },
+      {
+        "id": 11,
+        "question": "What are common performance issues in Spring Boot apps?",
+        "keywords": ["memory", "cpu"]
+      },
+      {
+        "id": 12,
+        "question": "How do you optimize Spring Boot performance?",
+        "keywords": ["caching", "tuning"]
+      },
+      {
+        "id": 13,
+        "question": "What is microservices architecture?",
+        "keywords": ["services", "distributed"]
+      },
+      {
+        "id": 14,
+        "question": "What are challenges in microservices?",
+        "keywords": ["communication", "failure"]
+      },
+      {
+        "id": 15,
+        "question": "What is API gateway?",
+        "keywords": ["routing", "gateway"]
+      },
+      {
+        "id": 16,
+        "question": "What is service discovery?",
+        "keywords": ["registry", "services"]
+      },
+      {
+        "id": 17,
+        "question": "What is circuit breaker pattern?",
+        "keywords": ["fault", "tolerance"]
+      },
+      {
+        "id": 18,
+        "question": "How do you secure Spring Boot applications?",
+        "keywords": ["authentication", "security"]
+      },
+      {
+        "id": 19,
+        "question": "What is Spring Security?",
+        "keywords": ["auth", "security"]
+      },
+      {
+        "id": 20,
+        "question": "What is JWT authentication in Spring?",
+        "keywords": ["token", "auth"]
+      },
+      {
+        "id": 21,
+        "question": "What are common vulnerabilities in web apps?",
+        "keywords": ["xss", "csrf"]
+      },
+      {
+        "id": 22,
+        "question": "How do you handle global exceptions?",
+        "keywords": ["handler", "error"]
+      },
+      {
+        "id": 23,
+        "question": "What is Docker and how is it used with Spring Boot?",
+        "keywords": ["container", "deploy"]
+      },
+      {
+        "id": 24,
+        "question": "What is CI/CD in backend systems?",
+        "keywords": ["pipeline", "deploy"]
+      },
+      {
+        "id": 25,
+        "question": "What is logging strategy in production?",
+        "keywords": ["monitor", "logs"]
+      },
+      {
+        "id": 26,
+        "question": "How do you handle high traffic in backend systems?",
+        "keywords": ["scaling", "load"]
+      },
+      {
+        "id": 27,
+        "question": "What is caching strategy in Spring?",
+        "keywords": ["redis", "cache"]
+      },
+      {
+        "id": 28,
+        "question": "What is API rate limiting?",
+        "keywords": ["limit", "requests"]
+      },
+      {
+        "id": 29,
+        "question": "How do you design scalable REST APIs?",
+        "keywords": ["stateless", "design"]
+      },
+      {
+        "id": 30,
+        "question": "What are best practices for Spring Boot project structure?",
+        "keywords": ["modular", "layers"]
+      }
+    ]
+      }
+    },
+
+    "Machine_Learning": {
+      "ML_Basics": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is Machine Learning and how is it different from traditional programming?",
+        "keywords": ["data", "learning", "model"]
+      },
+      {
+        "id": 2,
+        "question": "What are the main types of machine learning?",
+        "keywords": ["supervised", "unsupervised", "reinforcement"]
+      },
+      {
+        "id": 3,
+        "question": "What is supervised learning with an example?",
+        "keywords": ["labeled", "prediction"]
+      },
+      {
+        "id": 4,
+        "question": "What is unsupervised learning?",
+        "keywords": ["unlabeled", "patterns"]
+      },
+      {
+        "id": 5,
+        "question": "What is a dataset in machine learning?",
+        "keywords": ["data", "training"]
+      },
+      {
+        "id": 6,
+        "question": "What is a feature in a dataset?",
+        "keywords": ["input", "variable"]
+      },
+      {
+        "id": 7,
+        "question": "What is a label or target variable?",
+        "keywords": ["output", "prediction"]
+      },
+      {
+        "id": 8,
+        "question": "What is training a model?",
+        "keywords": ["learn", "data"]
+      },
+      {
+        "id": 9,
+        "question": "What is testing a model?",
+        "keywords": ["evaluate", "performance"]
+      },
+      {
+        "id": 10,
+        "question": "What is accuracy in machine learning?",
+        "keywords": ["correct", "prediction"]
+      },
+      {
+        "id": 11,
+        "question": "What is a model in machine learning?",
+        "keywords": ["algorithm", "prediction"]
+      },
+      {
+        "id": 12,
+        "question": "What is classification problem?",
+        "keywords": ["categories", "output"]
+      },
+      {
+        "id": 13,
+        "question": "What is regression problem?",
+        "keywords": ["continuous", "value"]
+      },
+      {
+        "id": 14,
+        "question": "What is overfitting in simple terms?",
+        "keywords": ["memorize", "poor generalization"]
+      },
+      {
+        "id": 15,
+        "question": "What is underfitting?",
+        "keywords": ["too simple", "low performance"]
+      },
+      {
+        "id": 16,
+        "question": "What is training data and test data split?",
+        "keywords": ["split", "evaluation"]
+      },
+      {
+        "id": 17,
+        "question": "What is Python library used for ML?",
+        "keywords": ["sklearn", "pandas"]
+      },
+      {
+        "id": 18,
+        "question": "What is NumPy used for in ML?",
+        "keywords": ["array", "math"]
+      },
+      {
+        "id": 19,
+        "question": "What is Pandas used for?",
+        "keywords": ["dataframe", "data"]
+      },
+      {
+        "id": 20,
+        "question": "What is data preprocessing?",
+        "keywords": ["clean", "prepare"]
+      },
+      {
+        "id": 21,
+        "question": "What is missing data?",
+        "keywords": ["null", "values"]
+      },
+      {
+        "id": 22,
+        "question": "What is normalization?",
+        "keywords": ["scale", "data"]
+      },
+      {
+        "id": 23,
+        "question": "What is standardization?",
+        "keywords": ["mean", "variance"]
+      },
+      {
+        "id": 24,
+        "question": "What is feature scaling and why is it needed?",
+        "keywords": ["scale", "model"]
+      },
+      {
+        "id": 25,
+        "question": "What is a prediction in ML?",
+        "keywords": ["output", "model"]
+      },
+      {
+        "id": 26,
+        "question": "What is model evaluation?",
+        "keywords": ["metrics", "performance"]
+      },
+      {
+        "id": 27,
+        "question": "What is confusion matrix?",
+        "keywords": ["tp", "fp"]
+      },
+      {
+        "id": 28,
+        "question": "What is precision and recall?",
+        "keywords": ["metrics", "classification"]
+      },
+      {
+        "id": 29,
+        "question": "What is F1 score?",
+        "keywords": ["balance", "precision recall"]
+      },
+      {
+        "id": 30,
+        "question": "What is cross-validation?",
+        "keywords": ["split", "validation"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "id": 1,
+        "question": "Explain overfitting and how to prevent it with real techniques.",
+        "keywords": ["regularization", "dropout"]
+      },
+      {
+        "id": 2,
+        "question": "Explain underfitting and how to improve model performance.",
+        "keywords": ["complexity", "training"]
+      },
+      {
+        "id": 3,
+        "question": "What is bias and variance in ML models?",
+        "keywords": ["error", "model"]
+      },
+      {
+        "id": 4,
+        "question": "What is train-test split and why is it important?",
+        "keywords": ["evaluation", "generalization"]
+      },
+      {
+        "id": 5,
+        "question": "What is k-fold cross validation?",
+        "keywords": ["folds", "validation"]
+      },
+      {
+        "id": 6,
+        "question": "What is feature engineering?",
+        "keywords": ["create", "features"]
+      },
+      {
+        "id": 7,
+        "question": "What is feature selection?",
+        "keywords": ["important", "features"]
+      },
+      {
+        "id": 8,
+        "question": "Difference between classification and regression?",
+        "keywords": ["discrete", "continuous"]
+      },
+      {
+        "id": 9,
+        "question": "What is logistic regression and when is it used?",
+        "keywords": ["classification", "probability"]
+      },
+      {
+        "id": 10,
+        "question": "What is linear regression and its assumptions?",
+        "keywords": ["line", "prediction"]
+      },
+      {
+        "id": 11,
+        "question": "What is decision tree and how does it work?",
+        "keywords": ["tree", "split"]
+      },
+      {
+        "id": 12,
+        "question": "What is entropy and information gain?",
+        "keywords": ["split", "tree"]
+      },
+      {
+        "id": 13,
+        "question": "What is random forest?",
+        "keywords": ["ensemble", "trees"]
+      },
+      {
+        "id": 14,
+        "question": "What is k-nearest neighbors algorithm?",
+        "keywords": ["distance", "neighbors"]
+      },
+      {
+        "id": 15,
+        "question": "What is support vector machine?",
+        "keywords": ["margin", "hyperplane"]
+      },
+      {
+        "id": 16,
+        "question": "What is clustering and when is it used?",
+        "keywords": ["groups", "unsupervised"]
+      },
+      {
+        "id": 17,
+        "question": "What is k-means clustering?",
+        "keywords": ["centroid", "clusters"]
+      },
+      {
+        "id": 18,
+        "question": "What is dimensionality reduction?",
+        "keywords": ["features", "reduce"]
+      },
+      {
+        "id": 19,
+        "question": "What is PCA and why is it used?",
+        "keywords": ["variance", "components"]
+      },
+      {
+        "id": 20,
+        "question": "What is hyperparameter tuning?",
+        "keywords": ["parameters", "optimize"]
+      },
+      {
+        "id": 21,
+        "question": "What is grid search?",
+        "keywords": ["search", "parameters"]
+      },
+      {
+        "id": 22,
+        "question": "What is pipeline in ML?",
+        "keywords": ["steps", "workflow"]
+      },
+      {
+        "id": 23,
+        "question": "What is imbalanced dataset and how to handle it?",
+        "keywords": ["smote", "balance"]
+      },
+      {
+        "id": 24,
+        "question": "What is ROC curve?",
+        "keywords": ["tp", "fp"]
+      },
+      {
+        "id": 25,
+        "question": "What is AUC score?",
+        "keywords": ["performance", "metric"]
+      },
+      {
+        "id": 26,
+        "question": "What is regularization?",
+        "keywords": ["l1", "l2"]
+      },
+      {
+        "id": 27,
+        "question": "Difference between L1 and L2 regularization?",
+        "keywords": ["lasso", "ridge"]
+      },
+      {
+        "id": 28,
+        "question": "What is gradient descent?",
+        "keywords": ["optimize", "loss"]
+      },
+      {
+        "id": 29,
+        "question": "What is loss function?",
+        "keywords": ["error", "optimize"]
+      },
+      {
+        "id": 30,
+        "question": "What is model deployment in ML?",
+        "keywords": ["production", "api"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "id": 1,
+        "question": "Explain bias-variance tradeoff in detail with real-world intuition.",
+        "keywords": ["error", "balance"]
+      },
+      {
+        "id": 2,
+        "question": "How does gradient descent work mathematically and practically?",
+        "keywords": ["derivative", "optimize"]
+      },
+      {
+        "id": 3,
+        "question": "Explain different types of gradient descent.",
+        "keywords": ["batch", "stochastic", "mini batch"]
+      },
+      {
+        "id": 4,
+        "question": "How does regularization reduce overfitting?",
+        "keywords": ["penalty", "weights"]
+      },
+      {
+        "id": 5,
+        "question": "Explain working of decision tree with splitting criteria.",
+        "keywords": ["entropy", "gini"]
+      },
+      {
+        "id": 6,
+        "question": "How does random forest reduce overfitting?",
+        "keywords": ["ensemble", "bagging"]
+      },
+      {
+        "id": 7,
+        "question": "Explain boosting vs bagging techniques.",
+        "keywords": ["ensemble", "difference"]
+      },
+      {
+        "id": 8,
+        "question": "How does SVM find optimal hyperplane?",
+        "keywords": ["margin", "support vectors"]
+      },
+      {
+        "id": 9,
+        "question": "Explain kernel trick in SVM.",
+        "keywords": ["non linear", "mapping"]
+      },
+      {
+        "id": 10,
+        "question": "What are challenges with high dimensional data?",
+        "keywords": ["curse", "dimensionality"]
+      },
+      {
+        "id": 11,
+        "question": "Explain PCA mathematically.",
+        "keywords": ["eigenvalues", "variance"]
+      },
+      {
+        "id": 12,
+        "question": "How do you evaluate a classification model deeply?",
+        "keywords": ["metrics", "analysis"]
+      },
+      {
+        "id": 13,
+        "question": "How do you handle missing data effectively?",
+        "keywords": ["imputation", "strategy"]
+      },
+      {
+        "id": 14,
+        "question": "What are assumptions of linear regression?",
+        "keywords": ["linearity", "independence"]
+      },
+      {
+        "id": 15,
+        "question": "What is multicollinearity and its impact?",
+        "keywords": ["correlation", "features"]
+      },
+      {
+        "id": 16,
+        "question": "How do you detect and remove outliers?",
+        "keywords": ["z score", "iqr"]
+      },
+      {
+        "id": 17,
+        "question": "What is pipeline optimization in ML systems?",
+        "keywords": ["workflow", "efficiency"]
+      },
+      {
+        "id": 18,
+        "question": "How do you deploy ML models in production?",
+        "keywords": ["api", "serving"]
+      },
+      {
+        "id": 19,
+        "question": "What is model drift and how to handle it?",
+        "keywords": ["data change", "monitor"]
+      },
+      {
+        "id": 20,
+        "question": "What is concept drift?",
+        "keywords": ["distribution", "change"]
+      },
+      {
+        "id": 21,
+        "question": "What is feature importance?",
+        "keywords": ["impact", "model"]
+      },
+      {
+        "id": 22,
+        "question": "How do you interpret ML models?",
+        "keywords": ["explainability"]
+      },
+      {
+        "id": 23,
+        "question": "What is SHAP or LIME?",
+        "keywords": ["explain", "model"]
+      },
+      {
+        "id": 24,
+        "question": "How do you handle imbalanced datasets in depth?",
+        "keywords": ["resampling", "weights"]
+      },
+      {
+        "id": 25,
+        "question": "What is ensemble learning and why is it powerful?",
+        "keywords": ["combine", "models"]
+      },
+      {
+        "id": 26,
+        "question": "What is cross validation bias?",
+        "keywords": ["evaluation", "error"]
+      },
+      {
+        "id": 27,
+        "question": "What is hyperparameter optimization techniques?",
+        "keywords": ["grid", "random"]
+      },
+      {
+        "id": 28,
+        "question": "How do you scale ML systems?",
+        "keywords": ["distributed", "data"]
+      },
+      {
+        "id": 29,
+        "question": "What are trade-offs in model selection?",
+        "keywords": ["accuracy", "speed"]
+      },
+      {
+        "id": 30,
+        "question": "What are best practices in ML project lifecycle?",
+        "keywords": ["pipeline", "monitoring"]
+      }
+    ]
+      },
+
+      "Algorithms_Models": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is Linear Regression and what type of problem does it solve?",
+        "keywords": ["prediction", "line"]
+      },
+      {
+        "id": 2,
+        "question": "What is Logistic Regression and when is it used?",
+        "keywords": ["classification", "probability"]
+      },
+      {
+        "id": 3,
+        "question": "What is Decision Tree in simple terms?",
+        "keywords": ["tree", "split"]
+      },
+      {
+        "id": 4,
+        "question": "What is Random Forest?",
+        "keywords": ["ensemble", "trees"]
+      },
+      {
+        "id": 5,
+        "question": "What is K-Nearest Neighbors (KNN)?",
+        "keywords": ["distance", "neighbors"]
+      },
+      {
+        "id": 6,
+        "question": "What is Support Vector Machine (SVM)?",
+        "keywords": ["hyperplane", "classification"]
+      },
+      {
+        "id": 7,
+        "question": "What is Naive Bayes algorithm?",
+        "keywords": ["probability", "bayes"]
+      },
+      {
+        "id": 8,
+        "question": "What is K-Means clustering?",
+        "keywords": ["clusters", "centroid"]
+      },
+      {
+        "id": 9,
+        "question": "What is Hierarchical Clustering?",
+        "keywords": ["tree", "clusters"]
+      },
+      {
+        "id": 10,
+        "question": "What is Gradient Descent used for?",
+        "keywords": ["optimize", "loss"]
+      },
+      {
+        "id": 11,
+        "question": "What is loss function in ML models?",
+        "keywords": ["error", "optimize"]
+      },
+      {
+        "id": 12,
+        "question": "What is model training in algorithms?",
+        "keywords": ["learn", "parameters"]
+      },
+      {
+        "id": 13,
+        "question": "What is prediction phase in ML models?",
+        "keywords": ["output", "inference"]
+      },
+      {
+        "id": 14,
+        "question": "What is clustering vs classification?",
+        "keywords": ["unsupervised", "supervised"]
+      },
+      {
+        "id": 15,
+        "question": "What is regression vs classification?",
+        "keywords": ["continuous", "discrete"]
+      },
+      {
+        "id": 16,
+        "question": "What is hyperparameter in ML models?",
+        "keywords": ["settings", "model"]
+      },
+      {
+        "id": 17,
+        "question": "What is feature importance in models?",
+        "keywords": ["impact", "features"]
+      },
+      {
+        "id": 18,
+        "question": "What is distance metric in KNN?",
+        "keywords": ["euclidean", "distance"]
+      },
+      {
+        "id": 19,
+        "question": "What is centroid in K-Means?",
+        "keywords": ["center", "cluster"]
+      },
+      {
+        "id": 20,
+        "question": "What is training error?",
+        "keywords": ["error", "training"]
+      },
+      {
+        "id": 21,
+        "question": "What is test error?",
+        "keywords": ["evaluation", "generalization"]
+      },
+      {
+        "id": 22,
+        "question": "What is model accuracy?",
+        "keywords": ["correct", "prediction"]
+      },
+      {
+        "id": 23,
+        "question": "What is classification boundary?",
+        "keywords": ["decision", "boundary"]
+      },
+      {
+        "id": 24,
+        "question": "What is a probabilistic model?",
+        "keywords": ["probability", "prediction"]
+      },
+      {
+        "id": 25,
+        "question": "What is ensemble model?",
+        "keywords": ["combine", "models"]
+      },
+      {
+        "id": 26,
+        "question": "What is bagging in ML?",
+        "keywords": ["bootstrap", "ensemble"]
+      },
+      {
+        "id": 27,
+        "question": "What is boosting in ML?",
+        "keywords": ["improve", "model"]
+      },
+      {
+        "id": 28,
+        "question": "What is model inference?",
+        "keywords": ["predict", "deploy"]
+      },
+      {
+        "id": 29,
+        "question": "What is parameter vs hyperparameter?",
+        "keywords": ["learned", "set"]
+      },
+      {
+        "id": 30,
+        "question": "What is optimization in ML models?",
+        "keywords": ["loss", "minimize"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "id": 1,
+        "question": "Explain how Linear Regression works mathematically.",
+        "keywords": ["equation", "fit"]
+      },
+      {
+        "id": 2,
+        "question": "What are assumptions of Linear Regression?",
+        "keywords": ["linearity", "independence"]
+      },
+      {
+        "id": 3,
+        "question": "How does Logistic Regression perform classification?",
+        "keywords": ["sigmoid", "probability"]
+      },
+      {
+        "id": 4,
+        "question": "How does Decision Tree decide splits?",
+        "keywords": ["entropy", "gini"]
+      },
+      {
+        "id": 5,
+        "question": "What causes overfitting in Decision Trees?",
+        "keywords": ["depth", "complexity"]
+      },
+      {
+        "id": 6,
+        "question": "How does Random Forest improve accuracy?",
+        "keywords": ["bagging", "ensemble"]
+      },
+      {
+        "id": 7,
+        "question": "How does KNN classify data points?",
+        "keywords": ["distance", "neighbors"]
+      },
+      {
+        "id": 8,
+        "question": "What is impact of K value in KNN?",
+        "keywords": ["bias", "variance"]
+      },
+      {
+        "id": 9,
+        "question": "How does SVM maximize margin?",
+        "keywords": ["hyperplane", "margin"]
+      },
+      {
+        "id": 10,
+        "question": "What is kernel function in SVM?",
+        "keywords": ["mapping", "non linear"]
+      },
+      {
+        "id": 11,
+        "question": "How does Naive Bayes use probability?",
+        "keywords": ["conditional", "bayes"]
+      },
+      {
+        "id": 12,
+        "question": "How does K-Means clustering work step by step?",
+        "keywords": ["assign", "update"]
+      },
+      {
+        "id": 13,
+        "question": "What are limitations of K-Means?",
+        "keywords": ["clusters", "sensitive"]
+      },
+      {
+        "id": 14,
+        "question": "What is elbow method in clustering?",
+        "keywords": ["k selection"]
+      },
+      {
+        "id": 15,
+        "question": "What is hierarchical clustering working?",
+        "keywords": ["merge", "split"]
+      },
+      {
+        "id": 16,
+        "question": "What is gradient descent update rule?",
+        "keywords": ["learning rate", "update"]
+      },
+      {
+        "id": 17,
+        "question": "What is learning rate and its impact?",
+        "keywords": ["step size", "convergence"]
+      },
+      {
+        "id": 18,
+        "question": "What is batch vs stochastic gradient descent?",
+        "keywords": ["update", "data"]
+      },
+      {
+        "id": 19,
+        "question": "How does regularization affect models?",
+        "keywords": ["penalty", "weights"]
+      },
+      {
+        "id": 20,
+        "question": "What is bias in Linear Regression?",
+        "keywords": ["error", "model"]
+      },
+      {
+        "id": 21,
+        "question": "What is variance in models?",
+        "keywords": ["overfit", "sensitivity"]
+      },
+      {
+        "id": 22,
+        "question": "What is ensemble learning advantage?",
+        "keywords": ["accuracy", "combine"]
+      },
+      {
+        "id": 23,
+        "question": "Difference between bagging and boosting?",
+        "keywords": ["parallel", "sequential"]
+      },
+      {
+        "id": 24,
+        "question": "What is model interpretability?",
+        "keywords": ["explain", "model"]
+      },
+      {
+        "id": 25,
+        "question": "How do you evaluate clustering models?",
+        "keywords": ["silhouette", "score"]
+      },
+      {
+        "id": 26,
+        "question": "What is confusion matrix in classification models?",
+        "keywords": ["tp", "fp"]
+      },
+      {
+        "id": 27,
+        "question": "What is ROC curve interpretation?",
+        "keywords": ["threshold", "performance"]
+      },
+      {
+        "id": 28,
+        "question": "What is precision vs recall tradeoff?",
+        "keywords": ["balance", "metric"]
+      },
+      {
+        "id": 29,
+        "question": "How do you choose the right model?",
+        "keywords": ["data", "problem"]
+      },
+      {
+        "id": 30,
+        "question": "What is model selection strategy?",
+        "keywords": ["compare", "evaluate"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "id": 1,
+        "question": "Derive cost function for Linear Regression and explain optimization.",
+        "keywords": ["loss", "derivative"]
+      },
+      {
+        "id": 2,
+        "question": "Explain gradient descent convergence issues.",
+        "keywords": ["local minima", "divergence"]
+      },
+      {
+        "id": 3,
+        "question": "Compare Linear vs Logistic Regression mathematically.",
+        "keywords": ["equation", "sigmoid"]
+      },
+      {
+        "id": 4,
+        "question": "Explain decision tree pruning techniques.",
+        "keywords": ["overfitting", "reduce"]
+      },
+      {
+        "id": 5,
+        "question": "How does Random Forest reduce variance?",
+        "keywords": ["bagging", "variance"]
+      },
+      {
+        "id": 6,
+        "question": "Explain boosting algorithms like AdaBoost.",
+        "keywords": ["weights", "ensemble"]
+      },
+      {
+        "id": 7,
+        "question": "Explain XGBoost and why it is powerful.",
+        "keywords": ["gradient", "boosting"]
+      },
+      {
+        "id": 8,
+        "question": "Explain SVM optimization problem.",
+        "keywords": ["margin", "constraint"]
+      },
+      {
+        "id": 9,
+        "question": "Explain kernel trick mathematically.",
+        "keywords": ["mapping", "dimension"]
+      },
+      {
+        "id": 10,
+        "question": "What is curse of dimensionality in KNN?",
+        "keywords": ["distance", "high dimension"]
+      },
+      {
+        "id": 11,
+        "question": "How does Naive Bayes handle independence assumption?",
+        "keywords": ["probability", "assumption"]
+      },
+      {
+        "id": 12,
+        "question": "Explain convergence of K-Means algorithm.",
+        "keywords": ["iterations", "stability"]
+      },
+      {
+        "id": 13,
+        "question": "What are advanced clustering techniques?",
+        "keywords": ["dbscan", "hierarchical"]
+      },
+      {
+        "id": 14,
+        "question": "Explain silhouette score mathematically.",
+        "keywords": ["distance", "clusters"]
+      },
+      {
+        "id": 15,
+        "question": "How do you handle non-linear data in models?",
+        "keywords": ["kernel", "transform"]
+      },
+      {
+        "id": 16,
+        "question": "Explain regularization paths in models.",
+        "keywords": ["lambda", "weights"]
+      },
+      {
+        "id": 17,
+        "question": "What are trade-offs in model complexity?",
+        "keywords": ["bias", "variance"]
+      },
+      {
+        "id": 18,
+        "question": "Explain ensemble stacking technique.",
+        "keywords": ["combine", "models"]
+      },
+      {
+        "id": 19,
+        "question": "How do you tune hyperparameters effectively?",
+        "keywords": ["search", "optimize"]
+      },
+      {
+        "id": 20,
+        "question": "Explain evaluation metrics deeply for classification.",
+        "keywords": ["precision", "recall"]
+      },
+      {
+        "id": 21,
+        "question": "How do you interpret black-box models?",
+        "keywords": ["explainability", "model"]
+      },
+      {
+        "id": 22,
+        "question": "What are limitations of classical ML models?",
+        "keywords": ["data", "scaling"]
+      },
+      {
+        "id": 23,
+        "question": "How do you select features for complex models?",
+        "keywords": ["importance", "selection"]
+      },
+      {
+        "id": 24,
+        "question": "What is model robustness and stability?",
+        "keywords": ["noise", "consistency"]
+      },
+      {
+        "id": 25,
+        "question": "Explain bias in model predictions.",
+        "keywords": ["systematic", "error"]
+      },
+      {
+        "id": 26,
+        "question": "Explain variance in predictions.",
+        "keywords": ["fluctuation", "model"]
+      },
+      {
+        "id": 27,
+        "question": "How do you debug a poorly performing model?",
+        "keywords": ["analysis", "improve"]
+      },
+      {
+        "id": 28,
+        "question": "What is pipeline optimization in ML models?",
+        "keywords": ["workflow", "efficiency"]
+      },
+      {
+        "id": 29,
+        "question": "How do you scale algorithms for big data?",
+        "keywords": ["distributed", "parallel"]
+      },
+      {
+        "id": 30,
+        "question": "What are best practices for model selection and deployment?",
+        "keywords": ["production", "evaluation"]
+      }
+    ]
+      },
+
+      "Data_Tools": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is data preprocessing and why is it important?",
+        "keywords": ["cleaning", "data"]
+      },
+      {
+        "id": 2,
+        "question": "What is data cleaning?",
+        "keywords": ["remove", "noise"]
+      },
+      {
+        "id": 3,
+        "question": "What is missing data and how can it be handled?",
+        "keywords": ["null", "impute"]
+      },
+      {
+        "id": 4,
+        "question": "What is data transformation?",
+        "keywords": ["convert", "format"]
+      },
+      {
+        "id": 5,
+        "question": "What is feature scaling?",
+        "keywords": ["scale", "normalize"]
+      },
+      {
+        "id": 6,
+        "question": "What is normalization?",
+        "keywords": ["range", "scale"]
+      },
+      {
+        "id": 7,
+        "question": "What is standardization?",
+        "keywords": ["mean", "variance"]
+      },
+      {
+        "id": 8,
+        "question": "What is encoding in ML?",
+        "keywords": ["categorical", "convert"]
+      },
+      {
+        "id": 9,
+        "question": "What is one-hot encoding?",
+        "keywords": ["binary", "categories"]
+      },
+      {
+        "id": 10,
+        "question": "What is label encoding?",
+        "keywords": ["numbers", "categories"]
+      },
+      {
+        "id": 11,
+        "question": "What is Pandas used for in ML?",
+        "keywords": ["dataframe", "analysis"]
+      },
+      {
+        "id": 12,
+        "question": "What is NumPy used for?",
+        "keywords": ["arrays", "math"]
+      },
+      {
+        "id": 13,
+        "question": "What is Matplotlib?",
+        "keywords": ["visualization", "plots"]
+      },
+      {
+        "id": 14,
+        "question": "What is Seaborn?",
+        "keywords": ["visualization", "stats"]
+      },
+      {
+        "id": 15,
+        "question": "What is dataset splitting?",
+        "keywords": ["train", "test"]
+      },
+      {
+        "id": 16,
+        "question": "What is training dataset?",
+        "keywords": ["learn", "model"]
+      },
+      {
+        "id": 17,
+        "question": "What is test dataset?",
+        "keywords": ["evaluate", "model"]
+      },
+      {
+        "id": 18,
+        "question": "What is validation dataset?",
+        "keywords": ["tune", "model"]
+      },
+      {
+        "id": 19,
+        "question": "What is CSV file in ML?",
+        "keywords": ["data", "file"]
+      },
+      {
+        "id": 20,
+        "question": "What is JSON data format?",
+        "keywords": ["structured", "data"]
+      },
+      {
+        "id": 21,
+        "question": "What is data visualization?",
+        "keywords": ["charts", "insight"]
+      },
+      {
+        "id": 22,
+        "question": "What is histogram?",
+        "keywords": ["distribution", "data"]
+      },
+      {
+        "id": 23,
+        "question": "What is scatter plot?",
+        "keywords": ["relation", "data"]
+      },
+      {
+        "id": 24,
+        "question": "What is box plot?",
+        "keywords": ["outliers", "distribution"]
+      },
+      {
+        "id": 25,
+        "question": "What is correlation?",
+        "keywords": ["relation", "features"]
+      },
+      {
+        "id": 26,
+        "question": "What is data pipeline?",
+        "keywords": ["steps", "workflow"]
+      },
+      {
+        "id": 27,
+        "question": "What is sklearn library?",
+        "keywords": ["ml", "library"]
+      },
+      {
+        "id": 28,
+        "question": "What is model saving in ML?",
+        "keywords": ["pickle", "joblib"]
+      },
+      {
+        "id": 29,
+        "question": "What is model loading?",
+        "keywords": ["load", "predict"]
+      },
+      {
+        "id": 30,
+        "question": "What is prediction output?",
+        "keywords": ["result", "model"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is feature engineering and why is it important?",
+        "keywords": ["transform", "features"]
+      },
+      {
+        "id": 2,
+        "question": "What is feature selection and how is it done?",
+        "keywords": ["reduce", "features"]
+      },
+      {
+        "id": 3,
+        "question": "How do you handle missing values effectively?",
+        "keywords": ["mean", "median"]
+      },
+      {
+        "id": 4,
+        "question": "What is data leakage and why is it dangerous?",
+        "keywords": ["leak", "model"]
+      },
+      {
+        "id": 5,
+        "question": "What is pipeline in sklearn?",
+        "keywords": ["steps", "automation"]
+      },
+      {
+        "id": 6,
+        "question": "What is train-test-validation split strategy?",
+        "keywords": ["split", "data"]
+      },
+      {
+        "id": 7,
+        "question": "What is cross-validation and why is it used?",
+        "keywords": ["folds", "evaluate"]
+      },
+      {
+        "id": 8,
+        "question": "What is imbalanced dataset and handling techniques?",
+        "keywords": ["smote", "resample"]
+      },
+      {
+        "id": 9,
+        "question": "What is SMOTE technique?",
+        "keywords": ["synthetic", "data"]
+      },
+      {
+        "id": 10,
+        "question": "What is outlier detection?",
+        "keywords": ["zscore", "iqr"]
+      },
+      {
+        "id": 11,
+        "question": "What is feature scaling impact on models?",
+        "keywords": ["distance", "model"]
+      },
+      {
+        "id": 12,
+        "question": "What is dimensionality reduction using PCA?",
+        "keywords": ["reduce", "features"]
+      },
+      {
+        "id": 13,
+        "question": "What is correlation matrix?",
+        "keywords": ["relation", "heatmap"]
+      },
+      {
+        "id": 14,
+        "question": "What is data visualization for EDA?",
+        "keywords": ["explore", "data"]
+      },
+      {
+        "id": 15,
+        "question": "What is data imbalance effect on model?",
+        "keywords": ["bias", "prediction"]
+      },
+      {
+        "id": 16,
+        "question": "What is precision, recall and F1 score usage?",
+        "keywords": ["metrics", "classification"]
+      },
+      {
+        "id": 17,
+        "question": "What is ROC-AUC curve interpretation?",
+        "keywords": ["performance", "curve"]
+      },
+      {
+        "id": 18,
+        "question": "What is model evaluation pipeline?",
+        "keywords": ["metrics", "workflow"]
+      },
+      {
+        "id": 19,
+        "question": "What is hyperparameter tuning using GridSearchCV?",
+        "keywords": ["search", "optimize"]
+      },
+      {
+        "id": 20,
+        "question": "What is RandomizedSearchCV?",
+        "keywords": ["random", "search"]
+      },
+      {
+        "id": 21,
+        "question": "What is model persistence techniques?",
+        "keywords": ["save", "load"]
+      },
+      {
+        "id": 22,
+        "question": "What is logging in ML pipelines?",
+        "keywords": ["track", "logs"]
+      },
+      {
+        "id": 23,
+        "question": "What is versioning of datasets?",
+        "keywords": ["track", "data"]
+      },
+      {
+        "id": 24,
+        "question": "What is experiment tracking?",
+        "keywords": ["mlflow", "track"]
+      },
+      {
+        "id": 25,
+        "question": "What is model validation strategy?",
+        "keywords": ["check", "model"]
+      },
+      {
+        "id": 26,
+        "question": "What is feature importance evaluation?",
+        "keywords": ["impact", "features"]
+      },
+      {
+        "id": 27,
+        "question": "What is confusion matrix analysis?",
+        "keywords": ["tp", "fp"]
+      },
+      {
+        "id": 28,
+        "question": "What is data drift detection?",
+        "keywords": ["change", "data"]
+      },
+      {
+        "id": 29,
+        "question": "What is model monitoring?",
+        "keywords": ["track", "performance"]
+      },
+      {
+        "id": 30,
+        "question": "What is deployment pipeline in ML?",
+        "keywords": ["serve", "model"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "id": 1,
+        "question": "Explain model evaluation metrics deeply for classification problems.",
+        "keywords": ["precision", "recall", "f1"]
+      },
+      {
+        "id": 2,
+        "question": "How do you choose the right evaluation metric?",
+        "keywords": ["problem", "metric"]
+      },
+      {
+        "id": 3,
+        "question": "Explain ROC curve and AUC mathematically.",
+        "keywords": ["threshold", "area"]
+      },
+      {
+        "id": 4,
+        "question": "How do you design a complete ML pipeline?",
+        "keywords": ["steps", "workflow"]
+      },
+      {
+        "id": 5,
+        "question": "How do you prevent data leakage in pipelines?",
+        "keywords": ["split", "process"]
+      },
+      {
+        "id": 6,
+        "question": "What are challenges in real-world data preprocessing?",
+        "keywords": ["noise", "missing"]
+      },
+      {
+        "id": 7,
+        "question": "How do you handle large-scale datasets?",
+        "keywords": ["big data", "processing"]
+      },
+      {
+        "id": 8,
+        "question": "What are trade-offs in feature engineering?",
+        "keywords": ["complexity", "performance"]
+      },
+      {
+        "id": 9,
+        "question": "Explain advanced feature selection techniques.",
+        "keywords": ["lasso", "importance"]
+      },
+      {
+        "id": 10,
+        "question": "How do you evaluate regression models deeply?",
+        "keywords": ["rmse", "mae"]
+      },
+      {
+        "id": 11,
+        "question": "What is pipeline optimization in ML systems?",
+        "keywords": ["efficiency", "workflow"]
+      },
+      {
+        "id": 12,
+        "question": "How do you debug data issues in ML pipelines?",
+        "keywords": ["analysis", "fix"]
+      },
+      {
+        "id": 13,
+        "question": "What is model drift and monitoring strategies?",
+        "keywords": ["change", "track"]
+      },
+      {
+        "id": 14,
+        "question": "What is concept drift detection techniques?",
+        "keywords": ["distribution", "change"]
+      },
+      {
+        "id": 15,
+        "question": "How do you scale ML pipelines in production?",
+        "keywords": ["distributed", "system"]
+      },
+      {
+        "id": 16,
+        "question": "What is A/B testing in ML models?",
+        "keywords": ["compare", "experiment"]
+      },
+      {
+        "id": 17,
+        "question": "How do you handle real-time data pipelines?",
+        "keywords": ["stream", "processing"]
+      },
+      {
+        "id": 18,
+        "question": "What are common pitfalls in model evaluation?",
+        "keywords": ["bias", "error"]
+      },
+      {
+        "id": 19,
+        "question": "How do you ensure reproducibility in ML experiments?",
+        "keywords": ["seed", "tracking"]
+      },
+      {
+        "id": 20,
+        "question": "What is explainability in ML pipelines?",
+        "keywords": ["interpret", "model"]
+      },
+      {
+        "id": 21,
+        "question": "How do you validate data quality?",
+        "keywords": ["check", "data"]
+      },
+      {
+        "id": 22,
+        "question": "What are advanced visualization techniques in ML?",
+        "keywords": ["plots", "insight"]
+      },
+      {
+        "id": 23,
+        "question": "What is feature store in ML systems?",
+        "keywords": ["store", "features"]
+      },
+      {
+        "id": 24,
+        "question": "What is MLflow or experiment tracking tools?",
+        "keywords": ["track", "experiment"]
+      },
+      {
+        "id": 25,
+        "question": "How do you handle pipeline failures?",
+        "keywords": ["retry", "error"]
+      },
+      {
+        "id": 26,
+        "question": "What is CI/CD for ML pipelines?",
+        "keywords": ["deploy", "pipeline"]
+      },
+      {
+        "id": 27,
+        "question": "How do you design scalable data pipelines?",
+        "keywords": ["system", "scale"]
+      },
+      {
+        "id": 28,
+        "question": "What are tools used in production ML systems?",
+        "keywords": ["airflow", "docker"]
+      },
+      {
+        "id": 29,
+        "question": "How do you monitor model performance over time?",
+        "keywords": ["metrics", "track"]
+      },
+      {
+        "id": 30,
+        "question": "What are best practices for end-to-end ML pipeline?",
+        "keywords": ["design", "system"]
+      }
+    ]
+      }
+    }
+  }
+}

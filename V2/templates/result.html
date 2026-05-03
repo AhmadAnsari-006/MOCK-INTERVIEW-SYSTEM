@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block title %}Interview Result{% endblock %}
+{% block nav_settings_active %}is-active{% endblock %}
+
+{% block sidebar_panels %}
+<details class="nav-panel" open>
+    <summary class="nav-panel-summary">
+        <span>Tips &amp; Tricks</span>
+        {% include 'includes/nav_accordion_hint.html' %}
+    </summary>
+    <div class="nav-panel-body">
+        <div class="glass-card">
+            <p class="section-title" style="margin-bottom: 10px;">How to get the best score</p>
+            <div class="accordion-body stack" style="gap: 10px; margin-top: 0;">
+                <div class="pill">Structure: Context → Approach → Tradeoffs</div>
+                <div class="pill">Use examples and edge cases</div>
+                <div class="pill">Be concise, then expand if asked</div>
+            </div>
+        </div>
+    </div>
+</details>
+
+{% set nav_settings_open = true %}
+{% include 'includes/nav_settings_panel.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="screen glass card" data-screen>
+<section class="stack main-panel">
+
+    <div class="glass-card result-card">
+        <h2>👤 {{ name }}</h2>
+        <p>⏱ Time Taken: {{ time_taken }} seconds</p>
+        <p>📌 Total Questions: {{ per_question|length }}</p>
+    </div>
+
+    <div class="glass-card result-card">
+
+        <h2 style="font-size: 2rem;">
+            🏆 Score: <span style="font-size: 2.5rem;">{{ score }}</span>/10
+        </h2>
+
+        <div class="progress-bar" style="--progress: {{ score * 10 }}%;">
+            <div class="progress"></div>
+        </div>
+
+        <p style="margin-top: 10px;">{{ feedback }}</p>
+
+    </div>
+
+    <div class="glass-card">
+        <h3>📊 Question-wise Performance</h3>
+
+        <ul style="margin-top: 10px; list-style: none; padding: 0;">
+            {% for s in per_question %}
+
+            <li style="margin-bottom: 10px;">
+                <div>
+                    Question {{ loop.index }}
+                    →
+                    <strong>{{ s }}/10</strong>
+                </div>
+
+                <div class="progress-bar" style="--progress: {{ s * 10 }}%;">
+                    <div class="progress"></div>
+                </div>
+            </li>
+
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="glass-card">
+        <h3>📈 Performance Insight</h3>
+
+        {% if score > 7 %}
+            <p>Strong conceptual clarity and structured answers.</p>
+        {% elif score > 4 %}
+            <p>Good basics, but needs better explanation depth.</p>
+        {% else %}
+            <p>Weak understanding. Focus on core fundamentals.</p>
+        {% endif %}
+    </div>
+
+    <div class="glass-card">
+        <h3>🛠 Improvement Tips</h3>
+
+        <ul>
+            <li>Structure answers: Definition → Example → Use Case</li>
+            <li>Use relevant technical keywords</li>
+            <li>Avoid vague/general explanations</li>
+            <li>Practice real-world problem solving</li>
+        </ul>
+    </div>
+
+    <a class="link-reset" href="/">
+        <button class="btn-3d" type="button">
+            🔁 Take Interview Again
+        </button>
+    </a>
+
+</section>
+</div>
+{% endblock %}
