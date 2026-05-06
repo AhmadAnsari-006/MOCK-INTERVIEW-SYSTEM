@@ -832,148 +832,154 @@
     ],
     "completed": true
   },
-  "d5a4f9a9b7e4491eba42b0a93768b739": {
-    "session_id": "d5a4f9a9b7e4491eba42b0a93768b739",
+  "6956f40f12204f06b82f2daf8c4c2442": {
+    "session_id": "6956f40f12204f06b82f2daf8c4c2442",
     "name": "Ahmad Shoaib Ansari",
     "role": "Python Developer",
     "field": "Backend Developer",
-    "difficulty": "medium",
-    "created_at": 1778006740,
-    "start_time": 1778006740,
-    "current_index": 2,
+    "difficulty": "easy",
+    "created_at": 1778041909,
+    "start_time": 1778041909,
+    "current_index": 3,
     "questions": [
       {
-        "question_id": 21,
-        "question_text": "How does authentication work in a backend system?",
+        "question_id": 12,
+        "question_text": "What is a function in Python?",
         "keywords": [
-          "authentication",
-          "login",
-          "user",
-          "password",
-          "verify",
-          "access"
+          "function",
+          "reuse code",
+          "def",
+          "logic",
+          "parameters",
+          "return"
         ],
         "role": "Python Developer",
         "field": "Backend Developer",
-        "difficulty": "medium"
+        "difficulty": "easy"
       },
       {
-        "question_id": 24,
-        "question_text": "How do you connect a Python backend to a MySQL database?",
+        "question_id": 13,
+        "question_text": "What is a module in Python?",
         "keywords": [
-          "mysql",
-          "connection",
-          "cursor",
-          "query",
-          "database",
-          "python"
+          "module",
+          "file",
+          "import",
+          "reuse",
+          "code organization",
+          "library"
         ],
         "role": "Python Developer",
         "field": "Backend Developer",
-        "difficulty": "medium"
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 14,
+        "question_text": "What is error handling in Python?",
+        "keywords": [
+          "try",
+          "except",
+          "error",
+          "exception",
+          "handle",
+          "crash"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 7,
+        "question_text": "What is a database and why do we need it?",
+        "keywords": [
+          "database",
+          "store data",
+          "retrieve",
+          "user data",
+          "persistent",
+          "storage"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
       }
     ],
     "answers": [
       {
-        "question_id": 21,
-        "answer": "authentication in backend system",
-        "submitted_at": 1778006762
+        "question_id": 12,
+        "answer": "function python def()",
+        "submitted_at": 1778041939
       },
       {
-        "question_id": 24,
-        "answer": "backend connect python mysql database data",
-        "submitted_at": 1778006780
-      }
+        "question_id": 13,
+        "answer": "module package import",
+        "submitted_at": 1778041955
+      },
+      ""
     ],
     "per_question": [
       {
-        "question_id": 21,
-        "score_10": 2.0,
+        "question_id": 12,
+        "score_10": 2.96,
+        "answer_words": 3,
+        "keyword_hit_count": 2,
+        "keyword_total": 6,
         "matched_keywords": [
-          "authentication"
+          "function",
+          "def"
         ],
         "missing_keywords": [
-          "login",
-          "user",
-          "password",
-          "verify",
-          "access"
+          "reuse code",
+          "logic",
+          "parameters",
+          "return"
         ],
-        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: login, user, password."
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: reuse code, logic, parameters."
       },
       {
-        "question_id": 24,
-        "score_10": 4.8,
+        "question_id": 13,
+        "score_10": 3.08,
+        "answer_words": 3,
+        "keyword_hit_count": 2,
+        "keyword_total": 6,
         "matched_keywords": [
-          "mysql",
-          "database",
-          "python"
+          "module",
+          "import"
         ],
         "missing_keywords": [
-          "connection",
-          "cursor",
-          "query"
+          "file",
+          "reuse",
+          "code organization",
+          "library"
         ],
-        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: connection, cursor, query."
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: file, reuse, code organization."
+      },
+      {
+        "question_id": 14,
+        "score_10": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "try",
+          "except",
+          "error",
+          "exception",
+          "handle",
+          "crash"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: try, except, error."
       }
     ],
-    "completed": true
+    "completed": false
   },
-  "aaabdf68329c4efdaabcfda5226b4b43": {
-    "session_id": "aaabdf68329c4efdaabcfda5226b4b43",
-    "name": "ahmad ansari",
+  "1cad692bcddb4fc2a8d8a1cc80b72c5a": {
+    "session_id": "1cad692bcddb4fc2a8d8a1cc80b72c5a",
+    "name": "Ahmad Shoaib Ansari",
     "role": "Java Developer",
     "field": "Backend Developer",
     "difficulty": "medium",
-    "created_at": 1778085091,
-    "start_time": 1778085091,
-    "current_index": 2,
+    "created_at": 1778044216,
+    "start_time": 1778044216,
+    "current_index": 1,
     "questions": [
-      {
-        "question_id": 154,
-        "question_text": "What is a microservice architecture?",
-        "keywords": [
-          "microservices",
-          "architecture",
-          "independent services",
-          "scalable",
-          "distributed",
-          "backend"
-        ],
-        "role": "Java Developer",
-        "field": "Backend Developer",
-        "difficulty": "medium"
-      },
-      {
-        "question_id": 159,
-        "question_text": "What is an API response and how is it structured in Spring Boot?",
-        "keywords": [
-          "api response",
-          "json",
-          "response entity",
-          "status code",
-          "body",
-          "spring"
-        ],
-        "role": "Java Developer",
-        "field": "Backend Developer",
-        "difficulty": "medium"
-      },
-      {
-        "question_id": 148,
-        "question_text": "What is dependency injection in Spring?",
-        "keywords": [
-          "dependency injection",
-          "spring",
-          "ioc",
-          "loose coupling",
-          "beans",
-          "container"
-        ],
-        "role": "Java Developer",
-        "field": "Backend Developer",
-        "difficulty": "medium"
-      },
       {
         "question_id": 151,
         "question_text": "What is JPA and how is it used in Java backend?",
@@ -990,15 +996,60 @@
         "difficulty": "medium"
       },
       {
-        "question_id": 146,
-        "question_text": "What is Spring Boot and why is it used in backend development?",
+        "question_id": 147,
+        "question_text": "What is REST API and how is it implemented in Spring Boot?",
         "keywords": [
+          "rest api",
           "spring boot",
-          "framework",
-          "backend",
-          "java",
-          "microservices",
-          "fast development"
+          "controller",
+          "endpoint",
+          "http",
+          "request response"
+        ],
+        "role": "Java Developer",
+        "field": "Backend Developer",
+        "difficulty": "medium"
+      },
+      {
+        "question_id": 160,
+        "question_text": "How do you handle security in a Spring Boot application?",
+        "keywords": [
+          "security",
+          "authentication",
+          "authorization",
+          "spring security",
+          "jwt",
+          "login"
+        ],
+        "role": "Java Developer",
+        "field": "Backend Developer",
+        "difficulty": "medium"
+      },
+      {
+        "question_id": 149,
+        "question_text": "What is the difference between @Component, @Service, and @Repository?",
+        "keywords": [
+          "annotation",
+          "component",
+          "service",
+          "repository",
+          "spring",
+          "layer"
+        ],
+        "role": "Java Developer",
+        "field": "Backend Developer",
+        "difficulty": "medium"
+      },
+      {
+        "question_id": 158,
+        "question_text": "What is serialization and deserialization in Java?",
+        "keywords": [
+          "serialization",
+          "deserialization",
+          "json",
+          "data transfer",
+          "object",
+          "conversion"
         ],
         "role": "Java Developer",
         "field": "Backend Developer",
@@ -1006,43 +1057,572 @@
       }
     ],
     "answers": [
+      ""
+    ],
+    "per_question": [
       {
-        "question_id": 154,
-        "answer": "a",
-        "submitted_at": 1778085147
+        "question_id": 151,
+        "score_10": 0.0,
+        "matched_keywords": [],
+        "missing_keywords": [
+          "jpa",
+          "hibernate",
+          "orm",
+          "database",
+          "entity",
+          "mapping"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: jpa, hibernate, orm."
+      }
+    ],
+    "completed": false
+  },
+  "5bfe7fa6502b49519b9281f464dfb2ee": {
+    "session_id": "5bfe7fa6502b49519b9281f464dfb2ee",
+    "name": "Ahmad Shoaib Ansari",
+    "role": "Python Developer",
+    "field": "Backend Developer",
+    "difficulty": "easy",
+    "created_at": 1778087783,
+    "start_time": 1778087783,
+    "current_index": 2,
+    "questions": [
+      {
+        "question_id": 4,
+        "question_text": "What is the difference between frontend and backend?",
+        "keywords": [
+          "frontend",
+          "backend",
+          "ui",
+          "logic",
+          "server",
+          "user interaction"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 10,
+        "question_text": "What is a GET and POST request?",
+        "keywords": [
+          "get",
+          "post",
+          "request type",
+          "send data",
+          "receive data",
+          "http"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      {
+        "question_id": 4,
+        "answer": "frontend backend data",
+        "submitted_at": 1778087800
+      },
+      {
+        "question_id": 10,
+        "answer": "get post http https",
+        "submitted_at": 1778087811
+      }
+    ],
+    "per_question": [
+      {
+        "question_id": 4,
+        "score_10": 3.08,
+        "answer_words": 3,
+        "keyword_hit_count": 2,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "frontend",
+          "backend"
+        ],
+        "missing_keywords": [
+          "ui",
+          "logic",
+          "server",
+          "user interaction"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: ui, logic, server."
+      },
+      {
+        "question_id": 10,
+        "score_10": 4.14,
+        "answer_words": 4,
+        "keyword_hit_count": 3,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "get",
+          "post",
+          "http"
+        ],
+        "missing_keywords": [
+          "request type",
+          "send data",
+          "receive data"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: request type, send data, receive data."
+      }
+    ],
+    "completed": true
+  },
+  "8c7c66b32a6148e880c93b8c06496a45": {
+    "session_id": "8c7c66b32a6148e880c93b8c06496a45",
+    "name": "Ahmad Shoaib Ansari",
+    "role": "Python Developer",
+    "field": "Backend Developer",
+    "difficulty": "easy",
+    "created_at": 1778087883,
+    "start_time": 1778087883,
+    "current_index": 3,
+    "questions": [
+      {
+        "question_id": 13,
+        "question_text": "What is a module in Python?",
+        "keywords": [
+          "module",
+          "file",
+          "import",
+          "reuse",
+          "code organization",
+          "library"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 9,
+        "question_text": "What is a route in a web application?",
+        "keywords": [
+          "route",
+          "url",
+          "endpoint",
+          "request",
+          "mapping",
+          "function"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 8,
+        "question_text": "What is MySQL and where is it used?",
+        "keywords": [
+          "mysql",
+          "database",
+          "tables",
+          "queries",
+          "data storage",
+          "backend"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      {
+        "question_id": 13,
+        "answer": "module package data python",
+        "submitted_at": 1778087893
+      },
+      {
+        "question_id": 9,
+        "answer": "route web application",
+        "submitted_at": 1778087902
+      },
+      {
+        "question_id": 8,
+        "answer": "mysql data database retrieve",
+        "submitted_at": 1778087920
+      }
+    ],
+    "per_question": [
+      {
+        "question_id": 13,
+        "score_10": 1.54,
+        "answer_words": 4,
+        "keyword_hit_count": 1,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "module"
+        ],
+        "missing_keywords": [
+          "file",
+          "import",
+          "reuse",
+          "code organization",
+          "library"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: file, import, reuse."
+      },
+      {
+        "question_id": 9,
+        "score_10": 1.67,
+        "answer_words": 3,
+        "keyword_hit_count": 1,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "route"
+        ],
+        "missing_keywords": [
+          "url",
+          "endpoint",
+          "request",
+          "mapping",
+          "function"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: url, endpoint, request."
+      },
+      {
+        "question_id": 8,
+        "score_10": 3.08,
+        "answer_words": 4,
+        "keyword_hit_count": 2,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "mysql",
+          "database"
+        ],
+        "missing_keywords": [
+          "tables",
+          "queries",
+          "data storage",
+          "backend"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: tables, queries, data storage."
+      }
+    ],
+    "completed": true
+  },
+  "b1e75e7399c44a3dbd7bee658fb9de71": {
+    "session_id": "b1e75e7399c44a3dbd7bee658fb9de71",
+    "name": "taru",
+    "role": "Python Developer",
+    "field": "Backend Developer",
+    "difficulty": "easy",
+    "created_at": 1778094112,
+    "start_time": 1778094112,
+    "current_index": 2,
+    "questions": [
+      {
+        "question_id": 4,
+        "question_text": "What is the difference between frontend and backend?",
+        "keywords": [
+          "frontend",
+          "backend",
+          "ui",
+          "logic",
+          "server",
+          "user interaction"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 9,
+        "question_text": "What is a route in a web application?",
+        "keywords": [
+          "route",
+          "url",
+          "endpoint",
+          "request",
+          "mapping",
+          "function"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      {
+        "question_id": 4,
+        "answer": "frontend backend data database connect",
+        "submitted_at": 1778094126
+      },
+      {
+        "question_id": 9,
+        "answer": "route web application connection connect",
+        "submitted_at": 1778094141
+      }
+    ],
+    "per_question": [
+      {
+        "question_id": 4,
+        "score_10": 3.08,
+        "answer_words": 5,
+        "keyword_hit_count": 2,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "frontend",
+          "backend"
+        ],
+        "missing_keywords": [
+          "ui",
+          "logic",
+          "server",
+          "user interaction"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: ui, logic, server."
+      },
+      {
+        "question_id": 9,
+        "score_10": 1.67,
+        "answer_words": 5,
+        "keyword_hit_count": 1,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "route"
+        ],
+        "missing_keywords": [
+          "url",
+          "endpoint",
+          "request",
+          "mapping",
+          "function"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: url, endpoint, request."
+      }
+    ],
+    "completed": true
+  },
+  "b1daaa49dbeb4cf4991cdb8fee85b82e": {
+    "session_id": "b1daaa49dbeb4cf4991cdb8fee85b82e",
+    "name": "taru",
+    "role": "Python Developer",
+    "field": "Data Analyst",
+    "difficulty": "easy",
+    "created_at": 1778099630,
+    "start_time": 1778099630,
+    "current_index": 2,
+    "questions": [
+      {
+        "question_id": 89,
+        "question_text": "What is Python used for in data analysis?",
+        "keywords": [
+          "python",
+          "analysis",
+          "pandas",
+          "data",
+          "automation",
+          "visualization"
+        ],
+        "role": "Python Developer",
+        "field": "Data Analyst",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 96,
+        "question_text": "What is a dataset?",
+        "keywords": [
+          "dataset",
+          "collection",
+          "data",
+          "rows",
+          "columns",
+          "information"
+        ],
+        "role": "Python Developer",
+        "field": "Data Analyst",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 99,
+        "question_text": "What is the difference between structured and unstructured data?",
+        "keywords": [
+          "structured",
+          "unstructured",
+          "tables",
+          "format",
+          "text",
+          "data types"
+        ],
+        "role": "Python Developer",
+        "field": "Data Analyst",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      {
+        "question_id": 89,
+        "answer": "python data analysis understand",
+        "submitted_at": 1778099650
       },
       ""
     ],
     "per_question": [
       {
-        "question_id": 154,
-        "score_10": 0.0,
-        "matched_keywords": [],
-        "missing_keywords": [
-          "microservices",
-          "architecture",
-          "independent services",
-          "scalable",
-          "distributed",
-          "backend"
+        "question_id": 89,
+        "score_10": 4.62,
+        "answer_words": 4,
+        "keyword_hit_count": 3,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "python",
+          "analysis",
+          "data"
         ],
-        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: microservices, architecture, independent services."
+        "missing_keywords": [
+          "pandas",
+          "automation",
+          "visualization"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: pandas, automation, visualization."
       },
       {
-        "question_id": 159,
+        "question_id": 96,
         "score_10": 0.0,
         "matched_keywords": [],
         "missing_keywords": [
-          "api response",
-          "json",
-          "response entity",
-          "status code",
-          "body",
-          "spring"
+          "dataset",
+          "collection",
+          "data",
+          "rows",
+          "columns",
+          "information"
         ],
-        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: api response, json, response entity."
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: dataset, collection, data."
       }
     ],
     "completed": false
+  },
+  "333750f5ea60458baa54946573d9d085": {
+    "session_id": "333750f5ea60458baa54946573d9d085",
+    "name": "taru",
+    "role": "Python Developer",
+    "field": "Backend Developer",
+    "difficulty": "easy",
+    "created_at": 1778100928,
+    "start_time": 1778100928,
+    "current_index": 3,
+    "questions": [
+      {
+        "question_id": 11,
+        "question_text": "What is JSON and why is it used in APIs?",
+        "keywords": [
+          "json",
+          "data format",
+          "key value",
+          "api",
+          "lightweight",
+          "exchange"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 7,
+        "question_text": "What is a database and why do we need it?",
+        "keywords": [
+          "database",
+          "store data",
+          "retrieve",
+          "user data",
+          "persistent",
+          "storage"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      },
+      {
+        "question_id": 6,
+        "question_text": "What is Django and how is it different from Flask?",
+        "keywords": [
+          "django",
+          "full framework",
+          "built-in",
+          "flask difference",
+          "features",
+          "scalable"
+        ],
+        "role": "Python Developer",
+        "field": "Backend Developer",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      {
+        "question_id": 11,
+        "answer": "json api python",
+        "submitted_at": 1778100939
+      },
+      {
+        "question_id": 7,
+        "answer": "data store management management retrieve",
+        "submitted_at": 1778100969
+      },
+      {
+        "question_id": 6,
+        "answer": "django flask library module",
+        "submitted_at": 1778100995
+      }
+    ],
+    "per_question": [
+      {
+        "question_id": 11,
+        "score_10": 2.86,
+        "answer_words": 3,
+        "keyword_hit_count": 2,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "json",
+          "api"
+        ],
+        "missing_keywords": [
+          "data format",
+          "key value",
+          "lightweight",
+          "exchange"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: data format, key value, lightweight."
+      },
+      {
+        "question_id": 7,
+        "score_10": 1.43,
+        "answer_words": 5,
+        "keyword_hit_count": 1,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "retrieve"
+        ],
+        "missing_keywords": [
+          "database",
+          "store data",
+          "user data",
+          "persistent",
+          "storage"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: database, store data, user data."
+      },
+      {
+        "question_id": 6,
+        "score_10": 1.43,
+        "answer_words": 4,
+        "keyword_hit_count": 1,
+        "keyword_total": 6,
+        "matched_keywords": [
+          "django"
+        ],
+        "missing_keywords": [
+          "full framework",
+          "built-in",
+          "flask difference",
+          "features",
+          "scalable"
+        ],
+        "feedback": "Needs improvement: the answer misses several core concepts and should be more specific. Try to include: full framework, built-in, flask difference."
+      }
+    ],
+    "completed": true
   }
 }

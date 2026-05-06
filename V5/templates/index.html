@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block title %}AI Mock Interview{% endblock %}
+{% block nav_dashboard_active %}is-active{% endblock %}
+
+{% block content %}
+<div class="screen glass card" data-screen>
+    <section class="stack main-panel">
+        <div class="glass-card">
+
+            <form class="form" action="/start" method="POST">
+
+                <div class="field">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Your name" required>
+                </div>
+
+                <div class="field">
+                    <label>Role</label>
+                    <select id="role" name="role" required>
+                        <option value="python_developer">Python Developer</option>
+                        <option value="java_developer">Java Developer</option>
+                        <option value="machine_learning_developer">Machine Learning</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>Field</label>
+                    <select id="field" name="field" required>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>Difficulty</label>
+                    <select name="difficulty" required>
+                        <option value="easy">Easy</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>Number of Questions</label>
+                    <input type="number" name="num_questions" value="5" min="1" max="20" required>
+                </div>
+
+                <button class="btn-3d" type="submit">
+                    Start Interview
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const roleSelect = document.getElementById("role");
+    const fieldSelect = document.getElementById("field");
+
+    fetch("/get_roles")
+        .then(res => res.json())
+        .then(data => {
+            roleSelect.innerHTML = '<option value="">Select Role</option>';
+
+            data.roles.forEach(role => {
+                const option = document.createElement("option");
+                option.value = role;
+                option.textContent = role;
+                roleSelect.appendChild(option);
+            });
+        });
+
+    roleSelect.addEventListener("change", () => {
+
+        const selectedRole = roleSelect.value;
+
+        fieldSelect.innerHTML = '<option>Loading...</option>';
+
+        fetch(`/get_fields?role=${encodeURIComponent(selectedRole)}`)
+            .then(res => res.json())
+            .then(data => {
+
+                fieldSelect.innerHTML = "";
+
+                data.fields.forEach(field => {
+                    const option = document.createElement("option");
+                    option.value = field;
+                    option.textContent = field;
+                    fieldSelect.appendChild(option);
+                });
+
+            });
+
+    });
+
+});
+</script>
+{% endblock %}
