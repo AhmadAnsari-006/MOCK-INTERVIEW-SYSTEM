@@ -1,0 +1,21 @@
+<details id="settings" class="nav-panel" {% if nav_settings_open | default(false) %}open{% endif %}>
+    <summary class="nav-panel-summary">
+        <span>Settings</span>
+        {% include 'includes/nav_accordion_hint.html' %}
+    </summary>
+    <div class="nav-panel-body">
+        <div class="glass-card">
+            <div class="setting">
+                <div class="meta">
+                    <strong>Appearance</strong>
+                    <span>Dark or light theme — same as top-right</span>
+                </div>
+                <label class="toggle nav-theme-toggle" aria-label="Toggle light/dark theme">
+                    <input type="checkbox" data-theme-switch>
+                    <span class="toggle-track"></span>
+                    <span class="toggle-thumb"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</details>
