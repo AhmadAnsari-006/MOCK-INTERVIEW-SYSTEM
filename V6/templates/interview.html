@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}Interview{% endblock %}
+{% block body_attrs %}data-total="{{ total }}"{% endblock %}
+{% block nav_settings_active %}is-active{% endblock %}
+
+{% block sidebar_panels %}
+<details class="nav-panel" open>
+    <summary class="nav-panel-summary">
+        <span>Tips &amp; Tricks</span>
+        {% include 'includes/nav_accordion_hint.html' %}
+    </summary>
+    <div class="nav-panel-body">
+        <div class="glass-card">
+            <p class="section-title" style="margin-bottom: 10px;">How to get the best score</p>
+            <div class="accordion-body stack" style="gap: 10px; margin-top: 0;">
+                <div class="pill">Structure: Context → Approach → Tradeoffs</div>
+                <div class="pill">Use examples and edge cases</div>
+                <div class="pill">Be concise, then expand if asked</div>
+            </div>
+        </div>
+    </div>
+</details>
+
+{% set nav_settings_open = true %}
+{% include 'includes/nav_settings_panel.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="screen glass card" data-screen>
+
+    <section class="stack main-panel">
+
+        <div class="row" style="justify-content: space-between;">
+            <span class="pill">
+                Question <span id="q-index">1</span> / {{ total }}
+            </span>
+
+            <span class="pill" id="timer">
+                Time: {{ total * 60 }}s
+            </span>
+        </div>
+
+        <div class="progress-bar" style="--progress: {{ (1 / total) * 100 }}%;">
+            <div class="progress"></div>
+        </div>
+
+        <div id="question-box" class="glass-card">
+            {{ question }}
+        </div>
+
+        <div class="glass-card">
+            <label for="answer">Your answer</label>
+            <textarea id="answer" placeholder="Type your answer here..." autofocus></textarea>
+        </div>
+
+        <button class="btn-3d" type="button" data-submit-answer id="submitBtn">
+            Submit Answer
+        </button>
+
+    </section>
+
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const answerEl = document.getElementById("answer");
+    const submitBtn = document.getElementById("submitBtn");
+    const qIndexEl = document.getElementById("q-index");
+
+    let currentIndex = 0;
+
+    function safeSubmit() {
+        const val = answerEl.value.trim();
+
+        if (!val) {
+            alert("Answer cannot be empty.");
+            return;
+        }
+
+        submitAnswer();
+
+        currentIndex++;
+        if (qIndexEl) {
+            qIndexEl.textContent = currentIndex + 1;
+        }
+    }
+
+    if (submitBtn) {
+        submitBtn.addEventListener("click", safeSubmit);
+    }
+
+    if (answerEl) {
+        answerEl.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                safeSubmit();
+            }
+        });
+    }
+
+});
+</script>
+{% endblock %}
