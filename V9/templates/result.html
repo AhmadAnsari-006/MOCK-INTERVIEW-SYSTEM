@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+
+{% block title %}Interview Result{% endblock %}
+{% block nav_settings_active %}is-active{% endblock %}
+
+{% block sidebar_panels %}
+<details class="nav-panel" open>
+    <summary class="nav-panel-summary">
+        <span>Tips &amp; Tricks</span>
+        {% include 'includes/nav_accordion_hint.html' %}
+    </summary>
+    <div class="nav-panel-body">
+        <div class="glass-card">
+            <p class="section-title" style="margin-bottom: 10px;">How to get the best score</p>
+            <div class="accordion-body stack" style="gap: 10px; margin-top: 0;">
+                <div class="pill">Structure: Context → Approach → Tradeoffs</div>
+                <div class="pill">Use examples and edge cases</div>
+                <div class="pill">Be concise, then expand if asked</div>
+            </div>
+        </div>
+    </div>
+</details>
+
+{% set nav_settings_open = true %}
+{% include 'includes/nav_settings_panel.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="screen glass card" data-screen>
+<section class="stack main-panel">
+
+    <div class="glass-card result-card">
+        <h2>👤 {{ name }}</h2>
+        <p>⏱ Time Taken: {{ time_taken }} seconds</p>
+        <p>📌 Total Questions: {{ per_question|length }}</p>
+    </div>
+
+    <div class="glass-card result-card">
+
+        <h2 style="font-size: 2rem;">
+            🏆 Score: <span style="font-size: 2.5rem;">{{ "%.1f"|format(score) }}</span>/10
+        </h2>
+
+        <p style="margin-top: 6px; opacity: 0.95;">
+            {{ feedback }}
+        </p>
+
+        <div class="progress-bar" style="--progress: {{ score * 10 }}%;">
+            <div class="progress"></div>
+        </div>
+
+    </div>
+
+    <div class="glass-card">
+        <h3>📊 Question-wise Performance</h3>
+
+        <ul style="margin-top: 10px; list-style: none; padding: 0;">
+            {% for s in per_question %}
+
+            <li style="margin-bottom: 10px;">
+                <div>
+                    Question {{ loop.index }}
+                    →
+                    <strong>{{ s }}/10</strong>
+                </div>
+
+                <div class="progress-bar" style="--progress: {{ s * 10 }}%;">
+                    <div class="progress"></div>
+                </div>
+            </li>
+
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="glass-card">
+        <h3>📈 Performance Insight</h3>
+
+        {% if performance_history and performance_history.attempts > 0 %}
+            <p style="margin-top: 6px;">
+                Attempts: <strong>{{ performance_history.attempts }}</strong>
+                {% if performance_history.previous_attempts > 0 %}
+                    (previous: {{ performance_history.previous_attempts }})
+                {% else %}
+                    (first attempt)
+                {% endif %}
+            </p>
+
+            <div class="glass-card" style="margin-top: 10px;">
+                <canvas id="historyChart" height="120"></canvas>
+            </div>
+        {% else %}
+            <p style="margin-top: 6px;">No previous attempts found for this user.</p>
+        {% endif %}
+    </div>
+
+    <div class="glass-card">
+        <h3>🛠 Improvement Tips</h3>
+
+        <ul>
+            {% if improvement_tips %}
+                {% for tip in improvement_tips %}
+                    <li>{{ tip }}</li>
+                {% endfor %}
+            {% else %}
+                <li>Structure answers: Definition → Example → Use Case</li>
+                <li>Use relevant technical keywords</li>
+                <li>Avoid vague/general explanations</li>
+                <li>Practice real-world problem solving</li>
+            {% endif %}
+        </ul>
+    </div>
+
+    <a class="link-reset" href="/">
+        <button class="btn-3d" type="button">
+            🔁 Take Interview Again
+        </button>
+    </a>
+
+</section>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const ph = {{ performance_history|tojson if performance_history else 'null' }};
+    const canvas = document.getElementById("historyChart");
+    if (!ph || !canvas) return;
+
+    const labels = ph.labels || [];
+    const scores = ph.scores || [];
+
+    const ctx = canvas.getContext("2d");
+    const w = canvas.width;
+    const h = canvas.height;
+
+    ctx.clearRect(0, 0, w, h);
+
+    const pad = 18;
+    const minY = 0;
+    const maxY = 10;
+
+    function xAt(i) {
+        if (scores.length <= 1) return pad;
+        return pad + (i * (w - pad * 2)) / (scores.length - 1);
+    }
+    function yAt(v) {
+        const t = (v - minY) / (maxY - minY);
+        return (h - pad) - t * (h - pad * 2);
+    }
+
+    ctx.globalAlpha = 0.6;
+    ctx.strokeStyle = "#8aa7ff";
+    ctx.lineWidth = 1;
+    for (let y = 0; y <= 10; y += 2) {
+        const yy = yAt(y);
+        ctx.beginPath();
+        ctx.moveTo(pad, yy);
+        ctx.lineTo(w - pad, yy);
+        ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+
+    ctx.strokeStyle = "#6ee7b7";
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    scores.forEach((s, i) => {
+        const x = xAt(i);
+        const y = yAt(s);
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+
+    ctx.fillStyle = "#ffffff";
+    ctx.strokeStyle = "#6ee7b7";
+    ctx.lineWidth = 2;
+    scores.forEach((s, i) => {
+        const x = xAt(i);
+        const y = yAt(s);
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.fillStyle = "rgba(255,255,255,0.85)";
+        ctx.font = "12px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+        const txt = (Math.round(s * 10) / 10).toFixed(1);
+        ctx.fillText(txt, x + 8, y - 8);
+        ctx.fillStyle = "#ffffff";
+    });
+
+    ctx.fillStyle = "rgba(255,255,255,0.75)";
+    ctx.font = "12px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+    ctx.fillText("Attempt", pad, h - 4);
+    ctx.fillText("Score /10", pad, 12);
+});
+</script>
+{% endblock %}

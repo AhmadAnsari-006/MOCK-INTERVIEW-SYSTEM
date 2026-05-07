@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interview</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script defer src="/static/js/script.js"></script>
+  <script defer src="/static/js/pages.js"></script>
+</head>
+<body data-theme="dark" data-total="1">
+
+<div class="bg-orb"></div>
+<div class="bg-orb orb-2"></div>
+
+<img class="page-logo" id="theme-logo" src="/assets/img/brain_byte_darktheme.png" alt="Logo" />
+
+<button class="side-button" type="button" aria-label="Open menu" aria-expanded="false" data-drawer-toggle>
+  <div class="burger" aria-hidden="true"><span></span></div>
+</button>
+
+<div class="quick-actions" aria-label="Quick actions">
+  <button class="quick-btn" type="button" id="speak-question-btn" aria-label="Read question">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M4 10v4h3l4 4V6L7 10H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+      <path d="M16 9a4 4 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M19 7a7 7 0 0 1 0 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </button>
+
+  <button class="quick-btn" type="button" id="mic-answer-btn" aria-label="Dictate answer">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M19 11a7 7 0 0 1-14 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M12 18v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      <path d="M8 21h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </button>
+
+  <button class="fab-theme" type="button" data-theme-corner-toggle aria-label="Switch theme">
+    <svg class="corner-theme-icon corner-theme-icon--sun" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/>
+    </svg>
+    <svg class="corner-theme-icon corner-theme-icon--moon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
+
+  <button class="fab-settings" type="button" id="settings-fab" aria-label="Settings">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M19.4 15a7.9 7.9 0 0 0 .1-6l-2 0.3a6.8 6.8 0 0 0-1.5-1.6l.6-1.9a8.2 8.2 0 0 0-6.1-.1l.6 1.9a6.8 6.8 0 0 0-1.5 1.6l-2-.3a7.9 7.9 0 0 0 .1 6l2-.3a6.8 6.8 0 0 0 1.5 1.6l-.6 1.9a8.2 8.2 0 0 0 6.1.1l-.6-1.9a6.8 6.8 0 0 0 1.5-1.6l2 .3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <button class="fab-home" type="button" id="home-fab" aria-label="Home">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M4 10.5L12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-9.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+    </svg>
+  </button>
+</div>
+
+<div class="drawer-overlay" data-drawer-overlay aria-hidden="true"></div>
+
+<main class="page">
+  <div class="shell">
+    <div class="app-layout">
+
+      <aside class="behind-nav" data-drawer aria-hidden="true">
+        <div class="nav-top">
+          <button class="nav-toggle" type="button" aria-label="Close menu" aria-expanded="false" data-drawer-toggle>
+            <div class="burger" aria-hidden="true"><span></span></div>
+          </button>
+          <div class="nav-title">AI Mock Interview</div>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Navigation">
+          <a class="amazon-nav-link" href="/">Dashboard</a>
+          <a class="amazon-nav-link is-active" href="/interview">Interview</a>
+          <a class="amazon-nav-link" href="/tips">Tips &amp; Tricks</a>
+          <a class="amazon-nav-link" href="/settings">Settings</a>
+        </nav>
+      </aside>
+
+      <div class="screen glass card" data-screen>
+        <section class="stack main-panel">
+
+          <div class="row" style="justify-content: space-between;">
+            <span class="pill">Question <span id="q-index">1</span> / <span id="q-total">1</span></span>
+            <span class="pill" id="timer">Time: 60s</span>
+          </div>
+
+          <div class="progress-bar" style="--progress: 0%;"><div class="progress"></div></div>
+
+          <div id="question-box" class="glass-card">Loading question...</div>
+
+          <div class="glass-card">
+            <label for="answer">Your answer</label>
+            <textarea id="answer" placeholder="Type your answer here..." autofocus></textarea>
+          </div>
+
+          <button class="btn-3d" type="button" data-submit-answer id="submitBtn">Submit Answer</button>
+
+        </section>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
