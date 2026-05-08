@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Mock Interview</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script defer src="/static/js/script.js"></script>
+  <script defer src="/static/js/pages.js"></script>
+</head>
+<body data-theme="dark">
+
+<div class="bg-orb"></div>
+<div class="bg-orb orb-2"></div>
+
+<img class="page-logo" id="theme-logo" src="/assets/img/brain_byte_darktheme.png" alt="Logo" />
+
+<button class="side-button" type="button" aria-label="Open menu" aria-expanded="false" data-drawer-toggle>
+  <div class="burger" aria-hidden="true"><span></span></div>
+</button>
+
+<div class="quick-actions" aria-label="Quick actions">
+  <button class="fab-theme" type="button" data-theme-corner-toggle aria-label="Switch theme">
+    <svg class="corner-theme-icon corner-theme-icon--sun" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/>
+    </svg>
+    <svg class="corner-theme-icon corner-theme-icon--moon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
+
+  <button class="fab-settings" type="button" id="settings-fab" aria-label="Settings">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M19.4 15a7.9 7.9 0 0 0 .1-6l-2 0.3a6.8 6.8 0 0 0-1.5-1.6l.6-1.9a8.2 8.2 0 0 0-6.1-.1l.6 1.9a6.8 6.8 0 0 0-1.5 1.6l-2-.3a7.9 7.9 0 0 0 .1 6l2-.3a6.8 6.8 0 0 0 1.5 1.6l-.6 1.9a8.2 8.2 0 0 0 6.1.1l-.6-1.9a6.8 6.8 0 0 0 1.5-1.6l2 .3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <button class="fab-home" type="button" id="home-fab" aria-label="Home">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M4 10.5L12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-9.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+    </svg>
+  </button>
+</div>
+
+<div class="drawer-overlay" data-drawer-overlay aria-hidden="true"></div>
+
+<main class="page">
+  <div class="shell">
+    <div class="app-layout">
+
+      <aside class="behind-nav" data-drawer aria-hidden="true">
+        <div class="nav-top">
+          <button class="nav-toggle" type="button" aria-label="Close menu" aria-expanded="false" data-drawer-toggle>
+            <div class="burger" aria-hidden="true"><span></span></div>
+          </button>
+          <div class="nav-title">AI Mock Interview</div>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Navigation">
+          <a class="amazon-nav-link is-active" href="/">Dashboard</a>
+          <a class="amazon-nav-link" href="/tips">Tips &amp; Tricks</a>
+          <a class="amazon-nav-link" href="/settings">Settings</a>
+        </nav>
+      </aside>
+
+      <div class="screen glass card" data-screen>
+        <section class="stack main-panel">
+          <div class="glass-card" style="display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <h2 style="margin:0;">🧑 <span id="user-name">User</span></h2>
+              <p style="margin:6px 0 0 0; opacity:0.8;">Ready for your next attempt?</p>
+            </div>
+            <span class="pill">Dashboard</span>
+          </div>
+
+          <div class="glass-card">
+            <form class="form" id="start-form">
+
+              <div class="field">
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Your name" required />
+              </div>
+
+              <div class="field">
+                <label>Role</label>
+                <select id="role" name="role" required>
+                  <option value="">Select Role</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label>Field</label>
+                <select id="field" name="field" required></select>
+              </div>
+
+              <div class="field">
+                <label>Difficulty</label>
+                <select name="difficulty" required>
+                  <option value="easy">Easy</option>
+                  <option value="medium" selected>Medium</option>
+                  <option value="hard">Hard</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label>Number of Questions</label>
+                <input type="number" name="num_questions" value="5" min="1" max="20" required />
+              </div>
+
+              <div class="field">
+                <label>Resume (PDF/DOCX)</label>
+                <input type="file" id="resume-file" name="resume" accept=".pdf,.docx" />
+                <div id="resume-status" style="margin-top:8px; opacity:0.85;"></div>
+              </div>
+
+              <button class="btn-3d" type="submit">Start Interview</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
